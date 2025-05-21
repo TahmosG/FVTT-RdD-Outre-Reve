@@ -1,0 +1,179 @@
+{
+  "id": "a-perte-de-reve",
+  "title": "A Perte de Rêve",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "foundryvtt-reve-de-dragon",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Compendium pour Reve de Dragon, agrémenté de nouvelles rêgles et Macro",
+  "authors": [
+    {
+      "name": "Tahmos",
+      "discord": "Tahmos",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/TahmosG/FVTT-RdD-Recueil-de-Philibert.git",
+
+  "scripts": [
+    "config/const-cef.js",
+    "scripts/utilsCEF.js"
+  ],
+  
+  "esmodules": [
+    "modules/esmodule.js"
+  ],
+ 
+  "styles": [
+    "styles/outre-reve.css"
+  ],
+
+  "languages": [
+    {      "lang": "fr",      "name": "Français",      "path": "languages/fr.json"    },
+    {      "lang": "en",      "name": "English",       "path": "languages/fr.json"    }
+  ],
+
+  "packs": [
+    {
+      "name": "grimoire-de-philibert",
+      "label": "Grimoire de Philibert",
+      "path": "packs/grimoire-de-philibert",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "competences-et-techniques",
+      "label": "Competences & Techniques",
+      "path": "packs/competences-et-techniques",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "recueil-et-notes",
+      "label": "Recueil et notes",
+      "path": "packs/recueil-et-notes",
+      "type": "JournalEntry",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macro-doutre-reve",
+      "label": "Macro d'Outre-Reve",
+      "path": "packs/macro-doutre-reve",
+      "type": "Macro",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arpenter-le-fleuve",
+      "label": "Arpenter le Fleuve",
+      "path": "packs/arpenter-le-fleuve",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors",
+      "label": "Acteurs",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tarot-draconique",
+      "label": "Tarot Draconique",
+      "path": "packs/tarot-draconique",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rencontres-cef",
+      "label": "Rencontres CEF",
+      "path": "packs/rencontres-cef",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+        "name": "A Perte de Rêve",
+        "sorting": "a",
+        "color": "#ad03b0",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          
+        ],
+        "folders": [
+          {
+            "name": "Recueil de Philibert",
+            "sorting": "a",
+            "color": "#762277",
+            "packs": [
+              "grimoire-de-philibert",
+              "recueil-et-notes",
+              "tarot-draconique"
+            ]
+          },
+          {
+            "name": "Outre-Reve",
+            "sorting": "a",
+            "packs": [
+              "arpenter-le-fleuve",
+              "macro-doutre-reve",
+              "rencontres-cef"
+            ]
+          },
+          {
+            "name": "Personnages",
+            "sorting": "a",
+            "packs": [
+              "actors",
+              "competences-et-techniques"
+            ]
+          }
+        ]
+    }
+  ]
+}
