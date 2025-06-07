@@ -30,7 +30,7 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/TahmosG/FVTT-RdD-Recueil-de-Philibert.git",
+  "url": "https://github.com/TahmosG/FVTT-RdD-Outre-Reve",
 
   "scripts": [
     "config/const-cef.js",
@@ -52,9 +52,9 @@
 
   "packs": [
     {
-      "name": "grimoire-de-philibert",
-      "label": "Grimoire de Philibert",
-      "path": "packs/grimoire-de-philibert",
+      "name": "competences-et-techniques",
+      "label": "Competences & Techniques",
+      "path": "packs/competences-et-techniques",
       "type": "Item",
       "system": "foundryvtt-reve-de-dragon",
       "ownership": {
@@ -63,9 +63,9 @@
       }
     },
     {
-      "name": "competences-et-techniques",
-      "label": "Competences & Techniques",
-      "path": "packs/competences-et-techniques",
+      "name": "grimoire-de-philibert",
+      "label": "Grimoire de Philibert",
+      "path": "packs/grimoire-de-philibert",
       "type": "Item",
       "system": "foundryvtt-reve-de-dragon",
       "ownership": {
@@ -85,9 +85,9 @@
       }
     },
     {
-      "name": "macro-doutre-reve",
-      "label": "Macro d'Outre-Reve",
-      "path": "packs/macro-doutre-reve",
+      "name": "macro-entrainement",
+      "label": "Macro d'Entrainement",
+      "path": "packs/macro-entrainement",
       "type": "Macro",
       "system": "foundryvtt-reve-de-dragon",
       "ownership": {
@@ -96,8 +96,30 @@
       }
     },
     {
+      "name": "macro-doutre-reve",
+      "label": "Macro d'Outre-Reve",
+      "path": "packs/macro-doutre-reve",
+      "type": "Macro",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "outre-reve-journal",
+      "label": "Journal d'Outre-Rêve",
+      "path": "packs/outre-reve-journal",
+      "type": "JournalEntry",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "arpenter-le-fleuve",
-      "label": "Arpenter le Fleuve",
+      "label": "Kit de l'Arpenteur",
       "path": "packs/arpenter-le-fleuve",
       "type": "Item",
       "system": "foundryvtt-reve-de-dragon",
@@ -107,35 +129,13 @@
       }
     },
     {
-      "name": "actors",
-      "label": "Acteurs",
-      "path": "packs/actors",
-      "type": "Actor",
-      "system": "foundryvtt-reve-de-dragon",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "tarot-draconique",
-      "label": "Tarot Draconique",
-      "path": "packs/tarot-draconique",
-      "type": "Item",
-      "system": "foundryvtt-reve-de-dragon",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "rencontres-cef",
-      "label": "Rencontres CEF",
+      "label": "Rencontres en CEF",
       "path": "packs/rencontres-cef",
       "type": "Item",
       "system": "foundryvtt-reve-de-dragon",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     }
@@ -150,34 +150,21 @@
           "ASSISTANT": "OWNER"
         },
         "packs": [
-          
+          "competences-et-techniques",
+          "macro-entrainement",
+          "grimoire-de-philibert",
+          "recueil-et-notes"
         ],
         "folders": [
           {
-            "name": "Recueil de Philibert",
-            "sorting": "a",
-            "color": "#762277",
-            "packs": [
-              "grimoire-de-philibert",
-              "recueil-et-notes",
-              "tarot-draconique"
-            ]
-          },
-          {
             "name": "Outre-Reve",
             "sorting": "a",
+            "color": "#41038c",
             "packs": [
               "arpenter-le-fleuve",
+              "outre-reve-journal",
               "macro-doutre-reve",
               "rencontres-cef"
-            ]
-          },
-          {
-            "name": "Personnages",
-            "sorting": "a",
-            "packs": [
-              "actors",
-              "competences-et-techniques"
             ]
           }
         ]
