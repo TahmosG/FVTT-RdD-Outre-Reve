@@ -1,0 +1,173 @@
+{
+  "id": "a-perte-de-reve",
+  "title": "A Perte de Rêve",
+  "version": "0.9.9",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "foundryvtt-reve-de-dragon",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Compendium pour Reve de Dragon, agrémenté de nouvelles rêgles et Macro",
+  "authors": [
+    {
+      "name": "Tahmos",
+      "discord": "Tahmos",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/TahmosG/FVTT-RdD-Outre-Reve",
+
+  "scripts": [
+    "config/const-cef.js",
+    "scripts/utilsCEF.js"
+  ],
+  
+  "esmodules": [
+    "modules/outrereve.js"
+  ],
+ 
+  "styles": [
+    "styles/outre-reve.css"
+  ],
+
+  "languages": [
+    {      "lang": "fr",      "name": "Français",      "path": "languages/fr.json"    },
+    {      "lang": "en",      "name": "English",       "path": "languages/fr.json"    }
+  ],
+
+  "packs": [
+    {
+      "name": "competences-et-techniques",
+      "label": "Competences & Techniques",
+      "path": "packs/competences-et-techniques",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "grimoire-de-philibert",
+      "label": "Grimoire de Philibert",
+      "path": "packs/grimoire-de-philibert",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "recueil-et-notes",
+      "label": "Recueil et notes",
+      "path": "packs/recueil-et-notes",
+      "type": "JournalEntry",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macro-entrainement",
+      "label": "Macro d'Entrainement",
+      "path": "packs/macro-entrainement",
+      "type": "Macro",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macro-doutre-reve",
+      "label": "Macro d'Outre-Reve",
+      "path": "packs/macro-doutre-reve",
+      "type": "Macro",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "outre-reve-journal",
+      "label": "Journal d'Outre-Rêve",
+      "path": "packs/outre-reve-journal",
+      "type": "JournalEntry",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arpenter-le-fleuve",
+      "label": "Kit de l'Arpenteur",
+      "path": "packs/arpenter-le-fleuve",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rencontres-cef",
+      "label": "Rencontres en CEF",
+      "path": "packs/rencontres-cef",
+      "type": "Item",
+      "system": "foundryvtt-reve-de-dragon",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+        "name": "A Perte de Rêve",
+        "sorting": "a",
+        "color": "#ad03b0",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "competences-et-techniques",
+          "macro-entrainement",
+          "grimoire-de-philibert",
+          "recueil-et-notes"
+        ],
+        "folders": [
+          {
+            "name": "Outre-Reve",
+            "sorting": "a",
+            "color": "#41038c",
+            "packs": [
+              "arpenter-le-fleuve",
+              "outre-reve-journal",
+              "macro-doutre-reve",
+              "rencontres-cef"
+            ]
+          }
+        ]
+    }
+  ]
+}
