@@ -35,14 +35,14 @@ export class ArpenteurUtility extends Dialog {
         let selected = game.outreReve.Arpenteur.liste[arpenteurIndex];
         let destination = imago == "true" ? "CEF" : "TMR";
         await selected.updateCoordTMR(position);
-        // await selected.tmrApp?.actor.notifyRefreshTMR();        // ca marche po :(
-        selected.tmrApp?.externalRefresh();
-        selected.CEF.basculerTmrCEF ( destination, true);
+        // await selected.tmrApp?.actor.notifyRefreshTMR();        // besoin?
         selected.CEF._setClimat(parseInt(climat));
+        selected.CEF.basculerTmrCEF ( destination, true);
+        selected.tmrApp?.externalRefresh();
     }
 
     static async getHTML(arpenteur){
-        console.log("utilDialog = ", ArpenteurUtility.utilDialog);
+        // console.log("utilDialog = ", ArpenteurUtility.utilDialog);
         if (arpenteur == null){
             arpenteur = game.outreReve.Arpenteur.liste[0];
         }
@@ -61,7 +61,6 @@ export class ArpenteurUtility extends Dialog {
     }
     
     static async refresh(arpenteur){
-        console.log(ArpenteurUtility.utilDialog);
         if (ArpenteurUtility.utilDialog != null) {
             ArpenteurUtility.utilDialog.data.content = await ArpenteurUtility.getHTML(arpenteur);
             ArpenteurUtility.utilDialog.render();
@@ -75,12 +74,8 @@ export class ArpenteurUtility extends Dialog {
         const selectElement = document.getElementById('characterID');
         selectElement.addEventListener('change', function(event) {
             const selectedValue = event.target.value;
-            console.log('Selected value:', selectedValue);
-            // Update your application state here
+            console.log('OUTRE-REVE || utilitaire - Arpenteur selectionné :', selectedValue);
             ArpenteurUtility.refresh(game.outreReve.Arpenteur.liste[selectedValue])
         });
-
-        // Le reste...
-        // this.$updateValuesDisplay();
     }
 }

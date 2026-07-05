@@ -1,8 +1,8 @@
-2025/06/02-02:08:13.194 402c Recovering log #543
-2025/06/02-02:08:13.199 402c Delete type=0 #543
-2025/06/02-02:08:13.199 402c Delete type=3 #541
-2025/06/02-04:24:54.425 3a1c Level-0 table #548: started
-2025/06/02-04:24:54.425 3a1c Level-0 table #548: 0 bytes OK
-2025/06/02-04:24:54.427 3a1c Delete type=0 #546
-2025/06/02-04:24:54.435 3a1c Manual compaction at level-0 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!zq8pQ4XIE5RhvkTq' @ 0 : 0; will stop at (end)
-2025/06/02-04:24:54.435 3a1c Manual compaction at level-1 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!zq8pQ4XIE5RhvkTq' @ 0 : 0; will stop at (end)
+2025/06/02-14:45:29.477 2214 Recovering log #586
+2025/06/02-14:45:29.481 2214 Delete type=0 #586
+2025/06/02-14:45:29.482 2214 Delete type=3 #584
+2025/06/02-15:32:28.905 3218 Level-0 table #591: started
+2025/06/02-15:32:28.905 3218 Level-0 table #591: 0 bytes OK
+2025/06/02-15:32:28.907 3218 Delete type=0 #589
+2025/06/02-15:32:28.907 3218 Manual compaction at level-0 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!zq8pQ4XIE5RhvkTq' @ 0 : 0; will stop at (end)
+2025/06/02-15:32:28.907 3218 Manual compaction at level-1 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!zq8pQ4XIE5RhvkTq' @ 0 : 0; will stop at (end)

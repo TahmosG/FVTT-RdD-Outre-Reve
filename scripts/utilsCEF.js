@@ -32,7 +32,7 @@ async function ajusterClimatManuel(arpenteur, mod){
 //   }
 //   return '';
 // });
-Handlebars.registerHelper('checked', function(value, options) {
+Handlebars.registerHelper('checkedOptions', function(value, options) {
   const div = document.createElement('div'); // create a container div
   div.innerHTML = options.fn(this);          // parse content into dom
   div.querySelectorAll('input[type=radio]').forEach(function(input) {

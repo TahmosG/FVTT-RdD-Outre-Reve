@@ -38,6 +38,12 @@ Hooks.once("ready", function() {
      console.log("OUTRE-REVE || Initialization - REGISTERING Utilities");
      OutreReve.init();
 });
+ /** Hook pour l'ajout du "Don d'Arpentage" 
+           *   [] gain de la competence "Arpentage"
+           *   [] init des Flags "Arpentage" */
+                                                  Hooks.on("createOwnedItem", function(...args){
+                                                       console.log ("OUTRE-REVE || createOwnedItem", ...args);
+                                                  });
 
 /*****************************
  **      OUTRE-REVE         **
@@ -46,14 +52,6 @@ export class OutreReve {
      // variable d'etat global
      static enCEF = false;
 
-     // static CONFIG = {
-     //      fatigueImmediate:   true,          // encaissement immediat de la fatigue en CEF
-     //      reserveEnSecurite:  true,          // les sorts en reserve (TMR) ne se declenchent pas automatiquement quand l'Arpenteur est en CEF
-     //      climatManuel :      false,         // Gestion automatique ou manuelle du changement de climat(via les messages du tchat)
-     //      basculeRencontre:   undefined,         // Tirer une recontre lors du passage TMR <--> CEF
-     //      basculeFatigue:     false,         // Perte de Fatigue lors du passage TMR <--> CEF
-     //      logRencontres :     false,         //affichage des rencontres possible selon le Climat et le type de case
-     // }
      // acces aux Classes
      static TMRUtility = TMRUtility;
      static cartesHR = cartesHR;
@@ -181,8 +179,7 @@ export class OutreReve {
      }
 
      static async initWrapper() {
-
-          // Hook pour le jet de Rencontre --> line 670:  static async _jetDeRencontre(tmr) {
+          // Hook pour la creation du TMR-Dialog 
           await libWrapper.register('a-perte-de-reve', 'game.outreReve.RdDTMRDialog.create', async function (wrapped, ...args) {
                //console.log(`OUTRE-REVE || libWrapper() - RdDTMRDialog.create kicked in`, ...args);
                const result = await game.outreReve.RdDCEFDialog.create(...args);

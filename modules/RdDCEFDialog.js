@@ -114,7 +114,8 @@ export class RdDCEFDialog extends RdDTMRDialog {
           else {
             const dialog = new RdDTMRRencontreDialog(this.actor, this.currentRencontre, tmr);
             // OUTRE-REVE : modif du Dialog de rencontre : info climat + boutton de gestion manuelle
-            if (game.outreReve.enCEF) {
+            // if (game.outreReve.enCEF) {
+            if (this.actor.CEF.isImago()) {
                 dialog.data.content = this.currentRencontre.msgClimat;
                 dialog.data.title = "Rencontre en CEF!",
                 dialog.data.buttons.manual =  { 
@@ -132,7 +133,7 @@ export class RdDCEFDialog extends RdDTMRDialog {
         }
     }
     async declencheSortEnReserve(coord) {
-        if (!OutreReve.enCEF || game.settings.get("a-perte-de-reve", "reserveEnSecurite")){
+        if (!this.actor.CEF.isImago() || !game.settings.get("a-perte-de-reve", "reserveEnSecurite")){
             super.declencheSortEnReserve(coord);
             return;
         }
@@ -239,6 +240,6 @@ export class RdDCEFDialog extends RdDTMRDialog {
             let fatigueItem = document.getElementById("tmr-fatigue-table");
             fatigueItem.innerHTML = "<table class='table-fatigue'>" + RdDUtility.makeHTMLfatigueMatrix(this.actor.system.sante.fatigue.value, this.actor.system.sante.endurance.max, this.cumulFatigue).html() + "</table>";
         }
-        await ArpenteurUtility.refresh();
+        await ArpenteurUtility.refresh(this.actor);
     }
 }

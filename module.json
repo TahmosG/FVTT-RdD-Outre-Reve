@@ -1,7 +1,7 @@
 {
   "id": "a-perte-de-reve",
   "title": "A Perte de Rêve",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -11,6 +11,13 @@
       {
         "id": "foundryvtt-reve-de-dragon",
         "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
         "compatibility": {}
       }
     ]

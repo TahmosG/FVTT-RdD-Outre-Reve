@@ -138,20 +138,18 @@ export class Arpenteur {
             ui.notifications.info(`${this.arpenteur.name} doit etre en Demi-Rêve pour basculer entre TMR <-> CEF`);
             return false;
         }
-        if (this.peutBasculer(true) || forced == true){
+        if (forced == true || this.peutBasculer(true)){
             //  BASCULEMENT
             await this._basculer(forced);
             return true;
-        } else {
-
-        }
+        } 
         return false;
     }
     peutBasculer (notif = false) {
         if (!this.isArpenteur()) { return false }
         let pos = TMRUtility.getTMR(this.arpenteur.system.reve.tmrpos.coord);
         if( !this.isImago() && !TMRUtility.isCaseHumide(pos) ){ 
-            if (notif) {ui.notifications.info(`${this.arpenteur.name} doit être sur une Case Humide pour basculer en CEF`);}
+            if (notif == true) {ui.notifications.info(`${this.arpenteur.name} doit être sur une Case Humide pour basculer en CEF`);}
             return false
         }
         return true;

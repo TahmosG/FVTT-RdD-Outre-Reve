@@ -39,7 +39,7 @@
     <br>
     <h2>Climat en CEF : </h2>
     <div class="radio-group">
-        {{#checked selected.climat}}
+        {{#checkedOptions selected.climat}}
         <label><input type="radio" name="climat" value=1> 1. Beau Fixe</label>
         <label><input type="radio" name="climat" value=2> 2. Fleuve d'Huille</label>
         <label><input type="radio" name="climat" value=3> 3. Brûmes</label>
@@ -47,7 +47,7 @@
         <label><input type="radio" name="climat" value=5> 5. Houle Croisée</label>
         <label><input type="radio" name="climat" value=6> 6. Tempête</label>
         <label><input type="radio" name="climat" value=7> 7. Crue</label>
-        {{/checked}}
+        {{/checkedOptions}}
     </div>
     <br>
     <div class="form-group">
