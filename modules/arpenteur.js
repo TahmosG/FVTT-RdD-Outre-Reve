@@ -5,13 +5,8 @@ import { SHOW_DICE, SYSTEM_RDD } from "/systems/foundryvtt-reve-de-dragon/module
 import { OutreReve } from "/modules/a-perte-de-reve/modules/outrereve.js";
 
 /** TO DO
- *  [V] Encaisser immediatement la fatigue (ne se cumule pas)
- *  [V] Rencontres changent le Climat
- *  [V] Quand bascule: fatigue +1 
- *  [V] Quand bascule: tirer rencontre
  *  [] Temperer le Climat : -(qualité) Maitrise du Fleuve avec ARPENTAGE
  *  [] Temperer le Climat : -1 au Chateau dormant
- *  [] hook lors de l'ajout/suppression du "don d'Arpantage" (competence + init)
  */
 export class Arpenteur {
     static liste = []; //liste des Arpenteurs reconnus
@@ -38,7 +33,7 @@ export class Arpenteur {
         } else {
             logCEF(`Initialization des Arpenteurs - ${perso.name} n'a pas le don d'Arpentage`);
             await perso.setFlag(`a-perte-de-reve`, `isArpenteur`, false);
-            await perso.setFlag(`a-perte-de-reve`, `Imago`, "N/A");
+            await perso.setFlag(`a-perte-de-reve`, `Imago`, false);
             await perso.setFlag(`a-perte-de-reve`, `Climat`, 0); // 0 = climat TMR
         }
         // Ajout d'un Objet TEMPORAIRE dans l'arpenteur

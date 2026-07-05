@@ -5,7 +5,7 @@ function logCEF(...args){
     console.log("OUTRE-REVE || LOG -", ...args)
   }
 }
-async function ajusterClimatManuel(arpenteur, mod){
+function ajusterClimatManuel(arpenteur, mod){
   if (game.settings.get('a-perte-de-reve', 'climatManuel')){
     arpenteur.CEF.ajusteClimat(mod);
   }else{
@@ -13,25 +13,14 @@ async function ajusterClimatManuel(arpenteur, mod){
       title: "Modification du Climat",
       content: "La gestion du climat est déja appliquée automatiquement. <br>Êtes-vous sur de vouloir le changer a nouveau?",
       yes: async (html) => { 
-        await arpenteur.CEF.ajusteClimat(mod);
-        arpenteur.tmrApp.$updateValuesDisplay();
+        arpenteur.CEF.ajusteClimat(mod);
+        // arpenteur.tmrApp.$updateValuesDisplay();
       },
       no: (html) => { },
     })
   }
 }
 
-// Handlebars.registerHelper('selectOptionHelper', function(option, selectedValue) {
-     // call within a EACH, attention au SCOPE -->  <option value="{{value}}" {{selectOptionHelper this ../selectedOption}}>{{label}}</option>
-//   console.log("selectOption OPTION :", option);
-//   console.log("selectOption SELECTED :", selectedValue);
-//   if (option == selectedValue) {
-//     console.log("selectOption :", option, "==", selectedValue);
-//     return 'selected';
-//     return 'selected="selected"';
-//   }
-//   return '';
-// });
 Handlebars.registerHelper('checkedOptions', function(value, options) {
   const div = document.createElement('div'); // create a container div
   div.innerHTML = options.fn(this);          // parse content into dom
@@ -58,8 +47,6 @@ function updateArpenteur_form(html){
 
   let selected = game.system.rdd.RdDUtility.getSelectedActor();
   if (selected.CEF.basculerTmrCEF ( imago == true ? "CEF" : "TMR", true) == true){
-  // if (selected.CEF.basculerTmrCEF ( imago ? "CEF" : "TMR", forced = true)){}
-  // if (selected.CEF.basculerTmrCEF ( carte, forced = true)){
     selected.CEF._setClimat(clim);
   }
 

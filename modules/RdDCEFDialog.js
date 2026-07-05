@@ -23,15 +23,10 @@ import { CEFRencontres } from "/modules/a-perte-de-reve/modules/rencontre-cef.js
 import { ArpenteurUtility } from "/modules/a-perte-de-reve/modules/arpenteur-utility.js";
 
 
-/** TO DO:
- *  [V] Sort en Reserve dispo dans la fenetre des TMR/CEF
- *  [V] Reserve en securite quand en CEF
- *  [V] Lecture de Signe Draconique via CEF
- */
-
 export class RdDCEFDialog extends RdDTMRDialog {
     static myTmrApps = new Array(); // liste des instance RdDCEFDialog
     constructor(...args){
+        game.outreReve.Arpenteur.initAll();
         super(...args);
         this.fatiguePeriple = 0; 
         this.mesRencontres = {

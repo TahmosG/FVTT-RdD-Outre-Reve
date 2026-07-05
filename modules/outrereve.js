@@ -32,18 +32,12 @@ import { ArpenteurUtility } from "/modules/a-perte-de-reve/modules/arpenteur-uti
 **********************************/
 console.log(`OUTRE-REVE || Launching...`);
 
-// CONFIG.debug.hooks = true;
+CONFIG.debug.hooks = false;
 
 Hooks.once("ready", function() {
      console.log("OUTRE-REVE || Initialization - REGISTERING Utilities");
      OutreReve.init();
 });
- /** Hook pour l'ajout du "Don d'Arpentage" 
-           *   [] gain de la competence "Arpentage"
-           *   [] init des Flags "Arpentage" */
-                                                  Hooks.on("createOwnedItem", function(...args){
-                                                       console.log ("OUTRE-REVE || createOwnedItem", ...args);
-                                                  });
 
 /*****************************
  **      OUTRE-REVE         **
@@ -89,6 +83,41 @@ export class OutreReve {
      
           console.log("OUTRE-REVE || Initialization - PRELOADING HandleBars");
           OutreReve.preloadHandlebarsTemplates("CEF");
+
+          // ajout de la Competence d'Arpentage
+          OutreReve.hookDonArpentage()
+     }
+
+     static hookDonArpentage(){
+           Hooks.on("createItem", async function(item, ...args){
+               if (item.name == "Don d'Arpenter le Fleuve"){
+                    const arpenteur = item.parent;
+                    // mise a jour des Flags
+                    // =================================
+                    await game.outreReve.Arpenteur.init(arpenteur);
+                    arpenteur.CEF.refreshCarte();
+
+                    // ajouter la Competence d'Arpentage
+                    // =================================
+                    const possedeLaComp = arpenteur.items.find(item => item.name === 'Arpenter le Fleuve');
+                    console.log ("OUTRE-REVE || possedeLaComp=", possedeLaComp);
+                    if (possedeLaComp == undefined){
+                         console.log ("OUTRE-REVE || ${arpenteur.name} recoit la Competence d'Arpentage.");
+                         const compArpantage = await fromUuid("Compendium.a-perte-de-reve.arpenter-le-fleuve.Item.hyTTV5sfizVfyn6B")
+                         arpenteur.createEmbeddedDocuments("Item", [compArpantage]);
+                    } else {
+                         console.log ("OUTRE-REVE || ${arpenteur.name} possede deja la Competence d'Arpentage.");
+                    }
+               }
+          });
+          Hooks.on("deleteItem", async function(item, ...args){
+               if (item.name == "Don d'Arpenter le Fleuve"){
+                    console.log ("OUTRE-REVE || perte de l'ARPENTAGE !!!!! pour", item.parent.name);
+                    // mise a jour des Flags
+                    await game.outreReve.Arpenteur.init(item.parent);
+                    item.parent.CEF.refreshCarte();
+               }
+          });
      }
 
      static initSettings(){

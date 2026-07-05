@@ -1,23 +1,8 @@
-2025/06/07-02:17:40.101 4130 Recovering log #641
-2025/06/07-02:17:40.101 4130 Level-0 table #643: started
-2025/06/07-02:17:40.115 4130 Level-0 table #643: 1572 bytes OK
-2025/06/07-02:17:40.121 4130 Delete type=0 #641
-2025/06/07-02:17:40.121 4130 Delete type=3 #640
-2025/06/07-02:38:35.147 750 Level-0 table #646: started
-2025/06/07-02:38:35.147 750 Level-0 table #646: 0 bytes OK
-2025/06/07-02:38:35.149 750 Delete type=0 #644
-2025/06/07-02:38:35.149 750 Manual compaction at level-0 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at '!macros!zq8pQ4XIE5RhvkTq' @ 458 : 0
-2025/06/07-02:38:35.149 750 Compacting 1@0 + 0@1 files
-2025/06/07-02:38:35.174 750 Generated table #647@0: 11 keys, 1468 bytes
-2025/06/07-02:38:35.175 750 Compacted 1@0 + 0@1 files => 1468 bytes
-2025/06/07-02:38:35.177 750 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/06/07-02:38:35.177 750 Delete type=2 #643
-2025/06/07-02:38:35.185 750 Manual compaction at level-0 from '!macros!zq8pQ4XIE5RhvkTq' @ 458 : 0 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at (end)
-2025/06/07-02:38:35.195 750 Manual compaction at level-1 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at '!macros!zq8pQ4XIE5RhvkTq' @ 458 : 0
-2025/06/07-02:38:35.195 750 Compacting 1@1 + 1@2 files
-2025/06/07-02:38:35.215 750 Generated table #648@1: 12 keys, 2870 bytes
-2025/06/07-02:38:35.215 750 Compacted 1@1 + 1@2 files => 2870 bytes
-2025/06/07-02:38:35.217 750 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/07-02:38:35.217 750 Delete type=2 #637
-2025/06/07-02:38:35.218 750 Delete type=2 #647
-2025/06/07-02:38:35.218 750 Manual compaction at level-1 from '!macros!zq8pQ4XIE5RhvkTq' @ 458 : 0 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at (end)
+2025/06/14-00:03:08.133 1578 Recovering log #684
+2025/06/14-00:03:08.136 1578 Delete type=0 #684
+2025/06/14-00:03:08.136 1578 Delete type=3 #682
+2025/06/14-00:33:01.375 3f1c Level-0 table #689: started
+2025/06/14-00:33:01.375 3f1c Level-0 table #689: 0 bytes OK
+2025/06/14-00:33:01.377 3f1c Delete type=0 #687
+2025/06/14-00:33:01.394 3f1c Manual compaction at level-0 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at (end)
+2025/06/14-00:33:01.394 3f1c Manual compaction at level-1 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at (end)

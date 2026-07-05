@@ -3,7 +3,8 @@ export class ArpenteurUtility extends Dialog {
     static utilDialog = null;
     static utilData = null;
 
-    static openDialog(){
+    static async openDialog(){
+        await game.outreReve.Arpenteur.initAll();
         let selected = game.system.rdd.RdDUtility.getSelectedActor()
         let arpenteur = selected?.CEF.isArpenteur() == true
             ? selected 

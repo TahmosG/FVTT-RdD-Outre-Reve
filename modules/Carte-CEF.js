@@ -7,9 +7,6 @@ import { CEFRencontres } from "/modules/a-perte-de-reve/modules/rencontre-cef.js
 import { OutreReveUtility } from "/modules/a-perte-de-reve/modules/outrereve-utility.js";
 import { OutreReve } from "/modules/a-perte-de-reve/modules/outrereve.js";
 
-/** TO DO
- *  [] FIX lecture de Signe Draco en CEF --> pblm de type/name de case
- */
 
 export class CarteCEF extends CarteTmr {
     img()  { return RDD_CEF.Image;  }
