@@ -1,0 +1,49 @@
+name: Release Creation
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Extracts the version number from the Git tag (e.g. v13.0.0 -> 13.0.0)
+      - name: Get Version
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      # Overwrites version & download keys in module.json to match this release
+      - name: Update Manifest
+        run: |
+          jq '.version = "${{ steps.get_version.outputs.VERSION }}" | .download = "https://github.com/${{ github.repository }}/releases/download/v${{ steps.get_version.outputs.VERSION }}/module.zip"' module.json > temp.json && mv temp.json module.json
+
+      # Commits the updated module.json to main before building the release,
+      # so main and the shipped release always match
+      - name: Sync manifest to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add module.json
+          git commit -m "release ${{ steps.get_version.outputs.VERSION }}"
+          git push origin HEAD:main
+
+      # Zips up the clean repository files (excluding internal git configuration)
+      - name: Package Module
+        run: zip -r module.zip . -x ".git/*" -x ".github/*"
+
+      # Creates the GitHub Release and uploads the manifest + zip archive
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            module.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
