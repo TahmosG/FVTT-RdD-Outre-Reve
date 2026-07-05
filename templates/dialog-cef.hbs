@@ -1,0 +1,103 @@
+<form class="tmr-dialog flexrow">
+  <div class="tmr-map">
+  </div>
+  <div class="flexcol">
+    <div class="tmr-actions flexcol">
+      <div class="flex-group-center flex-shrink">
+        &copy; Scriptarium, 2023.
+        <br>Usage personnel et privé.
+      </div>
+      <div class="flex-group-center flex-shrink tmr-size">
+        <a class="tmr-size-zoom-minus">
+          <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </a>
+        <a class="tmr-size-zoom-plus">
+          <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </a>
+      </div>
+      {{#if (eq mode "visu")}}
+      <div class="flex-group-center flex-shrink">
+        <h4>Visualisation!</h4>
+      </div>
+      {{else}}
+        {{#if (and isGM hasPlayerOwner)}}
+          <div class="flex-group-center flex-shrink">
+            <h4>Le gardien gére les TMR du joueur, le joueur ne peut pas monter dans les TMR!</h4>
+          </div>
+        {{/if}}
+        <div class="flex-group-center flex-shrink">
+          <img class="small-button-direction tmr-move" data-move="topleft" src="systems/foundryvtt-reve-de-dragon/styles/img/ui/dir-topleft.svg">
+          <img class="small-button-direction tmr-move" data-move="top" src="systems/foundryvtt-reve-de-dragon/styles/img/ui/dir-top.svg">
+          <img class="small-button-direction tmr-move" data-move="topright" src="systems/foundryvtt-reve-de-dragon/styles/img/ui/dir-topright.svg">
+          <div>
+            <label>Coordonnées : </label><span id="tmr-pos">0</span>
+          </div>
+          <img class="small-button-direction tmr-move" data-move="bottomleft" src="systems/foundryvtt-reve-de-dragon/styles/img/ui/dir-bottomleft.svg">        
+          <img class="small-button-direction tmr-move" data-move="bottom" src="systems/foundryvtt-reve-de-dragon/styles/img/ui/dir-bottom.svg">
+          <img class="small-button-direction tmr-move" data-move="bottomright" src="systems/foundryvtt-reve-de-dragon/styles/img/ui/dir-bottomright.svg">
+        </div>
+        <br>
+
+
+        <style>
+          .actionButton {
+            border-color : rgb(0, 0, 0) ; 
+            border-style : double ; 
+            background-color: lightgray;
+            padding : 3px
+          }
+          .info-climat {
+            border-color : rgb(123, 107, 209) ; 
+            background-color: rgb(149, 143, 211);
+          }
+        </style>
+        <div class="flex-group-center flex-shrink info-climat">
+          <label>Climat : </label>
+          <span id="cef-climat-value">0</span><br>
+          <span id="cef-climat-visu-value">0</span><br>
+          <span id="cef-rencontre-value">0</span><br>
+          <div class="flex-group-center flex-shrink basculerTMR">
+            <a class="actionButton">🌙Basculer en TMR🌞</a>
+          </div>
+          <div class="flex-group-center flex-shrink basculerCEF">
+            <a class="actionButton">🌞Basculer en CEF🌙</a>
+          </div>
+        </div>
+        <br>
+        <div class="flex-group-center flex-shrink lancer-sort">
+          <a class="actionButton">✨ Lancer un Sort ✨</a>
+        </div>
+        <div class="flex-group-center flex-shrink actionButton sort-en-reserve">
+          <label>🔮 Sort en réserve 🔮</label><br>
+          <span id="tmr-sort-reserve-value">0</span>
+        </div>
+        <div class="flex-group-center flex-shrink lire-signe-draconique">
+          <a class="actionButton">🔮_ Lire un signe _🔮</a>
+        </div>
+
+
+
+        <hr>
+        <div class="flex-group-center flex-shrink">
+          <label>Carac. Rêve : </label><label>{{caracReve}}</label><br>
+          <label>Rêve actuel : </label><span id="tmr-pointsreve-value">0</span><br>
+          <label>Etat général : </label><span id="tmr-etatgeneral-value">0</span><br>
+          <label>Refoulement : </label><span id="tmr-refoulement-value">0</span><br>
+        </div>
+        <br>
+        <div class="flex-group-center flex-actions-bar appliquerFatigue">
+          Fatigue 
+          <span id="tmr-fatigue-table">{{{fatigue.html}}}</span>
+        </div>
+
+
+
+        <div class="flex-group-center flex-shrink appliquerFatigue">
+          <label>Fatigue totale du Périple : </label><span id="tmr-ptsfatigueperiple-value">0</span><br>
+          <label>Nombre de rencontres : </label><span id="tmr-rencontres-value">0</span>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</form>
+

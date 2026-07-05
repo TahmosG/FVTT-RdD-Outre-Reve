@@ -1,0 +1,8 @@
+2025/06/02-02:08:13.194 402c Recovering log #543
+2025/06/02-02:08:13.199 402c Delete type=0 #543
+2025/06/02-02:08:13.199 402c Delete type=3 #541
+2025/06/02-04:24:54.425 3a1c Level-0 table #548: started
+2025/06/02-04:24:54.425 3a1c Level-0 table #548: 0 bytes OK
+2025/06/02-04:24:54.427 3a1c Delete type=0 #546
+2025/06/02-04:24:54.435 3a1c Manual compaction at level-0 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!zq8pQ4XIE5RhvkTq' @ 0 : 0; will stop at (end)
+2025/06/02-04:24:54.435 3a1c Manual compaction at level-1 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!zq8pQ4XIE5RhvkTq' @ 0 : 0; will stop at (end)

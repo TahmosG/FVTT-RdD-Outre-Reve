@@ -1,0 +1,9 @@
+<ul id="tmr-sort-reserve-liste">
+  {{#each sorts as |sort|}}
+    <li>
+      <a class="chat-card-button declencher-sort-reserve" data-actor-id="{{actor.id}}" data-tmr-coord="{{sort.system.coord}}" data-sort-id="{{sort.id}}">
+        {{sort.name}} (r{{sort.system.ptreve}})
+      </a>
+    </li>
+  {{/each}}
+</ul>

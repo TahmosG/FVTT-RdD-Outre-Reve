@@ -1,0 +1,14 @@
+<p>
+Vous êtes sur une case en résonnance avec un Sort en Réserve en TMR.
+Cliquez sur le sort que vous souhaitez déclencher:
+</p>
+<ul>
+  {{#each sorts as |sort|}}
+    <li>
+      <a class="chat-card-button declencher-sort-reserve" data-actor-id="{{actor.id}}" data-tmr-coord="{{sort.system.coord}}" data-sort-id="{{sort.id}}">
+        {{sort.name}} (r{{sort.system.ptreve}})
+      </a>
+      {{#if sort.system.heurecible }} HN {{timestamp-imgSigneHeure sort.system.heurecible}}{{/if}}
+    </li>
+  {{/each}}
+</ul>
