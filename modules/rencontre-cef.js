@@ -2,7 +2,6 @@ import { TMRRencontres } from "/systems/foundryvtt-reve-de-dragon/module/tmr-ren
 // import { EffetsRencontre } from "/systems/foundryvtt-reve-de-dragon/module/tmr/effets-rencontres.js";
 import { CompendiumTable } from "/systems/foundryvtt-reve-de-dragon/module/settings/system-compendiums.js";
 import { Misc } from "/systems/foundryvtt-reve-de-dragon/module/misc.js";
-
 import { OutreReve } from "/modules/a-perte-de-reve/modules/outrereve.js";
 
 /** TO DO
@@ -38,7 +37,7 @@ export class CEFRencontres extends TMRRencontres {
 
   async getRencontreAleatoire(tmr, mauvaise) {
     //le niveau minimum de la rencontre, selon le climat
-    let niveauMin = CEFRencontres.arpenteurActif.CEF.RencontreMin();
+    let niveauMin = CEFRencontres.arpenteurActif.CEF.rencontreMin();
     const codeTerrain = mauvaise ? 'mauvaise' : tmr.type;
     // setup des filtres (terrain, frequence, niveauMin)
     const filtre = codeTerrain == 'mauvaise' ? it => it.system.mauvaiseRencontre : it => !it.system.mauvaiseRencontre && (it.system.ordreTri >= niveauMin ) ;
@@ -80,8 +79,9 @@ export class CEFRencontres extends TMRRencontres {
         return;           
     }
     await arpenteur.CEF.ajusteClimat(mod);
-}
-static msgRencontreClimat(mod, rencontre){
+  }
+  
+  static msgRencontreClimat(mod, rencontre){
     logCEF(`EffetsRencontreCEF : Climat`, mod == 0 ? "aléatoire" : (mod > 0 ? `+${mod}` : mod));
     rencontre.msgClimat = `Vous rencontrez un ${rencontre.name} de force ${rencontre.system.force}.<br>`;
     if (mod > 0){
@@ -97,5 +97,5 @@ static msgRencontreClimat(mod, rencontre){
         rencontre.msgClimat = `<i>Le climat change aléatoirement.</i> 
                              <br><br>Une <b>${rencontre.name} de force ${rencontre.system.force}</b> émerge des eaux.<br>`;
     }
-}
+  }
 }

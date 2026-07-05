@@ -26,6 +26,7 @@ import { ArpenteurUtility } from "/modules/a-perte-de-reve/modules/arpenteur-uti
 /** TO DO:
  *  [V] Sort en Reserve dispo dans la fenetre des TMR/CEF
  *  [V] Reserve en securite quand en CEF
+ *  [V] Lecture de Signe Draconique via CEF
  */
 
 export class RdDCEFDialog extends RdDTMRDialog {
@@ -64,7 +65,7 @@ export class RdDCEFDialog extends RdDTMRDialog {
         return result;
     }
     async _jetDeRencontre(tmr){  // from rdd-tmr-dialog - line 669
-        let carteActuelle = this.actor.CEF.CarteActuelle();
+        let carteActuelle = this.actor.CEF.carteActuelle();
         game.outreReve.CEFRencontres.setTableRencontre(carteActuelle, this.actor);
         // console.log(`OUTRE-REVE || RdDCEFDialog - Jet de Rencontre en ${carteActuelle} : `, tmr);
         let tableRencontre = game.system.rdd.rencontresTMR;
@@ -73,7 +74,7 @@ export class RdDCEFDialog extends RdDTMRDialog {
           return tableRencontre.calculRencontre(rencontre, tmr);
         }
         const coordTMR = (this.isDemiReveCache()            // -------------------------- fix NAME (CEF)
-          ? TMRUtility.getCEFType(tmr.coord) + " ??"         // -------------------------- CEF Utility  --> carteCEF
+          ? TMRUtility.getTMRType(tmr.coord) + " ??"         // -------------------------- CEF Utility  --> carteCEF
           : tmr.label + " (" + tmr.coord + ")");             // -------------------------- CEF label
       
         this.setTMRPendingAction({ bringToTop: () => { } })
@@ -111,18 +112,24 @@ export class RdDCEFDialog extends RdDTMRDialog {
             // rencontre en attente suite à dérobade
             await this.$maitriserRencontre();
           }
-          else {
+          else { // Nouvelle rencontre
             const dialog = new RdDTMRRencontreDialog(this.actor, this.currentRencontre, tmr);
-            // OUTRE-REVE : modif du Dialog de rencontre : info climat + boutton de gestion manuelle
-            // if (game.outreReve.enCEF) {
+            // OUTRE-REVE : modif du Dialog de rencontre : message et info sur le climat
             if (this.actor.CEF.isImago()) {
                 dialog.data.content = this.currentRencontre.msgClimat;
-                dialog.data.title = "Rencontre en CEF!",
-                dialog.data.buttons.manual =  { 
-                    icon: '<i class="fas fa-dice"></i>', 
-                    label: "Gerer Manuellement", 
-                    callback: () => dialog.onButtonAction('ignorer')
-                }
+                dialog.data.title = "Rencontre en CEF!";
+            }
+            // OUTRE-REVE : ajout du boutton de "gestion manuelle" quand opportun
+            const btGestionManuelle = { 
+              icon: '<i class="fas fa-dice"></i>', 
+              label: "Gerer Manuellement", 
+              callback: () => dialog.onButtonAction('ignorer')
+            }
+            if (this.currentRencontre.name == "Epave (ECNI)" || this.currentRencontre.name == "Léviathan (ECSI)"){
+                btGestionManuelle.label += "<br><i>(voir le tchat pour info)</i>";
+                dialog.data.buttons.maitiser = btGestionManuelle;   // remplace la maitrise par gestion manuelle   ------------ TYPO dans l'original !!! "maitiser"
+            } else if (game.settings.get('a-perte-de-reve', 'rencontreManuelle') == true) {
+                dialog.data.buttons.manual = btGestionManuelle;      // sinon ajoute l'option manuelle
             }
             await dialog.render(true);
             this.setTMRPendingAction(dialog);
@@ -160,6 +167,43 @@ export class RdDCEFDialog extends RdDTMRDialog {
           await this.processSortReserve(sorts[0]);
         }
     }
+    async _presentCite(tmr) {
+      if (this.actor.CEF.carteActuelle() == "TMR"){
+        return super._presentCite(tmr);
+      }
+      const presentCite = this.casesSpeciales.find(c => EffetsDraconiques.presentCites.isCase(c, tmr.coord));
+      if (presentCite) {
+        const caseData = presentCite;
+        const dialog = await this.choisirUnPresentCEF(caseData, 
+          present => { // choisir de ceuillir le present
+            this._utiliserPresentCite(presentCite, present, tmr)
+            this.restoreTMRAfterAction();
+          },
+          () => {     // OUTRE-REVE : choisir de ne PAS ceuillir le present quand en CEF
+            this.restoreTMRAfterAction() 
+          }
+        );
+        this.setTMRPendingAction(dialog);
+        await dialog.render();
+      }
+      return presentCite;
+    }
+
+    async choisirUnPresentCEF(casetmr, onChoixPresent, onLaisserPresent = null) { //Hijack de "..tmr/present-cites.js" - line 43
+      const presents = await game.system.rdd.rencontresTMR.getPresentsCite();
+      const buttons = {};
+      presents.forEach(r =>  buttons['present'+r.id] = { icon: '<i class="fas fa-check"></i>', label: r.name, callback: async () => onChoixPresent(r) });
+      buttons["btLaisser"] = { icon: '<i class="fas fa-hourglass"></i>', label: "Laisser le présent en TMR", callback: () => onLaisserPresent() }; // OUTRE-REVE add
+
+      let dialog = new Dialog({
+        title: "Présent des cités",
+        content: `La cité jumelée en TMR contient un présent qui vous est destiné. <br>Voulez-vous le ceuillir ?`,    // OUTRE-REVE text update
+        buttons: buttons
+      });
+      await dialog.render(true);
+      return dialog
+    }
+
     async _deplacerDemiReve(...args){
         await super._deplacerDemiReve(...args);
         await this.gestionFatigueImmediate();
@@ -214,6 +258,9 @@ export class RdDCEFDialog extends RdDTMRDialog {
         HtmlUtility.showControlWhen(this.html.find(".info-climat"), this.actor.CEF.isArpenteur() );
         HtmlUtility.showControlWhen(this.html.find(".basculerCEF"), !this.actor.CEF.isImago() && this.actor.CEF.peutBasculer() );
         HtmlUtility.showControlWhen(this.html.find(".basculerTMR"), this.actor.CEF.isImago() && this.actor.CEF.peutBasculer());
+        HtmlUtility.showControlWhen(this.html.find(".lire-signe-draconique"), this.actor.isResonanceSigneDraconique(this._getCoordActor()));
+
+        console.log("this._getCoordActor()", this._getCoordActor());
 
         // Afficher les "Periples du Voyage"
         let climat = document.getElementById("cef-climat-value");

@@ -91,87 +91,91 @@ export class OutreReve {
           OutreReve.preloadHandlebarsTemplates("CEF");
      }
 
-     // static CONFIG = {
-     //      fatigueImmediate:   true,          // encaissement immediat de la fatigue en CEF
-     //      reserveEnSecurite:  true,          // les sorts en reserve (TMR) ne se declenchent pas automatiquement quand l'Arpenteur est en CEF
-     //      climatManuel :      false,         // Gestion automatique ou manuelle du changement de climat(via les messages du tchat)
-     //      basculeRencontre:   undefined,         // Tirer une recontre lors du passage TMR <--> CEF
-     //      basculeFatigue:     false,         // Perte de Fatigue lors du passage TMR <--> CEF
-     //      logRencontres :     false,         //affichage des rencontres possible selon le Climat et le type de case
-     // }
      static initSettings(){
           // Create a custom config setting
           game.settings.register('a-perte-de-reve', 'fatigueImmediate', {
                name: 'Fatigue immédiate',
                hint: 'Encaissement immédiat de la fatigue en CEF.',
-               scope: 'world',     // "world" = sync to db, "client" = local storage
-               config: true,       // false if you dont want it to show in module config
-               type: Boolean,       // You want the primitive class, e.g. Number, not the name of the class as a string
+               scope: 'world',     
+               config: true,       
+               type: Boolean,       
                default: true,
-               onChange: value => { // value is the new value of the setting
+               onChange: value => { 
                     console.log(`OUTRE-REVE CONFIG ||`, value ? "Fatigue encaissée immédiatement" : "Fatigue cumulée jusque retour en TBR")
                },
-               requiresReload: false, // true if you want to prompt the user to reload
+               requiresReload: false, 
           });
           game.settings.register('a-perte-de-reve', 'reserveEnSecurite', {
                name: 'Réserve en Sécurité',
                hint: "Les sorts en réserve (en TMR) ne se declenchent pas automatiquement quand l'Arpenteur est en CEF.",
-               scope: 'world',     // "world" = sync to db, "client" = local storage
-               config: true,       // false if you dont want it to show in module config
-               type: Boolean,       // You want the primitive class, e.g. Number, not the name of the class as a string
+               scope: 'world',     
+               config: true,       
+               type: Boolean,      
                default: true,
-               onChange: value => { // value is the new value of the setting
+               onChange: value => {
                     console.log(`OUTRE-REVE CONFIG ||`, value ? "Réserve en Sécurité dans la CEF" : "Déclanchement automatique des sorts en Réserve")
                },
-               requiresReload: false, // true if you want to prompt the user to reload
+               requiresReload: false, 
           });
           game.settings.register('a-perte-de-reve', 'climatManuel', {
                name: 'Gestion manuelle du Climat',
                hint: "Permet la gestion manuelle du changement de climat suite aux rencontres --> cliquer sur la macro dans les messages du tchat.",
-               scope: 'world',     // "world" = sync to db, "client" = local storage
-               config: true,       // false if you dont want it to show in module config
-               type: Boolean,       // You want the primitive class, e.g. Number, not the name of the class as a string
+               scope: 'world',     
+               config: true,       
+               type: Boolean,       
                default: false,
-               onChange: value => { // value is the new value of the setting
+               onChange: value => { 
                     console.log(`OUTRE-REVE CONFIG ||`, value ? "Climat géré manuellement" : "Climat géré automatiquement")
                },
-               requiresReload: false, // true if you want to prompt the user to reload
+               requiresReload: false, 
           });
           game.settings.register('a-perte-de-reve', 'basculeRencontre', {       // N/A
                name: 'Rencontre lors des Transitions',
                hint: 'Force un jet de Rencontre à chaque transition entre TMR<->CEF. NOT FUNCITONAL YET !!!!',
-               scope: 'world',     // "world" = sync to db, "client" = local storage
-               config: true,       // false if you dont want it to show in module config
-               type: Boolean,       // You want the primitive class, e.g. Number, not the name of the class as a string
+               scope: 'world',     
+               config: true,       
+               type: Boolean,       
                default: false,
-               onChange: value => { // value is the new value of the setting
+               onChange: value => { 
                     console.log(`OUTRE-REVE CONFIG ||`, value ? "Transition TMR<->CEF avec Jet de Rencontre" : "Transition TMR<->CEF sans jet de Rencontre")
                },
-               requiresReload: false, // true if you want to prompt the user to reload
+               requiresReload: false, 
           });
           game.settings.register('a-perte-de-reve', 'basculeFatigue', {
                name: 'Fatigue lors des Transitions',
                hint: "Prise de Fatigue à chaque transition entre TMR<->CEF. (équivalent à un déplacement)",
-               scope: 'world',     // "world" = sync to db, "client" = local storage
-               config: true,       // false if you dont want it to show in module config
-               type: Boolean,       // You want the primitive class, e.g. Number, not the name of the class as a string
+               scope: 'world',     
+               config: true,       
+               type: Boolean,       
                default: false,
-               onChange: value => { // value is the new value of the setting
+               onChange: value => { 
                     console.log(`OUTRE-REVE CONFIG ||`, value ? "Transition TMR<->CEF avec prise de Fatigue" : "Transition TMR<->CEF sans prise de Fatigue")
                },
-               requiresReload: false, // true if you want to prompt the user to reload
+               requiresReload: false, 
+          });
+          game.settings.register('a-perte-de-reve', 'rencontreManuelle', {
+               name: 'Possibilité de Maitrise manuelle des Rencontres',
+               hint: `Le dialogue de Rencontre propose l'option de gerer manuellement la maitrise de la rencontre.`,
+               scope: 'world',     
+               config: true,       
+               type: Boolean,       
+               default: true,
+               onChange: value => { 
+                    console.log(`OUTRE-REVE CONFIG ||`, value ? "Log des probabilité de Recontre (case et climat)" : "Pas de Log des probabilité de Recontre")
+               },
+               requiresReload: false, 
           });
           game.settings.register('a-perte-de-reve', 'logRencontres', {
                name: 'Log des Rencontres possibles',
                hint: 'Affiche les probabiliés de rencontre, selon Climat et type de case, dans le tchat.',
-               scope: 'world',     // "world" = sync to db, "client" = local storage
-               config: true,       // false if you dont want it to show in module config
-               type: Boolean,       // You want the primitive class, e.g. Number, not the name of the class as a string
+               scope: 'world',     
+               config: true,       
+               type: Boolean,       
                default: false,
-               onChange: value => { // value is the new value of the setting
+               onChange: value => { 
                     console.log(`OUTRE-REVE CONFIG ||`, value ? "Log des probabilité de Recontre (case et climat)" : "Pas de Log des probabilité de Recontre")
                },
-               requiresReload: false, // true if you want to prompt the user to reload
+               requiresReload: false, 
           });
           // choices: { 1: "Option Label 1", 2: "Option Label 2" },
           // range: { min: 0, step: 2, max: 10 },     /** Number settings can have a range slider, with an optional step property */
@@ -195,15 +199,15 @@ export class OutreReve {
                          return wrapped(...args);
                }
                }, );
-               await libWrapper.register('a-perte-de-reve', 'game.outreReve.TMRUtility.getTMRType', function (wrapped, ...args) {
-                    // console.log(`OUTRE-REVE || libWrapper() - "TMRUtility.getTMRLabel" kicked in`, ...args);
-                    // console.log(`OUTRE-REVE || ==>`, args);
-                    if (game.outreReve.enCEF){ 
-                         return game.outreReve.CarteCEF._getCEFType(...args);
-                    } else { // TMR
-                         return wrapped(...args);
-               }
-               }, );
+               // await libWrapper.register('a-perte-de-reve', 'game.outreReve.TMRUtility.getTMRType', function (wrapped, ...args) {
+               //      // console.log(`OUTRE-REVE || libWrapper() - "TMRUtility.getTMRLabel" kicked in`, ...args);
+               //      // console.log(`OUTRE-REVE || ==>`, args);
+               //      if (game.outreReve.enCEF){ 
+               //           return game.outreReve.CarteCEF._getCEFType(...args);
+               //      } else { // TMR
+               //           return wrapped(...args);
+               // }
+               // }, );
                await libWrapper.register('a-perte-de-reve', 'game.outreReve.TMRUtility.typeTmrName', function (wrapped, ...args) {
                     console.log(`OUTRE-REVE || libWrapper() - TMRUtility.typeTmrName() kicked in`, ...args);
                     if (game.outreReve.enCEF){ 
@@ -212,15 +216,6 @@ export class OutreReve {
                          return wrapped(...args);
                }
                }, );
-          // hook pour garder la version TMR des cases de Résonance de Signes Draconiques 
-          // await libWrapper.register('a-perte-de-reve', 'game.outreReve.RdDActor.isResonanceSigneDraconique', function (wrapped, ...args) {
-          //      console.log(`OUTRE-REVE || libWrapper() - "RdDActor._getSignesDraconiques()" kicked in`, ...args);
-          //      let x = OutreReve.enCEF;
-          //      OutreReve.enCEF = false;
-          //      let result = wrapped(...args);
-          //      OutreReve.enCEF = x;
-          //      return result;
-          // }, );
      // -----------
      };
 

@@ -49,7 +49,7 @@ export class CarteCEF extends CarteTmr {
         return CarteCEF._getCEF(coord)?.label ?? (coord + ": case inconnue");
 
         // version conditionelle
-        if (gOutreReve.enCEF){ 
+        if (OutreReve.enCEF){ 
             return CarteCEF._getCEF(coord)?.label ?? (coord + ": case inconnue");
         } else { 
             return TMRUtility.getTMRLabel(coord);
@@ -72,7 +72,7 @@ export class CarteCEF extends CarteTmr {
     static _typeCEFName(type) {
         logCEF("_typeCEFName", type);
         return Misc.upperFirst(CEFType[Grammar.toLowerCaseNoAccent(type)].name);
-      }
+    }
 }
 
 export const cartesHR = {

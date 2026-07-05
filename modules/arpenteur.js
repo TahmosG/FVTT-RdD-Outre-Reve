@@ -8,7 +8,7 @@ import { OutreReve } from "/modules/a-perte-de-reve/modules/outrereve.js";
  *  [V] Encaisser immediatement la fatigue (ne se cumule pas)
  *  [V] Rencontres changent le Climat
  *  [V] Quand bascule: fatigue +1 
- *  [] Quand bascule: tirer rencontre
+ *  [V] Quand bascule: tirer rencontre
  *  [] Temperer le Climat : -(qualité) Maitrise du Fleuve avec ARPENTAGE
  *  [] Temperer le Climat : -1 au Chateau dormant
  *  [] hook lors de l'ajout/suppression du "don d'Arpantage" (competence + init)
@@ -59,24 +59,6 @@ export class Arpenteur {
         console.log(`OUTRE-REVE || CarteCEF - Change climat pour ${arpenteur}: `, rencontre);
         // ...
     }
-    async ajusteClimat(mod = 0){
-        let clim = (mod == 0) 
-            ? await RdDDice.rollTotal("1dt", { showDice: SHOW_DICE })       // aleatoire 1-7
-            : this.arpenteur.getFlag(`a-perte-de-reve`, `Climat`) + mod;    // climat actuel + mod        
-        return this._setClimat(clim);
-    }
-    async _setClimat(clim){
-        // acceptable range = 1-7 ! (0 etant reserve au climat TMR)
-        if (clim < 1) {
-            clim = 1;
-        }else if (clim >= RDD_CEF.Climat.length){
-            clim = RDD_CEF.Climat.length-1;
-        }
-        await this.arpenteur.setFlag(`a-perte-de-reve`, `Climat`, clim);
-        this.arpenteur.tmrApp?.$updateValuesDisplay();
-        ui.notifications.info(`${this.arpenteur.name} - Changement du Climat : (${clim}) ${RDD_CEF.Climat[clim].label} - Rencontre sur ${RDD_CEF.Climat[clim].jetRencontre}+`);
-        return clim;
-    }
 
     /**************************
      *      OBJECT Methods    *
@@ -87,7 +69,7 @@ export class Arpenteur {
     isImago(){ 
         return this.arpenteur.getFlag(`a-perte-de-reve`, `Imago`);
     }
-    CarteActuelle() { 
+    carteActuelle() { 
         let imago = this.arpenteur.getFlag(`a-perte-de-reve`, `Imago`);
         if (imago == true) {  
             return "CEF";
@@ -95,7 +77,7 @@ export class Arpenteur {
             return "TMR";
         }
     }
-    EtatActuel() { 
+    etatActuel() { 
         let imago = this.arpenteur.getFlag(`a-perte-de-reve`, `Imago`);
         let result = "";
         if (this.arpenteur?.tmrApp == undefined){
@@ -109,13 +91,33 @@ export class Arpenteur {
     climatActuel() { 
         return this.arpenteur.getFlag(`a-perte-de-reve`, `Climat`);
     }
-    RencontreMin(){
+    async ajusteClimat(mod = 0){
+        let clim = (mod == 0) 
+            ? await RdDDice.rollTotal("1dt", { showDice: SHOW_DICE })       // aleatoire 1-7
+            : this.arpenteur.getFlag(`a-perte-de-reve`, `Climat`) + mod;    // climat actuel + mod        
+        let result = await this._setClimat(clim);
+        ui.notifications.warn(`${this.arpenteur.name} - Changement du Climat : (${result}) ${RDD_CEF.Climat[result].label} - Rencontre sur ${RDD_CEF.Climat[result].jetRencontre}+`);
+        return result;
+    }
+    async _setClimat(clim){
+        // acceptable range = 1-7 ! (0 etant reserve au climat TMR)
+        if (clim < 1) {
+            clim = 1;
+        }else if (clim >= RDD_CEF.Climat.length){
+            clim = RDD_CEF.Climat.length-1;
+        }
+        await this.arpenteur.setFlag(`a-perte-de-reve`, `Climat`, clim);
+        this.arpenteur.tmrApp?.$updateValuesDisplay();
+        return clim;
+    }
+
+    rencontreMin(){
         // ui.notifications.info("Rencontre min: ",RDD_CEF.Climat[this.climatActuel()].label, ":", RDD_CEF.Climat[this.climatActuel()].rencontreMin);
         return RDD_CEF.Climat[this.climatActuel()].rencontreMin;
     }
-    LogArpenteur() { 
+    logArpenteur() { 
         if ( this.isArpenteur() == true){
-            ui.notifications.info(`OUTRE-REVE || ${this.arpenteur.name} a son ${this.EtatActuel()} en ${this.CarteActuelle()} (Climat = ${this.climatActuel()})`); 
+            ui.notifications.info(`OUTRE-REVE || ${this.arpenteur.name} a son ${this.etatActuel()} en ${this.carteActuelle()} (Climat = ${this.climatActuel()})`); 
         } else {
             ui.notifications.info(`OUTRE-REVE || ${this.arpenteur.name} n'a pas le Don d'Arpenter le Fleuve`); 
         }
@@ -130,7 +132,7 @@ export class Arpenteur {
              ui.notifications.warn(`${this.arpenteur.name} n'est pas un Arpenteur`);
              return false;
         }
-        if (destination == this.CarteActuelle()){
+        if (destination == this.carteActuelle()){
             // ui.notifications.info(`${this.arpenteur.name} est deja en ${destination}`);
             return true;            
         }
@@ -168,7 +170,7 @@ export class Arpenteur {
         this.arpenteur.tmrApp?.gestionFatigueImmediate();
         
         // Changement de la Carte  // + changement Mapping des cases (gerer via hook)
-        let carte = this.CarteActuelle();
+        let carte = this.carteActuelle();
         this.refreshCarte();
         console.log(`OUTRE-REVE || ${this.arpenteur.name} bascule en ${carte} (Climat = ${this.climatActuel()})`); 
         
@@ -189,7 +191,7 @@ export class Arpenteur {
     }
 
     refreshCarte(){
-        let destination = this.CarteActuelle();
+        let destination = this.carteActuelle();
         if (this.arpenteur.tmrApp == undefined || this.arpenteur.tmrApp == null) {return;}
 
         logCEF('refreshCarte - mise a jour de la Carte en destination de ', destination);
@@ -207,52 +209,5 @@ export class Arpenteur {
         OutreReve.preloadHandlebarsTemplates(destination);
         this.arpenteur.tmrApp.externalRefresh();
         return ;
-   }
-
-    /**************************
-     *      CLASS Methods     *         DEPRECATED !!!!
-     **************************/ 
-    static isArpenteur(selected){
-        if (!selected) { 
-          // pas de perso selectionné
-          ui.notifications.info(`Pas de personnage sélectionné`);
-          return undefined;
-        }   
-        return selected.CEF.isArpenteur(); 
-    }
-    static CarteActuelle (arpenteur) { 
-        let imago = arpenteur.getFlag(`a-perte-de-reve`, `Imago`);
-        if (imago == true) {
-            return "CEF";
-        } else {
-            return "TMR";
-        }
-    }
-    static EtatActuelle (arpenteur) { 
-        let imago = arpenteur.getFlag(`a-perte-de-reve`, `Imago`);
-        let result;
-        if (arpenteur?.tmrApp == undefined){
-            result = "Vrai-Rêve"
-        } else if (imago == true) {
-            result = "Imago";
-        } else {
-            result = "Demi-Rêve";
-        }
-        console.log(arpenteur.name,"est en", result);
-        return result;
-    }
-    static climatActuel (arpenteur) { 
-        return arpenteur.getFlag(`a-perte-de-reve`, `Climat`);
-    }
-    static LogArpenteur (arpenteur) { 
-        let arp = arpenteur.getFlag(`a-perte-de-reve`, `isArpenteur`);
-        if ( arp == true){
-            ui.notifications.info(`OUTRE-REVE || ${arpenteur.name} a son ${this.EtatActuelle (arpenteur)} en ${this.CarteActuelle (arpenteur)} (Climat = ${arpenteur.getFlag(`a-perte-de-reve`, `Climat`)})`); 
-        } else {
-            ui.notifications.info(`OUTRE-REVE || ${arpenteur.name} n'a pas le Don d'Arpenter le Fleuve`); 
-        }
-    }
-    static async basculerTmrCEF (arpenteur, destination = "", forced = false) { 
-        return arpenteur.CEF.basculerTmrCEF(destination, forced);
    }
 }

@@ -39,6 +39,8 @@ export class ArpenteurUtility extends Dialog {
         selected.CEF._setClimat(parseInt(climat));
         selected.CEF.basculerTmrCEF ( destination, true);
         selected.tmrApp?.externalRefresh();
+        selected.CEF.logArpenteur();
+        // ui.notifications.info(`${selected.name} - Changement du Climat : (${climat}) ${RDD_CEF.Climat[climat].label} - Rencontre sur ${RDD_CEF.Climat[climat].jetRencontre}+`);
     }
 
     static async getHTML(arpenteur){
