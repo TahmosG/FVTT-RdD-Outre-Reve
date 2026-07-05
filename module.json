@@ -34,25 +34,28 @@
   "manifest": "https://github.com/TahmosG/FVTT-RdD-Outre-Reve/releases/latest/download/module.json",
   "download": "https://github.com/TahmosG/FVTT-RdD-Outre-Reve/releases/download/v13.0.0/module.zip",
   "changelog": "",
-
   "scripts": [
     "config/const-cef.js",
     "scripts/utilsCEF.js"
   ],
-  
   "esmodules": [
     "modules/outrereve.js"
   ],
- 
   "styles": [
     "styles/outre-reve.css"
   ],
-
   "languages": [
-    {      "lang": "fr",      "name": "Français",      "path": "languages/fr.json"    },
-    {      "lang": "en",      "name": "English",       "path": "languages/fr.json"    }
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "languages/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/fr.json"
+    }
   ],
-
   "packs": [
     {
       "name": "competences-et-techniques",
@@ -145,31 +148,31 @@
   ],
   "packFolders": [
     {
-        "name": "A Perte de Rêve",
-        "sorting": "a",
-        "ownership": {
-          "PLAYER": "OBSERVER",
-          "ASSISTANT": "OWNER"
-        },
-        "packs": [
-          "competences-et-techniques",
-          "macro-entrainement",
-          "grimoire-de-philibert",
-          "recueil-et-notes"
-        ],
-        "folders": [
-          {
-            "name": "Outre-Reve",
-            "sorting": "a",
-            "color": "#6f1fd1",
-            "packs": [
-              "arpenter-le-fleuve",
-              "outre-reve-journal",
-              "macro-doutre-reve",
-              "rencontres-cef"
-            ]
-          }
-        ]
+      "name": "A Perte de Rêve",
+      "sorting": "a",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "packs": [
+        "competences-et-techniques",
+        "macro-entrainement",
+        "grimoire-de-philibert",
+        "recueil-et-notes"
+      ],
+      "folders": [
+        {
+          "name": "Outre-Reve",
+          "sorting": "a",
+          "color": "#6f1fd1",
+          "packs": [
+            "arpenter-le-fleuve",
+            "outre-reve-journal",
+            "macro-doutre-reve",
+            "rencontres-cef"
+          ]
+        }
+      ]
     }
   ]
 }
