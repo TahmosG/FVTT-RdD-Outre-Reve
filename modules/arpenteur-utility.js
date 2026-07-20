@@ -59,7 +59,7 @@ export class ArpenteurUtility extends Dialog {
             }
         }
         const template = `modules/a-perte-de-reve/templates/cef-utilities.hbs`;
-        const html = await renderTemplate(template, ArpenteurUtility.utilData);
+        const html = await foundry.applications.handlebars.renderTemplate(template, ArpenteurUtility.utilData);
         return html;
     }
     

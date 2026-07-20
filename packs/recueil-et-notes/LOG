@@ -1,8 +1,0 @@
-2025/06/14-00:34:09.464 3d6c Recovering log #663
-2025/06/14-00:34:09.467 3d6c Delete type=0 #663
-2025/06/14-00:34:09.468 3d6c Delete type=3 #661
-2025/06/14-00:36:20.340 3f1c Level-0 table #668: started
-2025/06/14-00:36:20.340 3f1c Level-0 table #668: 0 bytes OK
-2025/06/14-00:36:20.342 3f1c Delete type=0 #666
-2025/06/14-00:36:20.348 3f1c Manual compaction at level-0 from '!journal!QEvMi8u2Z40quXPo' @ 72057594037927935 : 1 .. '!journal.pages!roAHDyxdwY5dq3Pj.xb9AfYDUke8x4cBi' @ 0 : 0; will stop at (end)
-2025/06/14-00:36:20.348 3f1c Manual compaction at level-1 from '!journal!QEvMi8u2Z40quXPo' @ 72057594037927935 : 1 .. '!journal.pages!roAHDyxdwY5dq3Pj.xb9AfYDUke8x4cBi' @ 0 : 0; will stop at (end)

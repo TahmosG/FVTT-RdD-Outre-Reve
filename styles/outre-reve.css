@@ -1,0 +1,12 @@
+.cef-tmr-move-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.cef-tmr-coordonnees {
+  text-align: center;
+}
+.cef-tmr-pos-label {
+  font-style: italic;
+}

@@ -18,7 +18,7 @@ import { RdDTMRRencontreDialog } from "/systems/foundryvtt-reve-de-dragon/module
      // import { CEFRencontreItemSheet } from "/modules/a-perte-de-reve/modules/rencontre-cef.js";
 
 // Import from OutreReve Module --> new classes
-import "/modules/a-perte-de-reve/config/const-cef.js";
+// import "/modules/a-perte-de-reve/config/const-cef.js";
 import { CarteCEF, cartesHR } from "/modules/a-perte-de-reve/modules/Carte-CEF.js";
 import { RdDCEFDialog } from "/modules/a-perte-de-reve/modules/RdDCEFDialog.js";
 import { OutreReveUtility } from "/modules/a-perte-de-reve/modules/outrereve-utility.js";

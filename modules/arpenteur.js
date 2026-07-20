@@ -15,7 +15,6 @@ export class Arpenteur {
         this.arpenteur = perso;
     }
     static async initAll(){
-        console.log (`OUTRE-REVE || Initialization des Arpenteurs: `);
         Arpenteur.liste.length = 0;
         await game.actors.forEach( element => { this.init(element) } )
         console.log (`OUTRE-REVE || Initialization des Arpenteurs: `, Arpenteur.liste);

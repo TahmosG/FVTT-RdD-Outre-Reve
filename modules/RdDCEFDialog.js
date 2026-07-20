@@ -1,7 +1,7 @@
 import { RdDTMRDialog } from "/systems/foundryvtt-reve-de-dragon/module/rdd-tmr-dialog.js";
 import { PixiTMR } from "/systems/foundryvtt-reve-de-dragon/module/tmr/pixi-tmr.js";
 import { SHOW_DICE, SYSTEM_RDD } from "/systems/foundryvtt-reve-de-dragon/module/constants.js";
-import { RollDataAjustements } from "/systems/foundryvtt-reve-de-dragon/module/rolldata-ajustements.js";
+// import { RollDataAjustements } from "/systems/foundryvtt-reve-de-dragon/module/rolldata-ajustements.js";
 import { RdDUtility } from "/systems/foundryvtt-reve-de-dragon/module/rdd-utility.js";
 import { RdDResolutionTable } from "/systems/foundryvtt-reve-de-dragon/module/rdd-resolution-table.js";
 import { RdDTMRRencontreDialog } from "/systems/foundryvtt-reve-de-dragon/module/rdd-tmr-rencontre-dialog.js";
@@ -50,7 +50,7 @@ export class RdDCEFDialog extends RdDTMRDialog {
         }
         await PixiTMR.init()
         // let html = await renderTemplate('systems/foundryvtt-reve-de-dragon/templates/dialog-tmr.hbs', tmrData);
-        let html = await renderTemplate('/modules/a-perte-de-reve/templates/dialog-cef.hbs', tmrData);
+        let html = await foundry.applications.handlebars.renderTemplate('/modules/a-perte-de-reve/templates/dialog-cef.hbs', tmrData);
     /** ================================= Currently duplicated .hbs =============================================================
          *  ajouter les modification du Dialog pour ajout du boutton "Bascule" */
         let result = new RdDCEFDialog(html, actor, tmrData);
@@ -77,8 +77,8 @@ export class RdDCEFDialog extends RdDTMRDialog {
         this.restoreTMRAfterAction()
         
         let clim = CarteCEF.rencontreSelonClimat(this.actor);
-        if (myRoll >= clim.jetRencontre) { 
-            this._tellToUser("<b>" + myRoll + ": Rencontre </b> en " + coordTMR + " !!!<br>   <i> " + clim.label + " = rencontre sur " + clim.jetRencontre + "</i>");
+        if (myRoll >= clim.jetRencontre) {
+            ChatUtility.tellToUser("<b>" + myRoll + ": Rencontre </b> en " + coordTMR + " !!!<br>   <i> " + clim.label + " = rencontre sur " + clim.jetRencontre + "</i>");
             rencontre = await tableRencontre.getRencontreAleatoire(tmr, this.actor.isMauvaiseRencontre());
             if (carteActuelle == "CEF"){
               // OUTRE-REVE: Effet de la rencontre sur le climat
@@ -88,7 +88,7 @@ export class RdDCEFDialog extends RdDTMRDialog {
             this.mesRencontres.liste.push(rencontre.name);
             return rencontre;
         } else {
-            this._tellToUser("<b>" + myRoll + ": Pas de rencontre </b> en " + coordTMR + "<br>   <i> " + clim.label + " = rencontre sur " + clim.jetRencontre + "</i>");
+            ChatUtility.tellToUser("<b>" + myRoll + ": Pas de rencontre </b> en " + coordTMR + "<br>   <i> " + clim.label + " = rencontre sur " + clim.jetRencontre + "</i>");
             return undefined;
         }
     }
@@ -149,7 +149,7 @@ export class RdDCEFDialog extends RdDTMRDialog {
           const reserveExtensible = this.isReserveExtensible(coord);
           if (!EffetsDraconiques.isUrgenceDraconique(this.actor) ) {
             ChatMessage.create({
-              content: await renderTemplate(`modules/a-perte-de-reve/templates/chat-demande-declencher-sortCEF.hbs`, {
+              content: await foundry.applications.handlebars.renderTemplate(`modules/a-perte-de-reve/templates/chat-demande-declencher-sortCEF.hbs`, {
                 actor: this.actor,
                 sorts: sorts,
                 coord: coord,
@@ -244,7 +244,16 @@ export class RdDCEFDialog extends RdDTMRDialog {
         if (this.viewOnly || !this.rendered) {
             return;
         }
-        
+
+        // OUTRE-REVE : affichage des coordonnées sur 2 lignes (coord / nom de la case)
+        const tmrPos = document.getElementById("tmr-pos");
+        if (tmrPos) {
+            const match = tmrPos.innerHTML.match(/^(.*?)\s*\(\s*(.*?)\s*\)$/);
+            if (match) {
+                tmrPos.innerHTML = `${match[1]}<br><span class="cef-tmr-pos-label">${match[2]}</span>`;
+            }
+        }
+
         // Afficher sorts en Reserve
         const coord = this._getCoordActor();
         const sorts = this.getSortsReserve(coord);
@@ -271,7 +280,7 @@ export class RdDCEFDialog extends RdDTMRDialog {
         
         if (sorts.length > 0){
           let lesSortsEnReserve = document.getElementById("tmr-sort-reserve-value");
-            lesSortsEnReserve.innerHTML = await renderTemplate(`modules/a-perte-de-reve/templates/sort-en-reserve-CEF.hbs`, {
+            lesSortsEnReserve.innerHTML = await foundry.applications.handlebars.renderTemplate(`modules/a-perte-de-reve/templates/sort-en-reserve-CEF.hbs`, {
               actor: this.actor,
               sorts: sorts,
               coord: coord,

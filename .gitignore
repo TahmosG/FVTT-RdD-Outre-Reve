@@ -1,0 +1,18 @@
+# Foundry lock file (created when Foundry is running)
+*.lock
+
+# LevelDB runtime files in packs (operational, not data)
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+
+# VS Code workspace
+*.code-workspace
+
+# Windows shortcuts
+*.lnk
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
