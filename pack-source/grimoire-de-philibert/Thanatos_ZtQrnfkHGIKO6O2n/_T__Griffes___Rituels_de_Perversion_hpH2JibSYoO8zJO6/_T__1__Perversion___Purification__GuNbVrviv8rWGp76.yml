@@ -1,0 +1,40 @@
+folder: hpH2JibSYoO8zJO6
+name: '[T] 1. Perversion (~Purification)'
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sante/mort.webp
+_id: GuNbVrviv8rWGp76
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : pendant Thanataire de Purification, permet d’utiliser les os comme réceptacle du Rêve. Doit être effectué sur un os avant le rituel d’Enchantement et permet d’y exécuter\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Un Rituel <strong>d’Enchaînement</strong> pour 'Allier' l'Os a un objet</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Un Rituel <strong>d’Emprisonnement</strong> pour contenir une ECNI,</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La pose d’une <strong>Griffes de Thanatos</strong> (~Ecailles de Narcos)\_</p></div></div></div><div><p>Un os est considéré comme faisant partie du 7eme élément, donc possède une inertie de 14. Il faut une taille en conséquence pour qu’il soit enchantable.\_\_</p></div><div><p>À l’extrême fin du Château Dormant, l’os perd alors 2 points de rêve s’il n’a pas reçu une Permanence.\_</p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Limitation</span></strong></span> : Seules des Griffes de Thanatos pourront être posées sur un os perverti. L’os ne peut recevoir que 7 griffes et emprisonnements maximum, moins si sa taille est plus petite.\_\_</p></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Chateau Dormant
+  JR: N/A
+  cible: un Os
+  difficulte: '-6'
+  portée: ''
+  caseTMR: cite
+  caseTMRspeciale: ''
+  ptreve: '6'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749289072319
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 100000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!GuNbVrviv8rWGp76'

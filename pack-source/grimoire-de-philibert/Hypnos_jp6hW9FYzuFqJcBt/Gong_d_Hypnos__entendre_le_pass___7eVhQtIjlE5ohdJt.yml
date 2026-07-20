@@ -1,0 +1,40 @@
+folder: jp6hW9FYzuFqJcBt
+name: Gong d’Hypnos (entendre le passé)
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_hypnos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel permet d'entendre le passé. Le Gong est au son ce que l'Encre Noire est à l'image.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le Haut-Rêvant précise le recul exact dans le temps qu'il désire, pour une limite de 100 ans (qui peut être repoussée de 100 ans par 1r dépensé en supplément).\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le rituel s’accompli à moins d'un mètre d'un gong qui se trouver dans le lieu en question.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le gong se met à vibrer et reproduit les sons du passé, le Haut-Rêvant entend alors une scène du passé du lieu au centre duquel se trouve le gong.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La portée est une sphère dont il est le centre et de rayon E2.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le gong cesse de vibrer à la fin de l'heure en cours (+1h par 1r supplémentaire)\_</p></div><div><blockquote><p><em><span style=\"text-decoration: underline;\">Source</span> : Rêve de Dragon (1ere Edition)</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: Speciale
+  JR: N/A
+  cible: un Gong
+  difficulte: '-9'
+  portée: ''
+  caseTMR: marais
+  caseTMRspeciale: ''
+  ptreve: 5+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E2
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191386510
+  modifiedTime: 1749283086761
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: 7eVhQtIjlE5ohdJt
+sort: 200000
+_key: '!items!7eVhQtIjlE5ohdJt'

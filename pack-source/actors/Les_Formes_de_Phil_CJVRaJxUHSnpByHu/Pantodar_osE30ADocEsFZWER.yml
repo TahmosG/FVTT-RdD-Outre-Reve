@@ -1,0 +1,497 @@
+_id: osE30ADocEsFZWER
+name: Pantodar
+type: creature
+img: systems/foundryvtt-reve-de-dragon/icons/creatures/pantodar.svg
+items:
+  - _id: shsUV8UpU18c0RJK
+    name: Course
+    type: competencecreature
+    sort: 200000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_course.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 14
+      niveau: 4
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!osE30ADocEsFZWER.shsUV8UpU18c0RJK'
+  - _id: qilRzXpVaGceNmQp
+    name: Dague
+    type: competencecreature
+    sort: 300000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_dague.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 11
+      niveau: 3
+      default_diffLibre: 0
+      categorie: melee
+      categorie_parade: dagues
+      iscombat: true
+      isnaturelle: false
+      ispossession: false
+      dommages: 1
+      mortalite: mortel
+      isparade: true
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!osE30ADocEsFZWER.qilRzXpVaGceNmQp'
+  - _id: yDHZfK4RmwQW4YaW
+    name: Discrétion
+    type: competencecreature
+    sort: 400000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_discretion.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 13
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!osE30ADocEsFZWER.yDHZfK4RmwQW4YaW'
+  - _id: CYpxxf1uTa78NWR9
+    name: Esquive
+    type: competencecreature
+    sort: 500000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_esquive.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 13
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!osE30ADocEsFZWER.CYpxxf1uTa78NWR9'
+  - _id: BjqRrGtHtTzuNpZB
+    name: Griffes et Crocs
+    type: competencecreature
+    sort: 600000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/compcreature-griffes.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 14
+      niveau: 5
+      default_diffLibre: 0
+      categorie: naturelle
+      categorie_parade: ''
+      iscombat: true
+      isnaturelle: true
+      ispossession: false
+      dommages: 2
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!osE30ADocEsFZWER.BjqRrGtHtTzuNpZB'
+  - _id: lzEdMrKXbOYrWG5S
+    name: Vigilance
+    type: competencecreature
+    sort: 700000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 17
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!osE30ADocEsFZWER.lzEdMrKXbOYrWG5S'
+  - _id: tqslo53FM201P3PM
+    name: Saut
+    type: competencecreature
+    sort: 100000
+    flags:
+      core:
+        sourceId: Item.JZDgJ7ySiV84llkK
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_saut.webp
+    effects: []
+    folder: null
+    system:
+      description: null
+      descriptionmj: ''
+      carac_value: 14
+      niveau: 4
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.JZDgJ7ySiV84llkK
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!osE30ADocEsFZWER.tqslo53FM201P3PM'
+effects: []
+folder: CJVRaJxUHSnpByHu
+sort: 0
+flags:
+  core:
+    sourceId: Compendium.foundryvtt-reve-de-dragon.animaux.c2CVCRQY3FiZXFre
+system:
+  carac:
+    taille:
+      type: number
+      value: '13'
+      label: Taille
+      xp: 0
+      derivee: false
+    constitution:
+      type: number
+      value: '14'
+      label: Constitution
+      xp: '0'
+      derivee: false
+    force:
+      type: number
+      value: '15'
+      label: Force
+      xp: '0'
+      derivee: false
+    perception:
+      type: number
+      value: '17'
+      label: Perception
+      xp: '0'
+      derivee: false
+    volonte:
+      type: number
+      value: '15'
+      label: Volonté
+      xp: '0'
+      derivee: false
+    reve:
+      type: number
+      value: '12'
+      label: Rêve
+      xp: '0'
+      derivee: false
+  sante:
+    vie:
+      type: number
+      max: 14
+      value: 14
+      label: Vie
+      derivee: false
+    endurance:
+      type: number
+      max: 28
+      value: 28
+      label: Endurance
+      derivee: false
+    bonusPotion: 0
+    sonne:
+      value: false
+      round: -1
+      label: Sonné
+  attributs:
+    plusdom:
+      type: number
+      value: '+2'
+      label: +dom
+      derivee: true
+    encombrement:
+      type: number
+      value: '0'
+      label: Encombrement
+      derivee: false
+    vitesse:
+      type: string
+      value: 14/42
+      label: Vitesse
+      derivee: true
+    protection:
+      type: number
+      value: '2'
+      label: Protection
+      derivee: false
+  compteurs:
+    etat:
+      value: 0
+      label: Etat général
+    surenc:
+      value: 0
+      label: Sur-encombrement
+  description: >-
+    <h1>Description</h1>
+
+    <p>Le pantodar est un f&eacute;lin &agrave; fourrure rase de couleur jaune
+    sable, de la taille d&rsquo;une panth&egrave;re. Sa caract&eacute;ristique
+    la plus singuli&egrave;re est une longue queue pr&eacute;hensile de plus de
+    3 m de long, capable de manier une arme l&eacute;g&egrave;re telle
+    qu&rsquo;une dague.</p>
+
+    <h1>M&oelig;urs</h1>
+
+    <p>H&ocirc;te des plaines et des savanes, rarement des for&ecirc;ts, le
+    pantodar est un carnassier solitaire. Tr&egrave;s curieux, mais tout aussi
+    intelligent et prudent, il s&rsquo;attaque rarement &agrave; l&rsquo;homme
+    de sa propre initiative. Il l&rsquo;observe pourtant, de loin, et s&rsquo;il
+    peut d&eacute;rober une dague sur un cadavre, il ne s&rsquo;en prive pas.
+    Par quelle singularit&eacute; arrive-t-il &agrave; s&rsquo;en servir
+    adroitement ? C&rsquo;est une source d&rsquo;&eacute;tonnement. On
+    conna&icirc;t la c&eacute;l&egrave;bre r&eacute;ponse de Paranos le Moindre
+    interrog&eacute; &agrave; ce sujet : &laquo;Vous n&rsquo;avez
+    qu&rsquo;&agrave; le lui demander vous-m&ecirc;me !&raquo; Les jeunes
+    pantodars peuvent assez facilement s&rsquo;apprivoiser"; devenus adultes,
+    ils sont &eacute;tonnamment fid&egrave;les.</p>
+  race: ''
+  notesmj: Notes du MJ
+  blessures:
+    legeres:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    graves:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    critiques:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+ownership:
+  default: 0
+  jOzRscDxoXZWpGS6: 3
+  HDSHRizOiLAt3KIz: 3
+prototypeToken:
+  flags: {}
+  name: Pantodar
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    dim: 0
+    bright: 0
+    angle: 360
+    alpha: 1
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    color: null
+    coloration: 1
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  texture:
+    src: systems/foundryvtt-reve-de-dragon/icons/creatures/pantodar.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.animaux.c2CVCRQY3FiZXFre
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746128974222
+  modifiedTime: 1746128974222
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!actors!osE30ADocEsFZWER'

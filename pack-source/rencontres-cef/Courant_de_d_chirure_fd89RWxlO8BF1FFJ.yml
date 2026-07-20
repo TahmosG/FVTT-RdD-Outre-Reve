@@ -1,0 +1,105 @@
+name: Courant de déchirure
+type: rencontre
+img: systems/foundryvtt-reve-de-dragon/icons/queue_dragon.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.gNkd0QpfiiKu63HT]{Climat
+    -1}</p><p><span style="text-decoration: underline;"><span
+    style="font-family: CaslonAntique"><span style="text-decoration:
+    underline;">Climat Max</span></span></span><span style="font-family:
+    CaslonAntique"><strong style="box-sizing: border-box; user-select: text;
+    scrollbar-width: thin; scrollbar-color: var(--color-scrollbar)
+    var(--color-scrollbar-track);">: 4. </strong>Vents
+    Traversiers</span></p><p><span style="text-decoration: underline;"><span
+    style="text-decoration: underline;">Equivalent TMR</span></span> : Mangeur
+    de Rêve (1d6)</p>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: m
+  formule: 1d8
+  refoulement: 1
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 4
+  force: 0
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets: []
+    message: Le {{{rencontre.name}}} claque de sa machoire dans le vide avant de fuir.
+    poesie: >-
+      <p>Rois ! la bure est souvent jalouse du velours.<br>Le peuple a froid
+      l'hiver, le peuple a faim toujours.<br>Rendez-lui son sort plus
+      facile.<br>Le peuple souvent porte un bien rude collier.<br>Ouvrez
+      l'&eacute;cole aux fils, aux p&egrave;res l'atelier,<br>&Agrave; tous vos
+      bras, auguste asile !</p>
+    reference: Conseil, Victor Hugo
+  echec:
+    effets:
+      - reve-f
+    message: >-
+      Le {{{rencontre.name}}} croque votre Rêve ! Il emporte
+      {{rencontre.system.force}} de vos points de rêve actuels
+    poesie: >-
+      <div>
+
+      <div>Suis-je Amour ou Ph&eacute;bus ?... Lusignan ou Biron ?</div>
+
+      <div>Mon front est rouge encor du baiser de la Reine ;</div>
+
+      <div>J'ai r&ecirc;v&eacute; dans la Grotte o&ugrave; nage la
+      sir&egrave;ne...</div>
+
+      </div>
+    reference: El Desdichado, Gérard de Nerval
+  frequence:
+    cite: 5
+    sanctuaire: 5
+    plaines: 5
+    pont: 5
+    collines: 12
+    foret: 12
+    monts: 18
+    desert: 18
+    fleuve: 24
+    lac: 24
+    marais: 24
+    gouffre: 24
+    necropole: 20
+    desolation: 20
+    mauvaise: 1
+  immediat:
+    effets:
+      - climat+3
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667846036336
+  modifiedTime: 1749127242823
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.rencontres.3SA5An6kPlpcDEIj
+  duplicateSource: null
+  exportSource: null
+_id: fd89RWxlO8BF1FFJ
+folder: null
+sort: 800000
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+_key: '!items!fd89RWxlO8BF1FFJ'

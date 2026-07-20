@@ -1,0 +1,47 @@
+name: Faire parler un crâne
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_thanatos.webp
+effects: []
+system:
+  description: >-
+    <p>Ce rituel permet de faire parler un crâne d'humanoïde. Le haut-rêvant de
+    Thanatos doit le toucher et lui poser des questions, le crâne ne répondant
+    qu'aux questions posées. Il peut parler de tout ce dont il a été témoin,
+    aussi bien durant sa vie que depuis qu'il est mort, c'est-à-dire de ce dont,
+    en tant qu'objet abandonné quelque part, il a pu être témoin. La durée de
+    communication est de 1 round par point de rêve dépensé.</p>
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Selon r dépensé
+  JR: Aucun
+  cible: Un crâne
+  difficulte: '-6'
+  portée: ''
+  caseTMR: desert
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: 5OFb8X875y3fxVGt
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-thanatos.8hCVBWM48GNb8e6P
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746191371471
+  modifiedTime: 1746203573018
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: N0e0S6RVJRAqjQgR
+sort: 400000
+_key: '!items!N0e0S6RVJRAqjQgR'

@@ -1,0 +1,44 @@
+name: Monter lire un Signe
+type: script
+command: |-
+  let selected = game.system.rdd.RdDUtility.getSelectedActor();
+  if (!selected) {
+    ui.notifications.info('Pas de personnage sélectionné');
+    return;
+  }
+  if (!selected.isHautRevant()) {
+    ui.notifications.info(`Le personnage ${selected.name} n'a pas le don de haut-rêve`);
+    return;
+  }
+  let signe_dispo = selected.itemTypes['signedraconique']
+  if (signe_dispo == 0 || signe_dispo == undefined){
+     ui.notifications.error("pas de signe disponible");   return;
+  }else{
+    for (let i = 0; i < signe_dispo.length; i++){
+      ui.notifications.info(`Signe Draconique dispobible en: ${signe_dispo[i].system.typesTMR}`);}
+  }
+
+  //selected.displayTMR("rapide");
+  selected.rollLireSigneDraconique(selected.system.reve.tmrpos.coord);
+img: icons/commodities/gems/pearl-water.webp
+author: vN9NYKGf7zZY5iGH
+scope: global
+folder: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+  vN9NYKGf7zZY5iGH: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746880703301
+  modifiedTime: 1749126370711
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_id: zq8pQ4XIE5RhvkTq
+sort: 300000
+_key: '!macros!zq8pQ4XIE5RhvkTq'

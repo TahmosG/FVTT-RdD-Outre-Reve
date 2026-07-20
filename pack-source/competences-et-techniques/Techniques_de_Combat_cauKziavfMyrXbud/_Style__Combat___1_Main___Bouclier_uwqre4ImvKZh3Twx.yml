@@ -1,0 +1,54 @@
+name: '[Style] Combat à 1 Main & Bouclier'
+type: competence
+img: systems/foundryvtt-reve-de-dragon/icons/competence_defaut.webp
+effects: []
+folder: cauKziavfMyrXbud
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1749300664687
+  modifiedTime: 1749300664687
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+system:
+  description: >-
+    <h2
+    data-anchor="[style]-combat-a-la-dague-seule-(2nd-main-libre,-ou-avec-targue)"
+    style="box-sizing: border-box; user-select: text; scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);
+    margin: 1rem 0px 0.5rem; padding: 0px; font-weight: bold; font-size: 1.5em;
+    border-bottom: 1px solid var(--color-underline-header); color: rgb(25, 24,
+    19); font-family: CaslonAntique; font-style: normal; font-variant-ligatures:
+    normal; font-variant-caps: normal; letter-spacing: 1px; orphans: 2;
+    text-align: justify; text-indent: 0px; text-transform: none; widows: 2;
+    word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;
+    text-decoration-thickness: initial; text-decoration-style: initial;
+    text-decoration-color: initial;"><span style="font-family:
+    CaslonAntique"><strong>[Style] </strong></span><span lang="FR"
+    style="box-sizing: border-box; user-select: text; scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);"><span
+    style="font-family: CaslonAntique"><strong>Combat à Deux
+    Armes</strong></span></span></h2><p><br
+    class="Apple-interchange-newline">Pour plus d'info:
+    @UUID[Compendium.a-perte-de-reve.recueil-et-notes.JournalEntry.roAHDyxdwY5dq3Pj.JournalEntryPage.M1IIShE22MsZGr9v]{[Style]
+    Combat à 1 Main & Bouclier}</p>
+  descriptionmj: ''
+  niveau: -8
+  default_diffLibre: 0
+  base: -8
+  categorie: particuliere
+  xp: 0
+  defaut_carac: melee
+  niveau_archetype: 0
+  xp_sort: 0
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+  v2JDi6Azy5mOhVR7: 3
+_id: uwqre4ImvKZh3Twx
+sort: 0
+_key: '!items!uwqre4ImvKZh3Twx'

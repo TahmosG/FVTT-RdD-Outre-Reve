@@ -1,0 +1,40 @@
+folder: hSsAyWnV7R68h4rG
+name: Identification de Signature Draconique
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/tmr/signe_draconique.webp
+system:
+  description: "<div><h3>Effet</h3><p>Permet d’identifier la Signature Draconique d’un Haut-Rêvant via la lecture d’un de ses signes Draconique, Enchantement ou rituel/sort visible lors de l’exécution de ce sort.\_\_</p></div><div><ul><li><p>Une fois discernée, la Signature est connue pour toujours par celui qui l’a découverte, lequel pourra dès lors la reconnaître avec une simple réussite obtenue\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>à une Lecture d’Aura sur un sort lancé par le même individu, ou\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>à la lecture d’un Signe Draconique créé par celui-ci.</p></li></ul></div><div><ul><li><p>Une Signature Draconique n’est pas un nom mais correspond au “style” du Haut-Rêvant, à la manière dont celui-ci tisse de son Rêve les Harmoniques Oniriques qui, d’une manière synesthésique, sont autant des sons que des couleurs ou des sensations diverses que le magicien noue, dénoue et réarrange.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les couleurs sont spécifiques puisqu’il s’agit du [violet], du [jaune], du [vert] et du [noir]\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Pour le reste (sensations, sons, évocations, …) ce peut être très variable mais n’est jamais le fruit d’un choix volontaire du Haut-Rêvant et n’est jamais plus élaboré qu’une image, un son ou un sens fugitif paraissant en filigrane.\_</p></li></ul></div><div><ul><li><p>La Signature est liée à l’Archétype du Haut-Rêvant et perdure d’une incarnation à l’autre\_</p></li></ul><h3>Prérequis </h3><p>La prise de connaissance de la Signature Draconique d’un Haut-Rêvant peut commencer lorsque l’on effectue une réussite particulière\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>au jet de Lecture d’un Signe Draconique écrit par ce Haut-Rêvant ou</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>à n’importe quelle étape de Lecture d’Aura effectuée sur un sort lancé par ce Haut-Rêvant.\_</p></div><div><h3>Processus</h3><p>Similairement à la Lecture d’Aura, ces étapes peuvent être effectuées en plusieurs fois, tant que le « support » en question est visible :\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Réussite particulière</strong> : révèle immédiatement le type de case des Terres Médianes auquel correspond la Signature Draconique du Haut-Rêvant.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Case Générique</strong> : sur une case de ce type, la case spécifique correspondant à cette Signature est révélée en réussissant une Lecture d’Aura à R6 r-6.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Case Spécifique</strong> : Une fois sur la case spécifique, la Signature est définitivement analysée en réussissant une Lecture d’Aura à R9 r-9.\_</p></div><div><p>Ce processus est indépendant de toute autre opération sur le Signe/sort.\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Alain G.</em></p></blockquote></div>"
+  descriptionmj: ''
+  draconic: O/H/N/T
+  duree: N/A
+  JR: N/A
+  cible: Signe Draconique / Objet enchanté
+  difficulte: Varaible
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: Variable
+  ptreve: Variable
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Vue
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191396678
+  modifiedTime: 1749282684017
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: bVIo5b6N6A55uhZe
+sort: 75000
+_key: '!items!bVIo5b6N6A55uhZe'

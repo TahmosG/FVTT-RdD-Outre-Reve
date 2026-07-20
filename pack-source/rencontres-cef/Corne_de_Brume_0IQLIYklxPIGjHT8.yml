@@ -1,0 +1,101 @@
+name: Corne de Brume
+type: rencontre
+img: systems/foundryvtt-reve-de-dragon/icons/tete_dragon.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.Q2Pne0VsP69MJwb8]{CEF
+    - Climat -2}</p><p><span style="text-decoration: underline;"><span
+    style="font-family: CaslonAntique"><span style="text-decoration:
+    underline;">Climat Max</span></span></span><span style="font-family:
+    CaslonAntique"><strong style="box-sizing: border-box; user-select: text;
+    scrollbar-width: thin; scrollbar-color: var(--color-scrollbar)
+    var(--color-scrollbar-track);">: 2. </strong>Fleuve
+    d'Huille</span></p><p><span style="text-decoration: underline;"><span
+    style="text-decoration: underline;">Equivalent TMR</span></span>: Passeur
+    des Rêves (2d4)</p>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: f
+  formule: 2d6
+  refoulement: 0
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 2
+  force: 0
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets:
+      - passeur
+    message: >-
+      La Corne de Brume propose de vous transporter{{#if
+      actor.system.reve.tmrpos.cache}}, mais vous ne savez pas où vous
+      êtes{{else}} à {{rencontre.system.force}} cases de {{{tmr.label}}}{{/if}}.
+    poesie: >-
+      <p>Comme je descendais des Fleuves impassibles,<br>Je ne me sentis plus
+      guid&eacute; par les haleurs :<br>Des Peaux-Rouges criards les avaient
+      pris pour cibles,<br>Les ayant clou&eacute;s nus aux poteaux de
+      couleurs.</p>
+    reference: Le bateau ivre, Arthur Rimbaud
+  echec:
+    effets: []
+    message: >-
+      Le prix que demande la Corne de Brume est trop élevé, vous êtes réduit à
+      poursuivre votre chemin par vos propres moyens.
+    poesie: >-
+      <p>Loin des peuples vivants, errantes, condamn&eacute;es,<br>A travers les
+      d&eacute;serts courez comme les loups ;<br>Faites votre destin, &acirc;mes
+      d&eacute;sordonn&eacute;es,<br>Et fuyez l'infini que vous portez en vous
+      !</p>
+    reference: Femmes damnées (2), Charles Baudelaire
+  frequence:
+    cite: 25
+    sanctuaire: 25
+    plaines: 20
+    pont: 20
+    collines: 15
+    foret: 15
+    monts: 10
+    desert: 10
+    fleuve: 5
+    lac: 5
+    marais: 2
+    gouffre: 2
+    necropole: 0
+    desolation: 0
+    mauvaise: 0
+  immediat:
+    effets:
+      - climat+3
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667846036337
+  modifiedTime: 1748145807275
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  compendiumSource: Item.Ffk9pio1qy4Z28Lc
+  duplicateSource: null
+  exportSource: null
+_id: 0IQLIYklxPIGjHT8
+folder: null
+sort: 100000
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+_key: '!items!0IQLIYklxPIGjHT8'

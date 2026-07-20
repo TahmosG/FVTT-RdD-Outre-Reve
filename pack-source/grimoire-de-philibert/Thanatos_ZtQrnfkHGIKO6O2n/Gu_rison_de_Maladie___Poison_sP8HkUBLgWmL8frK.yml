@@ -1,0 +1,40 @@
+folder: ZtQrnfkHGIKO6O2n
+name: Guérison de Maladie / Poison
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_thanatos.webp
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Durant l’accomplissement de ce rituel, le magicien doit toucher la peau nue du malade avec ses mains nues et dépenser un nombre de points de rêve égal à la malignité de la maladie, augmentée du nombre de points de rêve de son choix.\_\_</p><p>— Le malade joue immédiatement un jet de maladie (p. 106) ajusté positivement par le r supplémentaire dépensé et négativement selon les règles habituelles.\_\_</p><p>— Le niveau de réussite de ce jet est augmenté d’un cran (traiter une réussite significative comme une particulière, une réussite normale comme une significative etc.)\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Glatissante par Udhessi</em>\_\_</p></blockquote><p></p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Notes de Phil’</span></strong></span> : besoin de Synthétiser une variante contre le poison</p></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Instantane
+  JR: N/A
+  cible: Humanoide
+  difficulte: '-6'
+  portée: ''
+  caseTMR: sanctuaire
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746207704943
+  modifiedTime: 1749291904048
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: sP8HkUBLgWmL8frK
+sort: 0
+_key: '!items!sP8HkUBLgWmL8frK'

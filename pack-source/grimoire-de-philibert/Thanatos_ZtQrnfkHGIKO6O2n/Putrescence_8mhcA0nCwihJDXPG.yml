@@ -1,0 +1,57 @@
+name: Putrescence
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_thanatos.webp
+effects: []
+system:
+  description: >-
+    <p>L'effet de Putrescence ne peut être ciblé que sur un objet. L'effet est
+    un vieilllissement instantané de plusieurs années, supposé s'être accompli
+    dans les pires concditions, avec pour résultat un délabrement, une
+    putrescence de l'objet. Le vieillissement est de 10 ans par point de rêve
+    dépensé.</p>
+
+    <p>Dans tous les cas, c'est au gardien des rêves de juger de l'état final de
+    l'objet en se souvenant que les conditions de vieillissement sont censées
+    avoir été très mauvaises : humidité, moisissure, chaud et froid, etc. Ainsi
+    dix ans seront suffisants pour venir à bout du tissu et du papier, vingt ans
+    pour du parchemin ou du cuir souple, trente pour du cuir épais et du bois
+    léger. Quarante ans et plus auront presque entièrement dévoré de rouille le
+    métal ferreux et corrompu le bois épais, tout dépendant de leur qualité
+    initiale. Noter par contre que verre et céramique sont pratiquement
+    imprutescibles. La putrescence étant instantanée et définitive, l'objet
+    altéré ne dispense aucune aura.&nbsp;</p>
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Permanente
+  JR: Aucun
+  cible: Un objet
+  difficulte: '-8'
+  portée: ''
+  caseTMR: marais
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: ZtQrnfkHGIKO6O2n
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-thanatos.W0JXIoChz3IXuaCc
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746207973573
+  modifiedTime: 1746207973573
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: 8mhcA0nCwihJDXPG
+sort: 0
+_key: '!items!8mhcA0nCwihJDXPG'

@@ -1,0 +1,68 @@
+name: Détection d'aura
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+effects: []
+system:
+  description: >-
+    <p>Les rituels de D&eacute;tection d&rsquo;Aura peuvent
+    indiff&eacute;remment &ecirc;tre accomplis par n&rsquo;importe laquelle des
+    quatre voies.</p>
+
+    <p>Toutes les cr&eacute;atures vivantes anim&eacute;es (humains,
+    humano&iuml;des, animaux) ont une caract&eacute;ristique R&Ecirc;VE. Les
+    objets enchant&eacute;s poss&egrave;dent des points de r&ecirc;ve, de
+    m&ecirc;me que les produits de magie naturelle, comme certaines pierres de
+    chance. Les entit&eacute;s de cauchemar, incarn&eacute;es ou non, en ont
+    &eacute;galement. Quelle qu&rsquo;elle soit, la pr&eacute;sence de
+    r&ecirc;ve &eacute;met une aura, laquelle est d&eacute;tectable par
+    D&eacute;tection d&rsquo;Aura. Parall&egrave;lement, toute cible d&rsquo;un
+    sort ou d&rsquo;un rituel, &eacute;met une aura propre, quand bien
+    m&ecirc;me ladite cible ne poss&egrave;de pas de points de r&ecirc;ve
+    (centre de zone, objet ou plante soumis &agrave; une illusion
+    d&rsquo;Hypnos). Cette aura est &eacute;galement d&eacute;tectable par
+    D&eacute;tection d&rsquo;Aura.</p>
+
+    <p>L&rsquo;aura de pr&eacute;sence de r&ecirc;ve se traduit par un halo
+    bleut&eacute; constant ; l&rsquo;aura r&eacute;sultant d&rsquo;un effet
+    magique par un halo parcouru de pulsations. Quand les deux auras sont
+    pr&eacute;sentes conjointement, le halo est pulsatif et d&rsquo;un bleu plus
+    fonc&eacute;. On peut toujours effectuer D&eacute;tection d&rsquo;Aura sans
+    aucun risque, il y a toujours une r&eacute;ponse. Soit une aura est
+    per&ccedil;ue, constante ou pulsative, et l&rsquo;on peut tenter une Lecture
+    d&rsquo;Aura pour en savoir plus ; soit aucune aura n&rsquo;est
+    per&ccedil;ue et il s&rsquo;agit de mati&egrave;re inerte, sans r&ecirc;ve,
+    non soumise &agrave; un sort.</p>
+  descriptionmj: ''
+  draconic: O/H/N/T
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-3'
+  portée: ''
+  caseTMR: sanctuaire
+  caseTMRspeciale: ''
+  ptreve: '1'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: hSsAyWnV7R68h4rG
+ownership:
+  default: 0
+  Zh06AIH309BjUY1Z: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746123572216
+  modifiedTime: 1746203994124
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+flags: {}
+_id: nZ9IgTvbSvjblcjE
+sort: 0
+_key: '!items!nZ9IgTvbSvjblcjE'

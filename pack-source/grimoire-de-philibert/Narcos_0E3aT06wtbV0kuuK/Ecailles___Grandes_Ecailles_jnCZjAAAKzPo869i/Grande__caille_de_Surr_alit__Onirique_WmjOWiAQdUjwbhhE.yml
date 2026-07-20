@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille de Surréalité Onirique
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/queues/idee_fixe.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Accroit la réalité d’un objet, le rendant non altérable.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Chaque écaille augmente sa Solidité de 2, et sa résistance magique de 1\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>14% chance par écaille d’avoir une existence Onirique : pas détruit par les Limbes\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Pas de perte de Rêve lors de la Maitrise/utilisation, l’Objet puisant dans l’Inconscient Onirique\_</p></div></div></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Prérequis</span></strong></span> : Doit être posé sur un artefact préalablement lié à l’Oniros Collectif\_via @UUID[Compendium.a-perte-de-reve.grimoire-de-philibert.Item.ov1wq3eIQsb55GHA]{Lien à l’Oniros Collectif}</p></div><div><p></p><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Le Quart-Livre</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-17'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: I5
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746208031552
+  modifiedTime: 1749282571893
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: WmjOWiAQdUjwbhhE
+sort: 0
+_key: '!items!WmjOWiAQdUjwbhhE'

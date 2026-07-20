@@ -1,0 +1,44 @@
+name: Purification d'Eau/Nouriture
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+effects: []
+folder: 0E3aT06wtbV0kuuK
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.TjhnUMh6UL04k0k8
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746191477827
+  modifiedTime: 1746191477827
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+system:
+  description: >-
+    <p>Purification est un rituel permettant de decontaminer toute forme de
+    liquide ou de nourriture, rendant ainsi la substance en question
+    potable/commestible.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-3'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: i8YgQULEaG0aXbBG
+sort: 0
+_key: '!items!i8YgQULEaG0aXbBG'

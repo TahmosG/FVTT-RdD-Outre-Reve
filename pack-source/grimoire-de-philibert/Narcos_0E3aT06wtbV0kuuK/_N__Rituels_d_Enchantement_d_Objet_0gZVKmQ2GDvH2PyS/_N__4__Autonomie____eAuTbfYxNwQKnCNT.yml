@@ -1,0 +1,57 @@
+_id: eAuTbfYxNwQKnCNT
+name: '[N] 4. Autonomie **'
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Le rituel d'Autonomie doit obligatoirement être utilisé à la place du
+    rituel de Maîtrise pour les objets <em>autonomes</em>, c'est-à-dire
+    fonctionnant uniquement à partir d'une certaine programmation, sans
+    l'intervention d'un utilisateur. Chaque cas d'objet autonome correspond à
+    une Grande Écaille de Narcos spécifique. Il s'agit&nbsp; usuellement de
+    dispositifs se mettant automatiquement à fonctionner en présence d'un signal
+    prévu dans leur programmation : piège magique qui se déclenche au moindre
+    bruit, statue qui répète un message quand on passe devant elle, feu ou
+    torche qui s'allume dès qu'on frappe dans ses mains, etc. Les objets
+    autonomes étaient la grande passion des hauts-rêvants du Second Âge, qui les
+    agençaient souvent en de grandioses mises en scène. Pratiquement, un objet
+    autonome dépense ses points de rêve actifs pour obtenir son effet, tout
+    comme un haut-rêvant dépense les siens. Autonomie permet de les récupérer
+    tout seul, à raison de 3 points par heure complète de non-utilisation, sans
+    pouvoir dépasser le nombre de points actifs initial. L'accomplissement du
+    rituel d'Autonomie coûte 2 points de seuil.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-10'
+  portée: ''
+  caseTMR: lac
+  caseTMRspeciale: ''
+  ptreve: '10'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 2
+  lancements: []
+  portee: ''
+folder: 0gZVKmQ2GDvH2PyS
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.hunCnz9KW1gc5ab7
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198839597
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 500000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!eAuTbfYxNwQKnCNT'

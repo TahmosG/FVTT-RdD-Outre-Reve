@@ -1,0 +1,20 @@
+_id: 0tOoKLhFKqBLGdAc
+name: La Licorne
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 1000000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Rêve, Vie, Amour, Destin favorable
+  aspect: Positif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!0tOoKLhFKqBLGdAc'

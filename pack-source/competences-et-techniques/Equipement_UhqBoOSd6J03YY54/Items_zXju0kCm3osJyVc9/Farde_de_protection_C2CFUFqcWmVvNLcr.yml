@@ -1,0 +1,33 @@
+name: Farde de protection
+type: conteneur
+img: icons/sundries/scrolls/scroll-bound-black-brown.webp
+system:
+  description: ''
+  descriptionmj: ''
+  encombrement: 0.01
+  quantite: 1
+  qualite: 1
+  cout: 0.1
+  milieu: ''
+  environnement: []
+  contenu: []
+  capacite: 1
+effects: []
+folder: zXju0kCm3osJyVc9
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746384790795
+  modifiedTime: 1746891546770
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_id: C2CFUFqcWmVvNLcr
+sort: 200000
+_key: '!items!C2CFUFqcWmVvNLcr'

@@ -1,0 +1,20 @@
+_id: n9il4UfR6swHQ805
+name: Le Chateau
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 1200000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Fin, Arrêt, Immobilité, Vieillesse
+  aspect: Négatif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!n9il4UfR6swHQ805'

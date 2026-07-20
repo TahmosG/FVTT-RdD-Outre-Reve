@@ -1,0 +1,62 @@
+name: (Z) Annulation de ses propres zones
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_oniros.webp
+effects: []
+system:
+  description: >-
+    <p>Les rituels d&rsquo;Oniros ob&eacute;issent &agrave; toutes les
+    r&egrave;gles des rituels : leurs chances de r&eacute;ussite sont
+    ajust&eacute;es astrologiquement selon l&rsquo;heure de naissance du
+    haut-r&ecirc;vant, et ils ne peuvent &ecirc;tre mis en r&eacute;serve.
+    Chaque &eacute;toile * dont peut &ecirc;tre suivi le titre d&rsquo;un rituel
+    indique le co&ucirc;t d&rsquo;un point de seuil de r&ecirc;ve. Le seuil est
+    diminu&eacute; aussit&ocirc;t le rituel accompli. Chaque R&ecirc;ve de
+    Dragon vaincu permet d&rsquo;en regagner 1 point.</p>
+
+    <p>Ce rituel permet &agrave; un haut-r&ecirc;vant d&rsquo;annuler ses
+    propres zones d&rsquo;Oniros &agrave; une difficult&eacute; et un co&ucirc;t
+    plus avantageux que s&rsquo;il utilisait Annulation de Magie. Tout comme
+    avec cet autre rituel, il doit se trouver en TMR dans la case exacte
+    d&rsquo;o&ugrave; a &eacute;t&eacute; lanc&eacute;e la zone, mais la
+    difficult&eacute; est toujours fixe (R-4), de m&ecirc;me que la
+    d&eacute;pense de points de r&ecirc;ve (r2). La port&eacute;e est la
+    m&ecirc;me que celle de la zone &agrave; annuler. Si le haut-r&ecirc;vant a
+    lanc&eacute; plusieurs zones identiques pour en faire une plus grande, il
+    n&rsquo;a pas &agrave; les annuler l&rsquo;une apr&egrave;s l&rsquo;autre
+    comme il devrait le faire avec Annulation de Magie, mais les annule toutes
+    d&rsquo;un coup.</p>
+  descriptionmj: ''
+  draconic: Oniros
+  duree: Instantanée
+  JR: Aucun
+  cible: zone créée par le haut-rêvant
+  difficulte: '-4'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: variable
+  ptreve: '2'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: 4fa8ALVKVsKmQGt8
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-oniros.8h3ootsjoCN2tyeB
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746191068823
+  modifiedTime: 1749224706431
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: lhJVgJ2m562dQpdD
+sort: 500000
+_key: '!items!lhJVgJ2m562dQpdD'

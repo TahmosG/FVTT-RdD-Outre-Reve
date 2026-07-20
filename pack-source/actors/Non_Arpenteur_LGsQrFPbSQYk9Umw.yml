@@ -1,0 +1,3035 @@
+name: Non-Arpenteur
+type: personnage
+items:
+  - name: Comédie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_comedie.webp
+    _id: 2JLK5e97WbTM5WxX
+    system:
+      description: >-
+        <p>L’art de paraître sur une scène : jouer un rôle, déclamer des vers,
+        mimer, conter. Peut aussi servir à simuler, mystifier.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: apparence
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.2JLK5e97WbTM5WxX'
+  - name: Jeu
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_jeu.webp
+    _id: 3VSMRwMYpOi83wgE
+    system:
+      description: >-
+        <p>Jeux de tripot, manipuler les dés. Connaître les jeux et les
+        meilleures stratégies, déceler un tricheur et tricher soi-même.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.3VSMRwMYpOi83wgE'
+  - name: Cuisine
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_cuisine.webp
+    _id: 3qRzl3nhLZNsoDsI
+    system:
+      description: >-
+        <p>Identifier les saveurs culinaires, les épices et les aromates.
+        Exécuter, inventer une recette. Faire griller un gibier sur un feu
+        de&nbsp;camp n’est généralement pas de la cuisine,&nbsp;mais de la
+        simple survie.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: odoratgout
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.3qRzl3nhLZNsoDsI'
+  - name: Survie en Sous-Sol
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_sous_sol.webp
+    _id: 6pXxEdeo7xcDvgx0
+    system:
+      description: >-
+        <p>Par exemple pister un gibier en forêt demande l’usage de Survie en
+        forêt, trouver une grotte pour s’abriter en montagne demande Survie en
+        montagne. Survie en extérieur tient lieu de survie spécifique pour les
+        plaines et collines non boisées.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.6pXxEdeo7xcDvgx0'
+  - name: Corps à corps
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_corps_a_corps.webp
+    _id: 8Uj41cL5Qlxxy675
+    system:
+      description: >-
+        <p>Groupées en une seule jusqu’au niveau zéro, ces compétences sont les
+        principes de base du combat de mêlée. Corps à&nbsp;corps permet de se
+        battre sans armes ; Es-quive permet d’esquiver toutes les sortes&nbsp;de
+        coup ; Dague de mêlée permet l’utilisation de la dague au contact.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.8Uj41cL5Qlxxy675'
+  - name: Discrétion
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_discretion.webp
+    _id: 94P55yZfeipCGbsr
+    system:
+      description: >-
+        <p>Se déplacer en silence, sans se faire remarquer, passer inaperçu, se
+        fondre dans</p>
+
+        <p>l’anonymat, se cacher.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: agilite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.94P55yZfeipCGbsr'
+  - name: Saut
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_saut.webp
+    _id: 9ICvksiNG6Bhm8CE
+    system:
+      description: >-
+        <p>Sauter par-dessus un obstacle ou sauter en contrebas ; rattraper une
+        chute en la transformant en saut.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: agilite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.9ICvksiNG6Bhm8CE'
+  - name: Navigation
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_navigation.webp
+    _id: AXeWswf2Dth9ysvy
+    system:
+      description: >-
+        <p>Connaissance des manœuvres à accomplir sur un voilier, connaissance
+        de la mer, de ses courants (voir Navigation, p325).</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: vue
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.AXeWswf2Dth9ysvy'
+  - name: Séduction
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_seduction.webp
+    _id: AbM6lJ7DI2UAWLxj
+    system:
+      description: >-
+        <p>L’art d’être galant, de paraître attirant. Permet les conquêtes
+        amoureuses.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: apparence
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.AbM6lJ7DI2UAWLxj'
+  - name: Masse à 2 mains
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_masse_2_mains.webp
+    _id: BMAloiSbDKOu3b4C
+    system:
+      description: >-
+        <p>Ces compétences permettent l’utilisation des masses, gourdins,
+        bâtons, pour attaquer, voire parer.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.BMAloiSbDKOu3b4C'
+  - name: Chirurgie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_chirurgie.webp
+    _id: BlG2YPATIbnY3m9P
+    system:
+      description: >-
+        <p>L’art de soigner les blessures, panser, recoudre ; savoir se servir
+        d’un rasoir. Chirurgie&nbsp;est utilisée pour accomplir premiers soins
+        et soins complets sur toutes les blessures, et&nbsp;par extension, pour
+        tous les actes de secourisme et de réanimation.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.BlG2YPATIbnY3m9P'
+  - name: Survie en Montagne
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_montagne.webp
+    _id: BzqBOeqS6HvJhqey
+    system:
+      description: >-
+        <p>Par exemple pister un gibier en forêt demande l’usage de Survie en
+        forêt, trouver une grotte pour s’abriter en montagne demande Survie en
+        montagne. Survie en extérieur tient lieu de survie spécifique pour les
+        plaines et collines non boisées.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.BzqBOeqS6HvJhqey'
+  - name: Métallurgie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_metallurgie.webp
+    _id: CHyk96ypxMrg8VXh
+    system:
+      description: >-
+        <p>C’est au sens large le travail du métal, et principalement du fer.
+        Battre le fer, forger, tremper, limer, poncer, riveter. Évaluer la
+        qualité, la solidité, d’un objet de fer, une arme par exemple.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: force
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.CHyk96ypxMrg8VXh'
+  - name: Équitation
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_equitation.webp
+    _id: F5iQNrZSeJsfyTnV
+    system:
+      description: >-
+        <p>Monter à cheval, et, d’une manière générale, connaissance des
+        chevaux. Peut s’appliquer aux autres montures de Rêve de&nbsp;Dragon :
+        aligates, zyglutes, etc.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: agilite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.F5iQNrZSeJsfyTnV'
+  - name: Hache à 2 mains
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_hache_a_2_mains.webp
+    _id: F97wHYDsQ5UyvJnb
+    system:
+      description: >-
+        <p>Ces deux compétences permettent l’utilisation des hachettes, cognées
+        et haches de bataille, pour attaquer.</p>
+
+        <p>&nbsp;</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.F97wHYDsQ5UyvJnb'
+  - name: Charpenterie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_charpenterie.webp
+    _id: FqLWG6xjISKMLPiX
+    system:
+      description: >-
+        <p>C’est au sens large le travail du bois, charpenterie, menuiserie,
+        ébénisterie. Évaluer&nbsp;la qualité, solidité, d’une structure de
+        bois.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.FqLWG6xjISKMLPiX'
+  - name: Astrologie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_astrologie.webp
+    _id: GIIQm22Q4bBsmxpE
+    system:
+      description: >-
+        <p>Connaissance des étoiles et de leur signification symbolique.
+        Calculer les nombres astraux gouvernant la chance de
+        chaque&nbsp;individu. S’orienter aux étoiles (voir Astrologie,
+        p155).</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: connaissance
+      xp: 0
+      defaut_carac: vue
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.GIIQm22Q4bBsmxpE'
+  - name: Course
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_course.webp
+    _id: Jz4AZdDlSjsyoUsm
+    system:
+      description: >-
+        <p>Sprinter le plus vite possible, ou courir sur de longues distances en
+        m&eacute;nageant son souffle.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: agilite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.Jz4AZdDlSjsyoUsm'
+  - name: Chant
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_chant.webp
+    _id: LE4nA119la5cd0bC
+    system:
+      description: |-
+        <p>Savoir chanter juste, se souvenir de mélodies, improviser.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: ouie
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.LE4nA119la5cd0bC'
+  - name: Danse
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_danse.webp
+    _id: LhP3Y0qCBHNp2atl
+    system:
+      description: >-
+        <p>Être capable de danser en mesure, de danser harmonieusement avec une
+        personne</p>
+
+        <p>ou un groupe, de charmer un public par&nbsp;une exhibition.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: agilite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.LhP3Y0qCBHNp2atl'
+  - name: Épée à 2 mains
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_epee_2_mains.webp
+    _id: MLIEbxSJHkY1m3No
+    system:
+      description: >-
+        <p>Ces compétences permettent l’utilisation des sept types d’épées de
+        Rêve de Dragon pour attaquer ou parer.</p>
+
+        <p>&nbsp;</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.MLIEbxSJHkY1m3No'
+  - name: Dessin
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_dessin.webp
+    _id: OVcZE4kfiPYEOzgm
+    system:
+      description: >-
+        <p>Avoir le sens des proportions. Savoir dessiner, faire le portrait de
+        quelqu’un, mais</p>
+
+        <p>également savoir faire un schéma, une carte, un plan, aux proportions
+        exactes.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: tir
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.OVcZE4kfiPYEOzgm'
+  - name: Orfèvrerie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_orfevrerie.webp
+    _id: PMOjO2CdedH1UTyi
+    system:
+      description: >-
+        <p>Travail et connaissance des métaux précieux : or, argent, cuivre,
+        étain, et par extension des pierres et perles précieuses.&nbsp;Évaluer
+        la taille et la pureté d’une gemme,&nbsp;le prix d’un bijou.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.PMOjO2CdedH1UTyi'
+  - name: Serrurerie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_serrurerie.webp
+    _id: PMnsXDyeB8w8ZG2k
+    system:
+      description: >-
+        <p>Compréhension des mécaniques et mécanismes, et plus particulièrement
+        des serrures. Comprendre un mécanisme, le faire fonctionner, le réparer,
+        le désarmer, le crocheter.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.PMnsXDyeB8w8ZG2k'
+  - name: Survie en Forêt
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_foret.webp
+    _id: PbvubzCxnOSnWLpG
+    system:
+      description: >-
+        <p>Par exemple pister un gibier en forêt demande l’usage de Survie en
+        forêt, trouver une grotte pour s’abriter en montagne demande Survie en
+        montagne. Survie en extérieur tient lieu de survie spécifique pour les
+        plaines et collines non boisées.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.PbvubzCxnOSnWLpG'
+  - name: Botanique
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_botanique.webp
+    _id: PmwXYvmutlyQEonB
+    system:
+      description: >-
+        <p>Identification des espèces végétales et de leurs propriétés. Permet
+        de savoir si une plante connue pousse dans un milieu donné. Recherche de
+        cette plante.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: connaissance
+      xp: 0
+      defaut_carac: vue
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.PmwXYvmutlyQEonB'
+  - name: Bouclier
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_bouclier.webp
+    _id: SJE3ghtswQwP1dIy
+    system:
+      description: |-
+        <p>Utilisation de toutes les sortes de bouclierpour parer.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.SJE3ghtswQwP1dIy'
+  - name: Alchimie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_alchimie.webp
+    _id: TAKRb9CdMUhs9dd4
+    system:
+      description: >-
+        <p>Connaissance des recettes et préparations alchimiques.
+        Identification, élaboration, des solutions diverses, breuvages, poudres,
+        onguents, crèmes, etc. (voir Principes d’alchimie, p357).</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: connaissance
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.TAKRb9CdMUhs9dd4'
+  - name: Vigilance
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+    _id: VyAJK54OPjiRt8oH
+    system:
+      description: >-
+        <p>Le talent d’être toujours sur ses gardes, prêt à déceler la moindre
+        anomalie, de</p>
+
+        <p>bruit, d’odeur, de mouvement, etc. Permet de ne pas être surpris en
+        combat, par</p>
+
+        <p>exemple. Indispensable pour monter sérieusement la garde.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: volonte
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.VyAJK54OPjiRt8oH'
+  - name: Médecine
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_medecine.webp
+    _id: XK2TlYnhR8FlDaEi
+    system:
+      description: |-
+        <p>Diagnostic et soin des maladies. Connaissance des remèdes.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: connaissance
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.XK2TlYnhR8FlDaEi'
+  - name: Maroquinerie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_maroquinerie.webp
+    _id: XYMQBxFKSs2nPW0J
+    system:
+      description: >-
+        <p>Travail du cuir et de la peau. Dépecer correctement un animal en vue
+        de conserver la peau, préparation au tannage, tannage. Évaluer la
+        qualité, la solidité, d’un travail de cuir.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.XYMQBxFKSs2nPW0J'
+  - name: Dague
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_dague.webp
+    _id: XZNm5W8nTe8aCG61
+    system:
+      description: |-
+        <p>Pour utiliser les Dagues et les Couteaux en combat</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.XZNm5W8nTe8aCG61'
+  - name: Survie en Marais
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_marais.webp
+    _id: azn3Sm7XYKP78huL
+    system:
+      description: >-
+        <p>Par exemple pister un gibier en forêt demande l’usage de Survie en
+        forêt, trouver une grotte pour s’abriter en montagne demande Survie en
+        montagne. Survie en extérieur tient lieu de survie spécifique pour les
+        plaines et collines non boisées.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.azn3Sm7XYKP78huL'
+  - name: Hypnos
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_hypnos.webp
+    _id: bt2cR4aE6lIOeg4F
+    system:
+      description: |-
+        <p>Magie d’illusion, suggestion, invocation.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: 7
+      default_diffLibre: 0
+      base: -11
+      categorie: draconic
+      xp: 0
+      defaut_carac: reve
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.bt2cR4aE6lIOeg4F'
+  - name: Zoologie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_zoologie.webp
+    _id: c5wursWW03ckpyqn
+    system:
+      description: >-
+        <p>Connaissance des espèces animales, de leurs mœurs, leur des
+        habitat.</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: connaissance
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.c5wursWW03ckpyqn'
+  - name: Masse à 1 main
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_masse_1_main.webp
+    _id: cMHm3gQr9rUp4iPK
+    system:
+      description: >-
+        <p>Ces compétences permettent l’utilisation des masses, gourdins,
+        bâtons, pour attaquer, voire parer.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.cMHm3gQr9rUp4iPK'
+  - name: Thanatos
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_thanatos.webp
+    _id: dPlTQzvU3CEg5qKc
+    system:
+      description: |-
+        <p>Magie noire des forces du cauchemar.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: draconic
+      xp: 0
+      defaut_carac: reve
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.dPlTQzvU3CEg5qKc'
+  - name: Pickpocket
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_pickpocket.webp
+    _id: dT5cvI7q1HcrLaT1
+    system:
+      description: <p>Art extrêmement dangereux du vol à la tire.</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.dT5cvI7q1HcrLaT1'
+  - name: Maçonnerie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_maconnerie.webp
+    _id: dwGVDTUJYP9FcmWM
+    system:
+      description: >-
+        <p>C’est au sens large le travail de la pierre. Évaluer la qualité, la
+        solidité d’une struc-</p>
+
+        <p>ture maçonnée.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: vue
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.dwGVDTUJYP9FcmWM'
+  - name: Épée à 1 main
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_epee_1_main.webp
+    _id: fPhPcCP3sbS6mfbS
+    system:
+      description: >-
+        <p>Groupées en une seule jusqu’au niveau zéro, ces compétences sont les
+        principes de base du combat de mêlée. Corps à&nbsp;corps permet de se
+        battre sans armes ; Es-quive permet d’esquiver toutes les sortes&nbsp;de
+        coup ; Dague de mêlée permet l’utilisation de la dague au contact.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.fPhPcCP3sbS6mfbS'
+  - name: Escalade
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_escalade.webp
+    _id: gECPPcn6j3B3sWTS
+    system:
+      description: >-
+        <p>Escalader des obstacles, grimper à la corde, à un arbre, le long
+        d’une paroi.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: force
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.gECPPcn6j3B3sWTS'
+  - name: Légendes
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_legendes.webp
+    _id: i3wMVkXObzlDVZTG
+    system:
+      description: >-
+        <p>Connaissance des légendes et des faits du passé. Légendes tient lieu
+        d’histoire.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: connaissance
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.i3wMVkXObzlDVZTG'
+  - name: Fronde
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_fronde.webp
+    _id: iNXKIfaETtgSGA0S
+    system:
+      description: |-
+        <p>Utilisation de la fronde giratoire.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: tir
+      xp: 0
+      defaut_carac: tir
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.iNXKIfaETtgSGA0S'
+  - name: Arbalète
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_arbalete.webp
+    _id: lt9VC7PkX4Faiduq
+    system:
+      description: <p>Utilisation de tous les types d’arbalètes.</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: tir
+      xp: 0
+      defaut_carac: tir
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.lt9VC7PkX4Faiduq'
+  - name: Javelot
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_javelot.webp
+    _id: neuzZG2C5C0IJ1yk
+    system:
+      description: |-
+        <p>Utilisation de la lance courte ou de la javeline en lancer.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: lancer
+      xp: 0
+      defaut_carac: lancer
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.neuzZG2C5C0IJ1yk'
+  - name: Oniros
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_oniros.webp
+    _id: nnR2UHelUaF8dxYn
+    system:
+      description: |-
+        <p>Magie s’appliquant au monde inanimé.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: 7
+      default_diffLibre: 0
+      base: -11
+      categorie: draconic
+      xp: 0
+      defaut_carac: reve
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.nnR2UHelUaF8dxYn'
+  - name: Esquive
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_esquive.webp
+    _id: oFje22fZF1FaCQhN
+    system:
+      description: >-
+        <p>Groupées en une seule jusqu’au niveau zéro, ces compétences sont les
+        principes de base du combat de mêlée. Corps à&nbsp;corps permet de se
+        battre sans armes ; Es-quive permet d’esquiver toutes les sortes&nbsp;de
+        coup ; Dague de mêlée permet l’utilisation de la dague au contact.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: derobee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.oFje22fZF1FaCQhN'
+  - name: Survie en Cité
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_cite.webp
+    _id: oHnSnCw1RAW5t15S
+    system:
+      description: >-
+        <p>Se sentir à son aise dans un milieu urbain, dans une foule. Savoir
+        s’orienter intuitivement dans le dédale d’une cité inconnue, et en
+        déceler les dangers : coupeurs de bourse, escrocs, tout autant que
+        patrouilles de gardes. Savoir à qui s’adresser.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: derobee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.oHnSnCw1RAW5t15S'
+  - name: Jonglerie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_jonglerie.webp
+    _id: owCW3nZDvlJy1kCT
+    system:
+      description: >-
+        <p>Balles, quilles, couteaux, torches enflammées : l’art traditionnel du
+        jongleur.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.owCW3nZDvlJy1kCT'
+  - name: Natation
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_natation.webp
+    _id: qBUtHhyjvrg1c34I
+    system:
+      description: |-
+        <p>Nager, plonger.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: force
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.qBUtHhyjvrg1c34I'
+  - name: Écriture
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_ecriture.webp
+    _id: qmIpUeedvjC8nGF1
+    system:
+      description: >-
+        <p>Lire et &eacute;crire. Savoir composer un texte, un po&egrave;me.
+        Connaissance g&eacute;n&eacute;rale des langues anciennes.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: connaissance
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.qmIpUeedvjC8nGF1'
+  - name: Fléau
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_fleau.webp
+    _id: r79VAGS1fRUm4oAd
+    system:
+      description: |-
+        <p>Utilisation de tous les types de fléaux, pour attaquer.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.r79VAGS1fRUm4oAd'
+  - name: Armes d'hast
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_armes_hast.webp
+    _id: rwsHwIDszSIPBkrO
+    system:
+      description: >-
+        <p>Utilisation de toutes les piques, vouges, hallebardes, toujours
+        maniées à deux mains, pour attaquer.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.rwsHwIDszSIPBkrO'
+  - name: Arc
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_arc.webp
+    _id: tVbFkKSN4n0RSrFU
+    system:
+      description: |-
+        <p>Utilisation de tous les types d’arcs.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: tir
+      xp: 0
+      defaut_carac: tir
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.tVbFkKSN4n0RSrFU'
+  - name: Dague de jet
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_dague_jet.webp
+    _id: thJy5AN0qePmfpJu
+    system:
+      description: <p>Utilisation de la dague en lancer.</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: lancer
+      xp: 0
+      defaut_carac: lancer
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.thJy5AN0qePmfpJu'
+  - name: Bricolage
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_bricolage.webp
+    _id: tvIGIPaEJZBaySil
+    system:
+      description: >-
+        <p>L’art d’être inventif avec ses doigts, pour de&nbsp;petits
+        aménagements ou réparations. Ne&nbsp;peut en aucun cas se substituer aux
+        compétences d’artisanat, Charpenterie, Maçonnerie, etc. Bricolage est
+        utilisé quand l’usage&nbsp;de ces compétences n’est pas pertinent.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -4
+      default_diffLibre: 0
+      base: -4
+      categorie: generale
+      xp: 0
+      defaut_carac: dexterite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.tvIGIPaEJZBaySil'
+  - name: Narcos
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+    _id: u1Peok1EYkBcVsmN
+    system:
+      description: <p>Magie d’enchantement.</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: draconic
+      xp: 0
+      defaut_carac: reve
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.u1Peok1EYkBcVsmN'
+  - name: Survie en Glaces
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_glace.webp
+    _id: uGPqmorAYxv1jboC
+    system:
+      description: >-
+        <p>Par exemple pister un gibier en forêt demande l’usage de Survie en
+        forêt, trouver une grotte pour s’abriter en montagne demande Survie en
+        montagne. Survie en extérieur tient lieu de survie spécifique pour les
+        plaines et collines non boisées.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.uGPqmorAYxv1jboC'
+  - name: Survie en Extérieur
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_exterieur.webp
+    _id: ue5iDSm2f4efQDWO
+    system:
+      description: >-
+        <p>Se sentir à son aise dans la nature, hors de toute civilisation,
+        s’orienter. Construireun abri, allumer un feu en mauvaisesconditions,
+        trouver de l’eau, pêcher, savoirExemplaire pour dépecer un gibier et
+        l’accommoder sur un feu de braise. Quand un milieu particulier devient
+        déterminant, utiliser à la place une des 6 survies spécifiques.</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.ue5iDSm2f4efQDWO'
+  - name: Survie en Désert
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_desert.webp
+    _id: vDOAyWc2YnuhNnFF
+    system:
+      description: >-
+        <p>Par exemple pister un gibier en forêt demande l’usage de Survie en
+        forêt, trouver une grotte pour s’abriter en montagne demande Survie en
+        montagne. Survie en extérieur tient lieu de survie spécifique pour les
+        plaines et collines non boisées.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.vDOAyWc2YnuhNnFF'
+  - name: Fouet
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_fouet.webp
+    _id: vIQVQxUeiw36hztI
+    system:
+      description: <p>Utilisation du fouet.</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: lancer
+      xp: 0
+      defaut_carac: lancer
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.vIQVQxUeiw36hztI'
+  - name: Travestissement
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_travestissement.webp
+    _id: w9QubIHdWEUorges
+    system:
+      description: |-
+        <p>L’art de se déguiser, de se grimer, de se rendre méconnaissable.</p>
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: apparence
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.w9QubIHdWEUorges'
+  - name: Hache à 1 main
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_hache_a_1_main.webp
+    _id: wEfuLImdNX4BSXVi
+    system:
+      description: >-
+        <p>Ces deux compétences permettent l’utilisation des hachettes, cognées
+        et haches de bataille, pour attaquer.</p>
+
+        <p>&nbsp;</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.wEfuLImdNX4BSXVi'
+  - name: Musique
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_musique.webp
+    _id: wefdYe0kvWKioPmk
+    system:
+      description: >-
+        <p>Solfège et règles musicales, jeu d’un instrument. Musique donne droit
+        à la connaissance d’un instrument de musique, un seul, à spécifier.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: ouie
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.wefdYe0kvWKioPmk'
+  - name: Commerce
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_defaut.webp
+    _id: zO7Av9hJ2vdJiPgI
+    system:
+      description: >-
+        <p>Évaluer le prix d’une marchandise, la valeur d’une monnaie locale.
+        Savoir</p>
+
+        <p>jusqu’où l’on peut marchander (lequel&nbsp;marchandage doit être fait
+        en jeu de rôle</p>
+
+        <p>par le joueur lui-même).</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -8
+      default_diffLibre: 0
+      base: -8
+      categorie: particuliere
+      xp: 0
+      defaut_carac: intellect
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.zO7Av9hJ2vdJiPgI'
+  - name: Lance
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_lance.webp
+    _id: zPTXua2Kq6TeBTTZ
+    system:
+      description: >-
+        <p>Utilisation en mêlée de la lance courte et de la javeline, pour
+        attaquer, voire parer. La lance n’est toujours qu’à une main.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -6
+      default_diffLibre: 0
+      base: -6
+      categorie: melee
+      xp: 0
+      defaut_carac: melee
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.zPTXua2Kq6TeBTTZ'
+  - name: Acrobatie
+    type: competence
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_acrobatie.webp
+    _id: zyNYa3hYtrOcF2jA
+    system:
+      description: >-
+        <p>Pirouettes, sauts périlleux, art du funambule, et d’une manière
+        générale, toutes les performances d’agilité spécialisées.</p>
+
+        <p>&nbsp;</p>
+      descriptionmj: ''
+      niveau: -11
+      default_diffLibre: 0
+      base: -11
+      categorie: specialisee
+      xp: 0
+      defaut_carac: agilite
+      niveau_archetype: 0
+      xp_sort: 0
+    ownership:
+      default: 0
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.zyNYa3hYtrOcF2jA'
+  - _id: SisFbKMaw7KCgcO9
+    name: Don de haut-rêve
+    type: tete
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/tete_dragon.webp
+    system:
+      description: >-
+        <p>Ce don permet d’accéder aux Terres Médianes en demi-rêve et est
+        indispensable pour déchiffrer les signes draconics et développer les 4
+        compétences de magie. Tous les haut-rêvants sont par définition déjà
+        censés posséder ce don.</p>
+
+        <p>Noter qu’un non haut-rêvant qui l’acquiert ne devient pas pour autant
+        « magicien » à l’instant même. Ses voies de Draconic sont toujours à
+        -11, et il devra commencer par en développer au moins une avant de
+        pouvoir acquérir des sorts. On peut refuser cette tête de Dragon et en
+        tirer une autre à la place.</p>
+      descriptionmj: ''
+      frequence: 6
+      hautrevant: false
+      refoulement: null
+    ownership:
+      default: 0
+      HDSHRizOiLAt3KIz: 3
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: >-
+        Compendium.foundryvtt-reve-de-dragon.tetes-de-dragon-pour-tous-personnages.Item.YwmmMSH52pNJsOn3
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.SisFbKMaw7KCgcO9'
+  - name: Annulation de magie
+    type: sort
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+    effects: []
+    system:
+      description: >-
+        <p>Ce rituel permet d&rsquo;annuler un effet magique, que celui-ci ait
+        &eacute;t&eacute; accompli par soi-m&ecirc;me ou par un autre
+        haut-r&ecirc;vant. On peut annuler l&rsquo;effet d&rsquo;un sort, de
+        zone ou individuel, d&rsquo;un rituel d&rsquo;enchantement, d&rsquo;une
+        invocation, etc.</p>
+
+        <p>Le haut-r&ecirc;vant doit se trouver dans la case
+        <em>sp&eacute;cifique </em>des TMR d&rsquo;o&ugrave; la magie a
+        &eacute;t&eacute; accomplie. Le jet de R&Ecirc;VE qu&rsquo;il doit
+        r&eacute;ussir a alors la m&ecirc;me difficult&eacute; que celui ayant
+        permis la magie, avec une d&eacute;pense de points de r&ecirc;ve
+        pareillement identique.</p>
+
+        <p>Pour annuler une invocation, le rituel d&rsquo;Annulation doit
+        &ecirc;tre cibl&eacute; sur la cr&eacute;ature invoqu&eacute;e. Quand la
+        magie est le r&eacute;sultat conjoint de plusieurs rituels, ce qui est
+        notamment le cas des objets magiques, chacun doit &ecirc;tre
+        annul&eacute; tour &agrave; tour, en commen&ccedil;ant toujours par le
+        dernier &agrave; avoir &eacute;t&eacute; accompli chronologiquement.
+        D&rsquo;une mani&egrave;re g&eacute;n&eacute;rale, ce sont les
+        m&ecirc;mes op&eacute;rations qui doivent &ecirc;tre
+        r&eacute;p&eacute;t&eacute;es &agrave; l&rsquo;envers. Quand un rituel
+        co&ucirc;te des points de seuil, son annulation en co&ucirc;te
+        &eacute;galement (le m&ecirc;me nombre). Annulation de Magie sert
+        &eacute;galement &agrave; exorciser les entit&eacute;s de cauchemar non
+        incarn&eacute;es. La difficult&eacute; d&rsquo;un exorcisme est toujours
+        R-7, et le co&ucirc;t en points de r&ecirc;ve &eacute;gal au R&Ecirc;VE
+        de l&rsquo;entit&eacute;. Le ciblage doit &ecirc;tre fait sur la
+        cr&eacute;ature poss&eacute;d&eacute;e.</p>
+
+        <p>Avant d&rsquo;accomplir une Annulation de Magie, les
+        param&egrave;tres de la magie &agrave; annuler (case des TMR, R-, r)
+        peuvent &ecirc;tre d&eacute;couverts au moyen du rituel Lecture
+        d&rsquo;Aura.</p>
+
+        <p>Pour la synth&egrave;se d&rsquo;Annulation de Magie,
+        consid&eacute;rer que ce rituel est de difficult&eacute; R-7. Il peut
+        &ecirc;tre utilis&eacute; indiff&eacute;remment par Oniros, Hypnos ou
+        Narcos (mais jamais Thanatos), quelle que soit la voie ayant servi
+        &agrave; accomplir la magie &agrave; annuler.</p>
+      descriptionmj: ''
+      draconic: Oniros/Hypnos/Narcos
+      duree: Instantanée
+      JR: Aucun
+      cible: Effet magique
+      difficulte: variable
+      portée: ''
+      caseTMR: special
+      caseTMRspeciale: variable
+      ptreve: variable
+      xp: 0
+      bonuscase: ''
+      isrituel: true
+      coutseuil: 0
+      lancements: []
+      portee: ''
+    _id: V6FLEjPNk0QOxSjx
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      HDSHRizOiLAt3KIz: 3
+    _stats:
+      compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-oniros.Item.bTqDJmEIw6LJluYc
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.V6FLEjPNk0QOxSjx'
+  - _id: klkBMNrY7WBZWCm6
+    name: Bois transparent
+    type: sort
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_oniros.webp
+    effects: []
+    system:
+      description: >-
+        <p>Les zones de Transparence &Eacute;l&eacute;mentale ob&eacute;issent
+        &agrave; toutes les r&egrave;gles des sorts de zone. Elles ont pour
+        effet de rendre transparent l&rsquo;&eacute;l&eacute;ment
+        impliqu&eacute;. Comme pour les Transmutations
+        &Eacute;l&eacute;mentales, aucune discrimination n&rsquo;est possible" :
+        est affect&eacute;e toute substance concern&eacute;e se trouvant dans la
+        zone. La transparence permet de laisser passer la lumi&egrave;re et donc
+        de voir au travers. Les autres qualit&eacute;s des
+        &eacute;l&eacute;ments ne sont pas alt&eacute;r&eacute;es" : le
+        m&eacute;tal reste aussi dur et tranchant, le bois aussi combustible,
+        etc. Noter que, quoique voisin, transparent ne veut pas dire invisible.
+        Contrairement &agrave; la transmutation, l&rsquo;effet n&rsquo;est pas
+        d&eacute;finitif. L&rsquo;&eacute;l&eacute;ment retrouve son
+        opacit&eacute; d&egrave;s qu&rsquo;il sort de la zone ou &agrave; la fin
+        de la dur&eacute;e de cette derni&egrave;re.</p>
+      descriptionmj: ''
+      draconic: Oniros
+      duree: HN
+      JR: Aucun
+      cible: ''
+      difficulte: '-4'
+      portée: ''
+      caseTMR: cite
+      caseTMRspeciale: ''
+      ptreve: '4'
+      xp: 0
+      bonuscase: ''
+      isrituel: false
+      coutseuil: 0
+      lancements: []
+    ownership:
+      default: 0
+      HDSHRizOiLAt3KIz: 3
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-oniros.Item.ZODdXw50qqLEvh3Q
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.klkBMNrY7WBZWCm6'
+  - _id: SCAqoNZP2FuZ22UO
+    name: Bouclier
+    type: sort
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_oniros.webp
+    effects: []
+    system:
+      description: >-
+        <p>L&rsquo;int&eacute;rieur de la zone de Bouclier ne poss&egrave;de
+        aucune vertu particuli&egrave;re, son int&eacute;r&ecirc;t r&eacute;side
+        dans sa fronti&egrave;re. Cette derni&egrave;re ne peut &ecirc;tre
+        franchie, dans un sens comme dans l&rsquo;autre, que par des objets ou
+        des cr&eacute;atures anim&eacute;s d&rsquo;une vitesse inf&eacute;rieure
+        &agrave; 7 m&egrave;tres par round. Si la vitesse est sup&eacute;rieure,
+        objets ou cr&eacute;atures rebondissent contre l&rsquo;invisible surface
+        de la zone. Les projectiles, fl&egrave;ches, javelots, pierres, etc,
+        sont donc automatiquement arr&ecirc;t&eacute;s par ce bouclier, dans un
+        sens comme dans l&rsquo;autre. Sa surface appara&icirc;t comme
+        l&eacute;g&egrave;rement &eacute;lastique et ne peut causer en soi aucun
+        dommage aux cr&eacute;atures trop rapides qui fonceraient dedans.</p>
+
+        <p>&nbsp;</p>
+
+        <p>La zone laisse passer la lumi&egrave;re et le son. De
+        l&rsquo;int&eacute;rieur, on peut pratiquer toute sorte de magie dont
+        l&rsquo;effet a lieu &agrave; l&rsquo;ext&eacute;rieur, ou &agrave;
+        l&rsquo;int&eacute;rieur (sauf autre sort de zone). De
+        l&rsquo;ext&eacute;rieur, on peut pratiquer toute magie dont
+        l&rsquo;effet a lieu &agrave; l&rsquo;int&eacute;rieur, sauf toujours un
+        autre sort de zone. La zone arr&ecirc;te la gr&ecirc;le. En revanche,
+        elle laisse passer la pluie, la neige ainsi que le vent et la
+        foudre.</p>
+      descriptionmj: ''
+      draconic: Oniros
+      duree: HN
+      JR: Aucun
+      cible: ''
+      difficulte: '-7'
+      portée: ''
+      caseTMR: gouffre
+      caseTMRspeciale: ''
+      ptreve: '6'
+      xp: 0
+      bonuscase: H7:1
+      isrituel: false
+      coutseuil: 0
+      lancements: []
+    ownership:
+      default: 0
+      HDSHRizOiLAt3KIz: 3
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-oniros.Item.7kd1Ik8ulSWZuIIQ
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.SCAqoNZP2FuZ22UO'
+  - _id: OUmphpCjtDWR810E
+    name: Elixir des gnomes
+    type: potion
+    img: systems/foundryvtt-reve-de-dragon/icons/objets/elixir_des_gnomes.webp
+    effects: []
+    folder: null
+    sort: 700000
+    system:
+      description: >-
+        <p>Fluide.</p><p>Liqueur
+        violette.</p><p></p><p>@UUID[Macro.NCH6wRh9S2TeQGI5]{Remplir la
+        Trousse}</p><p>&lt;script&gt;ui.notifications.info(`lancement de la
+        macro`);&lt;/script&gt;</p>
+      descriptionmj: ''
+      magique: false
+      pr: 0
+      purifie: false
+      prpermanent: false
+      prdate: 0
+      encombrement: 0.1
+      quantite: 1
+      qualite: 0
+      cout: 1
+      milieu: ''
+      environnement:
+        - milieu: Villages
+          rarete: Rarissime
+          frequence: 2
+        - milieu: Villes
+          rarete: Rare
+          frequence: 6
+      temporel:
+        debut:
+          indexDate: -1
+          indexMinute: 0
+        fin:
+          indexDate: -1
+          indexMinute: 0
+      rarete: ''
+      categorie: Remede
+      etat: Liquide
+      herbe: ''
+      herbebrins: 0
+      herbebonus: 0
+      reposalchimique: false
+      soinherbe: ''
+      soinherbebonus: 0
+    ownership:
+      default: 0
+      HDSHRizOiLAt3KIz: 3
+    _stats:
+      compendiumSource: Compendium.foundryvtt-reve-de-dragon.equipement.Item.JXMef7FXVOG1XYWO
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    flags: {}
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.OUmphpCjtDWR810E'
+  - type: sortreserve
+    name: Bouclier
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_oniros.webp
+    system:
+      sortid: SCAqoNZP2FuZ22UO
+      draconic: Oniros
+      coord: H7
+      ptreve: 6
+      heurecible: Vaisseau
+      echectotal: false
+    _id: 7xNRKwUOXrL6Wv0T
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      HDSHRizOiLAt3KIz: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.343'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!LGsQrFPbSQYk9Umw.7xNRKwUOXrL6Wv0T'
+img: icons/svg/mystery-man.svg
+system:
+  carac:
+    taille:
+      type: number
+      value: '10'
+      label: Taille
+      xp: 0
+      derivee: false
+    apparence:
+      type: number
+      value: '10'
+      label: Apparence
+      xp: '0'
+      derivee: false
+    constitution:
+      type: number
+      value: '10'
+      label: Constitution
+      xp: '0'
+      derivee: false
+    force:
+      type: number
+      value: '10'
+      label: Force
+      xp: '0'
+      derivee: false
+    agilite:
+      type: number
+      value: '10'
+      label: Agilité
+      xp: '0'
+      derivee: false
+    dexterite:
+      type: number
+      value: '10'
+      label: Dextérité
+      xp: '0'
+      derivee: false
+    vue:
+      type: number
+      value: '10'
+      label: Vue
+      xp: '0'
+      derivee: false
+    ouie:
+      type: number
+      value: '10'
+      label: Ouïe
+      xp: '0'
+      derivee: false
+    odoratgout:
+      type: number
+      value: '10'
+      label: Odorat-Goût
+      xp: '0'
+      derivee: false
+    volonte:
+      type: number
+      value: '10'
+      label: Volonté
+      xp: '0'
+      derivee: false
+    intellect:
+      type: number
+      value: '10'
+      label: Intellect
+      xp: '0'
+      derivee: false
+    empathie:
+      type: number
+      value: '10'
+      label: Empathie
+      xp: '0'
+      derivee: false
+    reve:
+      type: number
+      value: '20'
+      label: Rêve
+      xp: '0'
+      derivee: false
+    chance:
+      type: number
+      value: '10'
+      label: Chance
+      xp: '0'
+      derivee: false
+    melee:
+      type: number
+      value: 10
+      label: Mêlée
+      xp: 0
+      derivee: true
+    tir:
+      type: number
+      value: 10
+      label: Tir
+      xp: 0
+      derivee: true
+    lancer:
+      type: number
+      value: 10
+      label: Lancer
+      xp: 0
+      derivee: true
+    derobee:
+      type: number
+      value: 10
+      label: Dérobée
+      xp: 0
+      derivee: true
+  sante:
+    vie:
+      type: number
+      max: 10
+      value: 10
+      label: Vie
+      derivee: true
+    endurance:
+      type: number
+      max: 20
+      value: 20
+      label: Endurance
+      derivee: true
+    fatigue:
+      type: number
+      max: 40
+      value: 2
+      label: Fatigue
+      derivee: true
+    bonusPotion: 0
+  attributs:
+    sconst:
+      type: number
+      value: 0
+      label: S. Const
+      derivee: true
+    sust:
+      type: number
+      value: 0
+      label: Sustentation
+      derivee: true
+    plusdom:
+      type: number
+      value: 0
+      label: +dom
+      derivee: true
+    encombrement:
+      type: number
+      value: 0
+      label: Encombrement
+      derivee: true
+    protection:
+      type: number
+      value: '0'
+      label: Protection naturelle
+      derivee: false
+    hautrevant:
+      type: string
+      value: ''
+      label: Haut rêvant
+      derivee: true
+  reve:
+    reve:
+      max: 0
+      value: 31
+      label: Points de Rêve actuels
+      thanatosused: false
+    seuil:
+      max: 0
+      value: 20
+      label: Seuil de Rêve
+    tmrpos:
+      coord: I5
+      label: Position TMR
+      cache: false
+    refoulement:
+      value: 0
+      label: Points de Refoulement
+  compteurs:
+    sust:
+      value: '0'
+      label: Sust.
+      isInput: true
+    eau:
+      value: '0'
+      label: Eau
+      isInput: true
+    moral:
+      value: '0'
+      label: Moral
+      isInput: true
+    exaltation:
+      value: '0'
+      label: Exaltation
+      isInput: true
+    dissolution:
+      value: '0'
+      label: Dissolution
+      isInput: true
+    chance:
+      value: '0'
+      max: 0
+      label: Chance actuelle
+      isInput: true
+    destinee:
+      value: '0'
+      label: Destinée
+      isInput: true
+    voyage:
+      value: '0'
+      label: Voyage
+      isInput: true
+    etat:
+      value: 0
+      label: Etat général
+    ethylisme:
+      value: 1
+      label: Ethylisme
+      isInput: true
+      nb_doses: 0
+      jet_moral: false
+    stress:
+      value: '0'
+      label: Stress
+      isStress: true
+      isInput: true
+    experience:
+      value: 0
+      label: Experience
+      isInput: true
+  sommeil:
+    nouveaujour: false
+    date:
+      indexDate: -1
+      indexMinute: 0
+    insomnie: false
+    moral: ''
+    heures: 0
+  metier: ''
+  biographie: ''
+  notes: ''
+  notesmj: ''
+  race: ''
+  yeux: ''
+  cheveux: ''
+  taille: ''
+  poids: ''
+  heure: vaisseau
+  sexe: ''
+  age: '0'
+  beaute: '10'
+  main: droitier
+  experiencelog: []
+  subacteurs:
+    suivants: []
+    montures: []
+    vehicules: []
+prototypeToken:
+  name: Non-Arpenteur
+  displayName: 50
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: sante.vie
+  bar2:
+    attribute: sante.endurance
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+effects: []
+folder: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746870479888
+  modifiedTime: 1746870479888
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_id: LGsQrFPbSQYk9Umw
+sort: 0
+_key: '!actors!LGsQrFPbSQYk9Umw'

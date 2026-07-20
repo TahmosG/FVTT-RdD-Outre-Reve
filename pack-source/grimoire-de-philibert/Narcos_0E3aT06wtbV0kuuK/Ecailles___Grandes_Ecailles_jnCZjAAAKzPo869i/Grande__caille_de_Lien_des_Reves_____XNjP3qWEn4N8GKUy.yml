@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille de Lien des Reves ***
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/queues/idee_fixe.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Lie un objet à un rêve particulier de sorte que l’objet reflète l’état du rêve et vice-versa.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Si l’objet est détruit, le rêve subsiste mais subit certainement un cataclysme</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Une déchirure dans les environs de tel objet tend à mener vers le rêve en question\_</p><p></p></div></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Le Quart-Livre</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-14'
+  portée: ''
+  caseTMR: fleuve
+  caseTMRspeciale: ''
+  ptreve: '12'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 3
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746208029218
+  modifiedTime: 1749283490674
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: XNjP3qWEn4N8GKUy
+sort: 0
+_key: '!items!XNjP3qWEn4N8GKUy'

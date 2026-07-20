@@ -1,0 +1,40 @@
+folder: hpH2JibSYoO8zJO6
+name: '[T] Emprisonnement (ECNI)'
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sante/mort.webp
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel permet d’emprisonner une entité de cauchemar non incarnée dans un os perverti ou un objet enchaîné à un os (cfr. Rituel d’Enchainement)\_</p><p>Le Haut-Rêvant doit avoir sous contrôle l’entité qu’il cherche à emprisonner.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>JR de l’ECNI : à -11 si l’os provient du cadavre dont la mort a provoqué sa création, à -8 si elle a habité le corps, à -4 sinon. En cas de réussite simple, elle n’entre pas dans l’os, mais reste sous le contrôle du Haut-Rêvant. En cas de réussite particulière, l’ECNI est libérée.\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Un os de petite taille, plus petit qu’un radius, peut faciliter le jet de l’Entité. L’entité emprisonnée reste sous le contrôle du Haut-Rêvant, et compte toujours dans son nombre d’ECNI.\_\_</p></div></div><div><ul><li><p>Sur ordre du Maitre de l’objet, une ECNI ainsi emprisonnée peut être libérée et attaquer la cible qu’il lui désigne ou simplement quitter l’os pour revenir autour du Haut-Rêvant.\_\_</p></li></ul></div><div><ul><li><p>À la mort du Haut-Rêvant, l’entité de cauchemar reste enfermée dans l’objet.\_\_</p></li></ul><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Maitrise</span></strong></span> : Si une personne autre que le Haut-Rêvant s’empare de l’os, l’Entité l’attaque immédiatement. Si la personne gagne :\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Elle peut forcer l’entité à revenir dans l’os ; L’entité est alors aux ordres de cette personne (requiert réussite sur un jet de Rêve – niveau de l’ECNI)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Si elle ignore cette possibilité ou ne le veut pas, l’entité est détruite normalement.\_\_</p></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Avantage</span></strong></span> : Incidemment, le Haut-Rêvant ne luit plus de la couleur de l’entité. En revanche, l’os en prend la teinte et peut être détecté par un jet de Vue à -6 ou Vue/Thanatos à -6.\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Source</span></strong></span>: Christophe Osswald.</p><p>https://oniropaedia.lm7.fr/index.php/Emprisonnement \_\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Instantane
+  JR: Special
+  cible: ECNI + Os perverti
+  difficulte: '-10'
+  portée: ''
+  caseTMR: gouffre
+  caseTMRspeciale: ''
+  ptreve: '13'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749288983642
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: XntSeHwgDYtHwE3R
+sort: 300000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!XntSeHwgDYtHwE3R'

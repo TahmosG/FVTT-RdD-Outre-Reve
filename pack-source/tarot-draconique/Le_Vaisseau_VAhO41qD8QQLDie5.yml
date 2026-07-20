@@ -1,0 +1,20 @@
+_id: VAhO41qD8QQLDie5
+name: Le Vaisseau
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 100000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Début, Départ, Mouvement, Jeunesse
+  aspect: Positif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!VAhO41qD8QQLDie5'

@@ -1,0 +1,99 @@
+name: Esquif
+type: rencontre
+img: systems/foundryvtt-reve-de-dragon/icons/tete_dragon.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.0OgocCgU7JUbmFXa]{CEF
+    - Climat -3}</p><p><span style="text-decoration: underline;"><span
+    style="font-family: CaslonAntique"><span style="text-decoration:
+    underline;">Climat Max</span></span></span><span style="font-family:
+    CaslonAntique">: <strong style="box-sizing: border-box; user-select: text;
+    scrollbar-width: thin; scrollbar-color: var(--color-scrollbar)
+    var(--color-scrollbar-track);">1. </strong>Beau Fixe</span></p><p><span
+    style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Equivalent TMR</span></span> : Messager des Rêves (2d4)</p>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: m
+  formule: 2d8
+  refoulement: 0
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 1
+  force: 0
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets:
+      - messager
+    message: >-
+      Un Esquif propose d'emmener votre message {{#if
+      actor.system.reve.tmrpos.cache}}, mais vous ne savez pas où vous
+      êtes{{else}} à {{rencontre.system.force}} cases de {{{tmr.label}}}{{/if}}.
+    poesie: >-
+      <p>J'irai l&agrave;-bas o&ugrave; l'arbre et l'homme, pleins de
+      s&egrave;ve,<br>Se p&acirc;ment longuement sous l'ardeur des climats
+      ;<br>Fortes tresses, soyez la houle qui m'enl&egrave;ve !</p>
+    reference: La chevelure, Charles Baudelaire
+  echec:
+    effets: []
+    message: >-
+      L'esquif est pressé et continue son chemin d'une traite sans vous accorder
+      un regard.
+    poesie: >-
+      <p>En r&eacute;alit&eacute;, tous les &eacute;l&eacute;ments du r&ecirc;ve
+      des Dragons expriment<br>le Draconic : chaque pierre, chaque fleur, chaque
+      goutte d'eau,<br>chaque nuage est porteur d'un message dans la langue des
+      Dragons</p>
+    reference: Rêve de Dragon, Denis Gerfaud
+  frequence:
+    cite: 25
+    sanctuaire: 25
+    plaines: 20
+    pont: 20
+    collines: 15
+    foret: 15
+    monts: 10
+    desert: 10
+    fleuve: 5
+    lac: 5
+    marais: 2
+    gouffre: 2
+    necropole: 0
+    desolation: 0
+    mauvaise: 0
+  immediat:
+    effets:
+      - climat-3
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667846036337
+  modifiedTime: 1748118985859
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.rencontres.Ffk9pio1qy4Z28Lc
+  duplicateSource: null
+  exportSource: null
+_id: 0MwHtPpFV2lTeCtt
+folder: null
+sort: 300000
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+_key: '!items!0MwHtPpFV2lTeCtt'

@@ -1,0 +1,40 @@
+folder: ZtQrnfkHGIKO6O2n
+name: Torpeur (Phil)
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_thanatos.webp
+_id: qGSOn6VQmihkn4V1
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : plonge le corps de la cible en stase profonde, stoppant toutes ses fonctions vitales (respiration, digestion, circulation sanguine, vieillissement, progression de maladie ou poison…) \_</p><p>La victime reste inconsciente et tous ses processus vitaux sont temporairement stoppés ; pour reprendre leur cours naturel au réveil</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les dégâts continuent à se comptabiliser normalement, mais aucun Jet de Vie n’en résulte\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les hémorragies cessent immédiatement mais reprendront à la fin du sort (si non-traitées)</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les blessures ne se referment pas et doivent être traitées pour éviter de potentielles infections\_</p><p>Dans cet état, la victime semble en tout point à un corps sans vie. Une lecture d’aura révèlera néanmoins l’effet en cours.\_</p><p></p></div></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Durée</span></strong></span> : jusqu’à la prochaine HN du Haut-Rêvant, +1H par point de rêve supplémentaire.\_Si la cible venait à mourir durant sa Torpeur, le processus de décomposition naturel du corps ne reprendra qu’a la fin de ce sort.\_</p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Limitation</span></strong></span> : Ne fonctionne que sur une cible vivante et inconsciente (Endurance à 0). Si pour une raison quelconque la cible venait à recouvrer des points d’Endurance, l’effet s’estompe immédiatement.\_</p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Notes</span></strong></span> : Certains patients se plaignirent d’avoir été en prise avec d’étranges rêves morbides durant leur Torpeur, mais cela est totalement sans fondement tangible !\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Philibert l’Accidenteur – Synthétisé pour préserver ses compagnons en cas d’empoisonnement (ou falsifier les morts)</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: HN +r
+  JR: '-8'
+  cible: Creature Inconsciente
+  difficulte: '-8'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: 3+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749292310220
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 200000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!qGSOn6VQmihkn4V1'

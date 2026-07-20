@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille de Protections*
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+_id: KOo4nMjWxbDdayKJ
+system:
+  description: "<div><p><span style=\"font-family: 'Arial',sans-serif\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : cette Grande Ecaille a pour particularité de ne conférer aucune protection en elle-même, elle sert uniquement de catalyseur pour d’autres Ecailles de Protection.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Ses écailles viennent s’additionner à chaque Ecaille de Protection posée sur le même objet\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Elle centralise le Rêve Actif de l'objet en une réserve commune pour chaque écaille de protection.</p></div></div><div><p><span style=\"font-family: 'Arial',sans-serif\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Utilisation</span></strong></span> : Cette Grande Ecaille suit les règles usuelles quant à la Maitrise (1r/écaille) et Activation (1r/H)\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Son activation remplace celle des Ecailles de Protection qu’elle alimente (dépense d’1r unique, pour 1H)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>L’objet dépense 1r par application de ses protections (soit par jet de résistance du porteur)\_</p></div></div><div><p><span style=\"font-family: 'Arial',sans-serif\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Limitation</span></strong></span> : <span style=\"font-family: CaslonAntique\">cette grande ecaille ne permet pas de depacer le maximum de +7 par type de Protections.</span></p></div><div><ul><li><p><span style=\"text-decoration: underline;\">Rappel</span> : une gemme ne peut contenir qu’un seul type d’écaille. Il faudra donc une gemme par effet désiré !\_</p></li></ul></div><blockquote><div><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Source</span></span> : Philibert l’Accidenteur – Synthétisé pour rendre les Amulettes plus attrayantes et versatile lors du voyage.\_\_</p></div><div><p>Cette Grande Ecaille est avant tout utilitaire : faciliter la création et utilisation d’amulettes sur les routes (polyvalence, simplifie la gestion du rêve actif et sa Restauration, souplesse quant à la combinaison des gemmes disponibles...)\_</p></div></blockquote>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet enchanté
+  difficulte: '-12'
+  portée: ''
+  caseTMR: pont
+  caseTMRspeciale: ''
+  ptreve: '10'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749281822931
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 62500
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!KOo4nMjWxbDdayKJ'

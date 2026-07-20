@@ -1,0 +1,19 @@
+name: CEF - Ajuster CLimat
+sorting: a
+folder: null
+type: Macro
+_id: HoT10EpMRiPbjXGa
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1748070983098
+  modifiedTime: 1749126310095
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+_key: '!folders!HoT10EpMRiPbjXGa'

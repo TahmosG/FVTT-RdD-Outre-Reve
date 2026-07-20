@@ -1,0 +1,59 @@
+name: Sacoche du scribe
+type: conteneur
+img: icons/containers/bags/satchel-leather-silver-tan.webp
+effects: []
+folder: UhqBoOSd6J03YY54
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.equipement.yO9Vx7tqF8qbZoYw
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746389428522
+  modifiedTime: 1746891228930
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+ownership:
+  default: 0
+  rYShh2P1DNavdoBD: 3
+  HDSHRizOiLAt3KIz: 3
+system:
+  description: >-
+    <h3>Kit complet d'Ecriture pour Voyageurs</h3><p>Petite sacoche en cuir
+    contenant tout le materiel d'écriture nécéssaire à un voyageur. Compacte,
+    organisé, renforcé et suivant la derniere mode d'Urbapolis, cette Sacoche
+    est la meilleure amie de l'érudit sur la
+    route.</p><h3>Contenu</h3><p>1x@UUID[Compendium.a-perte-de-reve.competences-et-techniques.Item.o6UCmZT6cVAAWp5f]{Trousse
+    du Scribe} contenant tout le materiel necessaire, et plus encore
+    !</p><p>1x@UUID[Compendium.a-perte-de-reve.competences-et-techniques.Item.25St4YrJgrzruW0o]{Tube
+    à parchemins (étanche)} contenant
+    20x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.n2HMv0xv0MFpuiKp]{Parchemin
+    1
+    feuille}</p><p>1x@UUID[Compendium.a-perte-de-reve.competences-et-techniques.Item.C2CFUFqcWmVvNLcr]{Farde
+    de Protection} pour mettre en sureté vos
+    écrits</p><p>1x@UUID[Compendium.a-perte-de-reve.competences-et-techniques.Item.YMSvY9gpGGLLJ5Fc]{Ecritoire
+    portatif} petit écritoire dépliable muni d'un
+    attache-parchemin</p><p>1x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.KlydiUbayqBgJB6J]{Tablette
+    de cire} pour les notes à la volée</p><h3>Notes</h3><p>Le cout de base de la
+    Sacoche est de 0.5 Sols, mais pour la modique somme de 10 Sols, vous y
+    trouverez tout le materiel nécéssaire pour continuer vos ecrits au fil du
+    voyage…</p>
+  descriptionmj: <p>Cout Total = 12.4 Sols</p>
+  encombrement: 0.2
+  quantite: 1
+  qualite: 2
+  cout: 0.5
+  milieu: ''
+  environnement: []
+  contenu:
+    - WlSIwyWkjYDRDCLq
+    - sKSuADz2qUH5VfVe
+    - R2NQzn5RXDOOWbRl
+    - LTlyIHb8C1h4hA6Y
+  capacite: 5
+  equipe: false
+_id: 4CSJmvK7qMt6mUh7
+sort: 300000
+_key: '!items!4CSJmvK7qMt6mUh7'

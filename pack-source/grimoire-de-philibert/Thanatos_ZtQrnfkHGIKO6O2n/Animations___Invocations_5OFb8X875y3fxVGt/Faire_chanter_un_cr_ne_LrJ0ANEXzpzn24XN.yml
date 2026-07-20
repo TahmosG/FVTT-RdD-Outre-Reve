@@ -1,0 +1,41 @@
+name: Faire chanter un crâne
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_thanatos.webp
+effects: []
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel permet de faire chanter un crâne d’humanoïde.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Peut chanter une chanson connue de sa vie ou entendu après sa mort\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>C’est la voix et compétence de chant du défunt que l’on perçoit\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La chanson est au choix du Crane, qui s’adapte aux circonstances (Chanson d’ivrogne dans une auberge, chanson enfantine dans une cours de récré…)\_</p></div></div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Durée</span></strong></span> : 1 Minute par point de rêve dépensé, plus en cas d’applaudissements conséquents\_\_</p></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Selon r dépensé (r+ minutes)
+  JR: Aucun
+  cible: Un crâne humanoide
+  difficulte: '-4'
+  portée: ''
+  caseTMR: cite
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+ownership:
+  default: 0
+  6ibmdmaeRSMTjU4c: 3
+  HDSHRizOiLAt3KIz: 3
+folder: 5OFb8X875y3fxVGt
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746203149075
+  modifiedTime: 1749289178539
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+flags: {}
+_id: LrJ0ANEXzpzn24XN
+sort: 300000
+_key: '!items!LrJ0ANEXzpzn24XN'

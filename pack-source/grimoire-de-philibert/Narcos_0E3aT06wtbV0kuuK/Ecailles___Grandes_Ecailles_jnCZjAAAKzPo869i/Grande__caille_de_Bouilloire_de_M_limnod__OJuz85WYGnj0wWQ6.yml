@@ -1,0 +1,68 @@
+_id: OJuz85WYGnj0wWQ6
+name: Grande Écaille de Bouilloire de Mélimnod*
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>La Grande Écaille <em>Bouilloire de Mélimnod</em>, du nom d'un célèbre
+    haut-rêvant du Second Âge, est un exemple abordable d'objet autonome. Elle
+    doit être posée sur une bouilloire ou un petit chaudron intégralement fait
+    d'argent, de cuivre ou d'étain, à l'exclusion de tout autre métal, d'une
+    capacité de 2 mesures (40 centilitres). La gemme peut être incrustée dans le
+    fond du récipient ou participer à son alliage. A la fin de l'enchantement,
+    avant l'accomplissement de Permanence, elle doit posséder au minimum 1 point
+    de rêve actif. (Le maximum étant comme toujours 7 fois son enchantabilité.)
+    Puis, à la place de Maîtrise, il est obligatoire d'accomplir le rituel
+    d'Autonomie (qui coûte 2 points de seuil). La Grande Écaille peut alors être
+    posée. Il n'en est besoin que d'une seule.</p>
+
+    <p>Dès que la bouilloire se retrouve pleine d'eau (2 mesures), ou d'un
+    liquide appartenant à l'élément Eau, elle se met à chauffer spontanément et
+    porte le liquide à ébullition ern l'espace d'un seul round. Au bout d'un
+    second round, le liquide est réduit de moitié (une mesure). Puis la
+    bouilloire le fait refroidir, et il se retrouve tout juste tiède au bout
+    d'un troisième round. Il peut alors demeurer indéfiniment dans la bouilloire
+    ou être transvasé, mais dès que la bouilloire se retrouve
+    <em>intégralement</em> pleine, le processus recommence. Chaque chauffe lui
+    coûte un de ses points de rêve actifs. Le rituel d'Autonomie les lui fait
+    récupérer à raison de 3 par heure de complète non-utilisation.</p>
+
+    <p>Il est bien entendu possible de mettre des herbes de soin dans la
+    bouilloire avant d'y verser l'eau, de façon à obtenir une décoction en un
+    temps record. Etant autonome, la Bouilloire de Mélimnod n'a pas être
+    maîtrisée. La pose de la Grande Écaille coûte 1 point de seuil.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-9'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: Monts Brûlants E5
+  ptreve: '9'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: ''
+folder: jnCZjAAAKzPo869i
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.zT72qy3Xb8ye9YKb
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746201091977
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 250000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!OJuz85WYGnj0wWQ6'

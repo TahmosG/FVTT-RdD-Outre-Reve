@@ -1,0 +1,38 @@
+name: Falsification
+type: competence
+img: icons/sundries/documents/document-sealed-red-tan.webp
+effects: []
+folder: MGjrq5XfwSd12gdI
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.competences.ue5iDSm2f4efQDWO
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1728924953507
+  modifiedTime: 1748867482088
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+system:
+  description: >-
+    <p>Aptitude à forger des faux. </p><p>S'applique principalement à la
+    contrefacon de documents et seaux officiels, ainsi qu'à l'imitation d'une
+    écriture particuliere. Mais permet egalement des applications plus
+    artistiques ou artisanales (peinture, orfevrerie…)</p>
+  descriptionmj: ''
+  niveau: -8
+  default_diffLibre: 0
+  base: -8
+  categorie: particuliere
+  xp: 0
+  defaut_carac: intellect
+  niveau_archetype: 0
+  xp_sort: 0
+_id: kem1UJwwamWb7hAu
+sort: 300000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!kem1UJwwamWb7hAu'

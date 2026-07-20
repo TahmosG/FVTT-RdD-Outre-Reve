@@ -1,0 +1,40 @@
+name: Hautes Etudes
+type: competence
+img: icons/skills/trades/academics-merchant-scribe.webp
+effects: []
+folder: MGjrq5XfwSd12gdI
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.competences.ue5iDSm2f4efQDWO
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1728924955760
+  modifiedTime: 1748867138025
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+system:
+  description: >-
+    <p>Variante d’Ecriture, utilisée pour l’approche académique des
+    connaissances : permet tant la lecture de textes techniques que la rédaction
+    de Transcriptions ou autres ouvrages. </p><blockquote><p>Généralement, un
+    jet de Hautes-Etudes peut être remplacé par Ecriture avec un malus de -3 ;
+    mais certains ouvrages plus cryptiques nécessitent Hautes-Etudes pour une
+    compréhension complète.</p></blockquote>
+  descriptionmj: ''
+  niveau: -11
+  default_diffLibre: 0
+  base: -11
+  categorie: connaissance
+  xp: 0
+  defaut_carac: intellect
+  niveau_archetype: 0
+  xp_sort: 0
+_id: oG9Hz8qw1A4lyC1A
+sort: 400000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!oG9Hz8qw1A4lyC1A'

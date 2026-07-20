@@ -1,0 +1,20 @@
+_id: W150EcUq9vU9ryyc
+name: La Couronne
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 800000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Honneur, Gloire, Récompense, Ascension
+  aspect: Positif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!W150EcUq9vU9ryyc'

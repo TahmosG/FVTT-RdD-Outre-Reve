@@ -1,0 +1,40 @@
+folder: jp6hW9FYzuFqJcBt
+name: Encre noire d’Hypnos (voir le passé)
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_hypnos.webp
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel permet de voir le passé (vision uniquement).\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le Haut-Rêvant précise le recul exact dans le temps qu'il désire, pour une limite de 100 ans (qui peut être repoussée de 100 ans par 1r dépensé en supplément).\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Dans le miroir formé par la surface de l'encre, le HR voit alors se dérouler une scène du passé du lieu au centre duquel se trouve la vasque.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La portée réfléchie par la vasque est une sphère dont elle est le centre et de rayon E2.\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>L'image se brouille automatiquement à la fin de l'heure en cours (+1h par 1r supplémentaire)\_</p><p></p></div></div></div></div><div><blockquote><p><em><span style=\"text-decoration: underline;\">Source</span> : Rêve de Dragon (1ere Edition)</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: Speciale
+  JR: N/A
+  cible: vasque emplie d'encre noire
+  difficulte: '-10'
+  portée: ''
+  caseTMR: lac
+  caseTMRspeciale: ''
+  ptreve: 6+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E2
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746207487699
+  modifiedTime: 1749283144268
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: lmHfcqCf96OB4KHk
+sort: 0
+_key: '!items!lmHfcqCf96OB4KHk'

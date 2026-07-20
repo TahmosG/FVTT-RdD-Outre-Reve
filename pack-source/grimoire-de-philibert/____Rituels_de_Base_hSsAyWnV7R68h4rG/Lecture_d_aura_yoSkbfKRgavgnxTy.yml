@@ -1,0 +1,75 @@
+name: Lecture d'aura
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+effects: []
+system:
+  description: >-
+    <p>Les rituels de Lecture d&rsquo;Aura peuvent indiff&eacute;remment
+    &ecirc;tre accomplis par n&rsquo;importe laquelle des quatre voies.</p>
+
+    <p>Ce rituel permet d&rsquo;approfondir les informations fournies par
+    D&eacute;tection d&rsquo;Aura. Pratiquer Lecture d&rsquo;Aura quand il
+    n&rsquo;y a pas d&rsquo;aura revient &agrave; demander une magie impossible
+    et cr&eacute;e imm&eacute;diatement une d&eacute;chirure du r&ecirc;ve.</p>
+
+    <p>Lecture d&rsquo;Aura est effectu&eacute;e en plusieurs &eacute;tapes,
+    toutes &eacute;tant de difficult&eacute; R-3 et co&ucirc;tant 3 points de
+    r&ecirc;ve. La premi&egrave;re a toujours lieu dans un sanctuaire et ne fait
+    que r&eacute;v&eacute;ler dans quel(s) autre(s) genre(s) de case(s) le
+    haut-r&ecirc;vant doit se rendre pour continuer sa lecture. L&agrave;, il
+    apprend quel genre de magie a &eacute;t&eacute; produit ou &agrave; quel
+    type de r&ecirc;ve il a affaire, de m&ecirc;me que les cases
+    sp&eacute;cifiques concern&eacute;es. Enfin dans les cases
+    sp&eacute;cifiques, le haut-r&ecirc;vant peut apprendre la force du
+    r&ecirc;ve ou de la magie en cours, c&rsquo;est-&agrave;-dire pratiquement
+    la difficult&eacute; et le nombre de points de r&ecirc;ve impliqu&eacute;s,
+    information indispensable dans l&rsquo;optique d&rsquo;une annulation de
+    magie.</p>
+
+    <p>Lecture d&rsquo;Aura r&eacute;v&egrave;le &eacute;galement la couleur de
+    l&rsquo;aura (fixe ou pulsative) comme D&eacute;tection d&rsquo;Aura. Pour
+    les cr&eacute;atures vivantes, on peut donc sauter l&rsquo;&eacute;tape de
+    D&eacute;tection d&rsquo;Aura et commencer directement par la lecture,
+    puisqu&rsquo;on est s&ucirc;r de trouver une aura. Dans les autres cas, il
+    est plus prudent de commencer par la d&eacute;tection si, en l&rsquo;absence
+    finale d&rsquo;une aura, on ne veut pas cr&eacute;er de magie impossible.
+    Effectu&eacute;e sur une cr&eacute;ature non soumise &agrave; un effet
+    magique ni sous l&rsquo;emprise d&rsquo;une entit&eacute;, Lecture
+    d&rsquo;Aura indique toujours le Fleuve. L&agrave;, dans n&rsquo;importe
+    quelle case du Fleuve, le haut-r&ecirc;vant se contente d&rsquo;apprendre
+    qu&rsquo;il a affaire &agrave; une cr&eacute;ature vivante et dou&eacute;e
+    de r&ecirc;ve.</p>
+  descriptionmj: ''
+  draconic: O/H/N/T
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-3'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: Sanctuaire / variable
+  ptreve: '3'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: hSsAyWnV7R68h4rG
+ownership:
+  default: 0
+  Zh06AIH309BjUY1Z: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746123576039
+  modifiedTime: 1746203998526
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+flags: {}
+_id: yoSkbfKRgavgnxTy
+sort: 25000
+_key: '!items!yoSkbfKRgavgnxTy'

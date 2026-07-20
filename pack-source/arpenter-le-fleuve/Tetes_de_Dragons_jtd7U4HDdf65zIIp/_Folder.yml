@@ -1,0 +1,19 @@
+_id: jtd7U4HDdf65zIIp
+name: Tetes de Dragons
+type: Item
+sorting: a
+sort: 100000
+color: '#714d85'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1749224647560
+  modifiedTime: 1749224647560
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+folder: null
+description: ''
+_key: '!folders!jtd7U4HDdf65zIIp'

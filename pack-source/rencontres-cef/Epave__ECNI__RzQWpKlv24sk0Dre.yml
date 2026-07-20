@@ -1,0 +1,98 @@
+name: Epave (ECNI)
+type: rencontre
+img: icons/creatures/magical/humanoid-silhouette-dashing-blue.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.ifE9QTZxultcLUGM]{Climat
+    +1}</p><p><span style="text-decoration: underline;"><span
+    style="text-decoration: underline;">Equivalent TMR</span></span> : <span
+    style="font-family: CaslonAntique">Reflet d'ancien Rêve
+    (2d6)</span></p><p></p><blockquote><p>Un courrant du Reve apparait sous
+    forme d'une Epave. Cette ECNI entamme une <span style="text-decoration:
+    underline;"><span style="text-decoration: underline;">Empoignade
+    Onirique</span></span> en vue de posseder l'Arpenteur. </p><p>==&gt;
+    <strong>Possession</strong> = Reve / (R-10)/2</p></blockquote>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: f
+  formule: 4d6
+  refoulement: 1
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 7
+  force: '0'
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets: []
+    message: Une {{{rencontre.name}}} apparait et tente de vous posseder!
+    poesie: >-
+      <p>Les formes s'effa&ccedil;aient et n'&eacute;taient plus qu'un
+      r&ecirc;ve,<br>Une &eacute;bauche lente &agrave; venir<br>Sur la toile
+      oubli&eacute;e, et que l'artiste ach&egrave;ve<br>Seulement par le
+      souvenir.</p>
+    reference: Une charogne, Charles Baudelaire
+  echec:
+    effets:
+      - persistant
+    message: >-
+      Vous êtes submergé par une {{{rencontre.name}}}, les souvenirs vous
+      retiennent tant qu'il ne sera pas vaincu!
+    poesie: >-
+      <p>Longtemps ! toujours ! ma main dans ta crini&egrave;re
+      lourde<br>S&egrave;mera le rubis, la perle et le saphir,<br>Afin
+      qu'&agrave; mon d&eacute;sir tu ne sois jamais sourde !<br>N'es-tu pas
+      l'oasis o&ugrave; je r&ecirc;ve, et la gourde<br>O&ugrave; je hume
+      &agrave; longs traits le vin du souvenir</p>
+    reference: La chevelure, Charles Baudelaire
+  frequence:
+    cite: 5
+    sanctuaire: 5
+    plaines: 6
+    pont: 6
+    collines: 6
+    foret: 6
+    monts: 10
+    desert: 10
+    fleuve: 14
+    lac: 14
+    marais: 15
+    gouffre: 15
+    necropole: 15
+    desolation: 15
+    mauvaise: 0
+  immediat:
+    effets:
+      - climat+3
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+flags:
+  core: {}
+_stats:
+  compendiumSource: Item.drXUmMGrrY9jyJPp
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1731855402975
+  modifiedTime: 1749295329665
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+folder: null
+_id: RzQWpKlv24sk0Dre
+sort: 1100000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!RzQWpKlv24sk0Dre'

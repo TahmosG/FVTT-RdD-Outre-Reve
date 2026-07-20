@@ -1,0 +1,220 @@
+folder: RDZ2ySIeE9rLXNhA
+name: ECSI (R22-30) "Le Ver"
+type: creature
+items:
+  - name: Possession
+    type: competencecreature
+    flags:
+      core:
+        sourceId: >-
+          Compendium.foundryvtt-reve-de-dragon.competences-entites.c0I93Q53i4ZmxpyT
+    img: systems/foundryvtt-reve-de-dragon/icons/entites/possession.webp
+    effects: []
+    system:
+      description: >-
+        <p>L'entit&eacute; tente de prendre possession du corps de sa
+        victime.</p>
+      descriptionmj: ''
+      carac_value: 22
+      niveau: 6
+      default_diffLibre: 0
+      categorie: generale
+      categorie_parade: ''
+      iscombat: true
+      isnaturelle: true
+      ispossession: true
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    _stats:
+      compendiumSource: >-
+        Compendium.foundryvtt-reve-de-dragon.competences-entites.c0I93Q53i4ZmxpyT
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: HWv7YRu9Tqc8G0cS
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      Hp9ImM4o9YRTSdfu: 3
+      HDSHRizOiLAt3KIz: 3
+    _key: '!actors.items!JhLH3TWhzoZBs7uN.HWv7YRu9Tqc8G0cS'
+img: icons/environment/creatures/monster-barbed-carapace-purple.webp
+system:
+  carac:
+    taille:
+      type: number
+      value: '10'
+      label: Taille
+      xp: 0
+      derivee: false
+    constitution:
+      type: number
+      value: '10'
+      label: Constitution
+      xp: '0'
+      derivee: false
+    force:
+      type: number
+      value: '10'
+      label: Force
+      xp: '0'
+      derivee: false
+    perception:
+      type: number
+      value: '10'
+      label: Perception
+      xp: '0'
+      derivee: false
+    volonte:
+      type: number
+      value: '10'
+      label: Volonté
+      xp: '0'
+      derivee: false
+    reve:
+      type: number
+      value: '22'
+      label: Rêve
+      xp: '0'
+      derivee: false
+  sante:
+    vie:
+      type: number
+      max: 10
+      value: 10
+      label: Vie
+      derivee: false
+    endurance:
+      type: number
+      max: 10
+      value: 10
+      label: Endurance
+      derivee: false
+    bonusPotion: 0
+  attributs:
+    plusdom:
+      type: number
+      value: '0'
+      label: +dom
+      derivee: true
+    encombrement:
+      type: number
+      value: '0'
+      label: Encombrement
+      derivee: false
+    vitesse:
+      type: string
+      value: '0'
+      label: Vitesse
+      derivee: true
+    protection:
+      type: number
+      value: '0'
+      label: Protection naturelle
+      derivee: false
+  compteurs:
+    etat:
+      value: 0
+      label: Etat général
+  description: "<p>Possede jusque 4x Hantises (+2 en Reve tant qu'en sa possession)</p><p>Peuvent etre envoyer sur une cible pour leur drainer leur Reve (mort a R=0…)</p><p></p><h1 style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0px 0px 0.5rem; padding: 0px; font-weight: bold; font-size: 2em; border-bottom: 2px solid var(--color-underline-header); color: rgb(25, 24, 19); font-family: CaslonAntique; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: 1px; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(245, 245, 240); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"font-family: CaslonAntique\"><strong>Possession</strong></span></h1><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px; color: rgb(25, 24, 19); font-family: CaslonAntique; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 1px; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(245, 245, 240); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: justify\"><span style=\"font-family: CaslonAntique\">Un possédé par la haine se met à haïr tout le monde sans exception, son moral se stabilisant à zéro. Dès qu’il se sent lésé, offensé, victime d’un tort même insignifiant, il\_faut qu’il se venge et que sa vengeance soit\_mortelle. Il peut jouer un jet de VOLONTÉ/ moral à zéro. Si le jet réussit, il peut encore laisser couver sa haine ; s’il échoue, il doit agir immédiatement. Il est conseillé que le gardien des rêves prenne alors le contrôle du personnage s’il s’agit d’un personnage de joueur.</span></p>"
+  race: ''
+  notesmj: Notes du MJ
+prototypeToken:
+  name: Créature
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/foundryvtt-reve-de-dragon/icons/creatures/bramart.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: sante.vie
+  bar2:
+    attribute: sante.endurance
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+effects: []
+flags: {}
+_stats:
+  compendiumSource: Compendium.world.les-zarpenteurs.Actor.r1aasVbNgnrjf6Lb
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746128971553
+  modifiedTime: 1746881119683
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: JhLH3TWhzoZBs7uN
+sort: 100000
+_key: '!actors!JhLH3TWhzoZBs7uN'

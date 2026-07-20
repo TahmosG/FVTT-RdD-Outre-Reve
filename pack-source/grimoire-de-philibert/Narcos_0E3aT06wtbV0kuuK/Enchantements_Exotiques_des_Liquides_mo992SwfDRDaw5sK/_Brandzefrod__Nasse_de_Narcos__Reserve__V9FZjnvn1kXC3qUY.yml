@@ -1,0 +1,40 @@
+folder: mo992SwfDRDaw5sK
+name: '[Brandzefrod] Nasse de Narcos (Reserve)'
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/objets/elixir_des_gnomes.webp
+system:
+  description: "<p>Les enchantements de Brandzefrod sont en fait des <strong>Sorts</strong> (et non rituels) permettant d'enchanter une quantité de liquide statique dans un contenant (generalement, pour 1r par mesure de 20cl)</p><hr><p></p><p><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">– <strong><span style=\"text-decoration: underline;\">Effet</span></strong>\_: permet de mettre en réserve, dans un liquide, un sort qui se déclenchera avec le buveur pour cible. </span><span lang=\"FR\" style=\"color:gray;mso-themecolor:background1;\nmso-themeshade:128\">(Il n’est pas possible de mettre en réserve un sort d’Oniros sauf sort de zone personnelle.)</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>Préparatifs</strong>\_: lancer la Nasse de Narcos (avec au moins autant de r que le sort visé)</span></p><p class=\"MsoListParagraphCxSpMiddle\" style=\"margin-top: 0in; margin-right: 7.9pt; margin-bottom: 6.0pt; margin-left: 70.5pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: Symbol\">· </span></span><span lang=\"FR\">Chaque point de rêve investi permet de contenir 1 point du sort en réserve</span></p><p class=\"MsoListParagraphCxSpMiddle\" style=\"margin-top: 0in; margin-right: 7.9pt; margin-bottom: 6.0pt; margin-left: 70.5pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: Symbol\">· </span></span><span lang=\"FR\">Perte de 1r par jour (Château Dormant)\_; si insuffisant, se dissous après 1H</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>Mise en Reserve\_</strong>: lancer le sort en question\_(+ coût additionnel de 1r pour la mise en réserve)</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">Dès que la Nasse n’a plus assez de r pour maintenir le sort qui y est mis en réserve,</span></p><p class=\"MsoListParagraphCxSpMiddle\" style=\"margin-top: 0in; margin-right: 7.9pt; margin-bottom: 6.0pt; margin-left: 70.5pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: Symbol\">· </span></span><span lang=\"FR\">Le sort se déclenche automatiquement et, faute de ciblage, se centre sur le liquide.</span></p><p class=\"MsoListParagraphCxSpMiddle\" style=\"margin-top: 0in; margin-right: 7.9pt; margin-bottom: 6.0pt; margin-left: 70.5pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: Symbol\">· </span></span><span lang=\"FR\">En cas de <strong>magie impossible</strong>, une déchirure de rêve s’ouvre alors, <span style=\"text-decoration: underline;\">centrée sur le liquide</span>.</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">Un sort de <strong>Permanence</strong> peut rendre la potion permanente et la Nasse indissoluble.</span></p><p><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">– <strong><span style=\"text-decoration: underline;\">Notes</span></strong> : Le liquide doit être statique et maintenu dans un contenant lors des 2 opérations.</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>C’est le même Haut-Rêvant qui doit créer la Nasse onirique et y mettre un sort en réserve.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Seul 1 sort peut être mis en réserve dans une Nasse de Narcos.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Aucun sort d’Enchantement n’est nécessaire pour lancer le sort de Nasse de Narcos.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\">Le buveur doit manquer un <strong>JR à -8</strong> pour voir le sort en réserve faire effet sur lui\_; il perd alors <strong>2 points de rêve actuels</strong> (1r pour la Nasse + 1r pour le sort actif)</span></p><p>– <strong><span style=\"text-decoration: underline;\">Avertissement</span></strong> : Si le liquide est dispersé, le sort en réserve se déclenchera automatiquement.</p><p></p><hr><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Considérations</span></strong></span> :\_\_</p><div><p>-- Un liquide préalablement enchanté ne pourra être « sur-enchanté » par un sortilège du présent traité. Lancer l’un de ces enchantements sur un liquide déjà enchanté aboutira à un cas de magie impossible qui provoquera l’ouverture d’une déchirure de Rêve centrée sur le liquide en question.\_\_</p><p>-- Le non-respect de toute règle associée à l’un des enchantements qui suit (liquide statique, liquide maintenu dans un contenant, volume limite de liquide enchantable, …) aboutira aussi à un cas de magie impossible et à l’ouverture d’une déchirure de Rêve centrée sur le liquide impliqué.\_</p></div></div><p></p><blockquote><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Source</span></span> : Alain G.- sur l’Enchantabilité des Liquide, par la HR Brandzefrod\_; inscriptions murales dans une tour abandonnée</p></blockquote>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: HN
+  JR: JR-8 (Buveur)
+  cible: Liquide
+  difficulte: '-8'
+  portée: ''
+  caseTMR: desolation
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746177150235
+  modifiedTime: 1749286838608
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: V9FZjnvn1kXC3qUY
+sort: 0
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!V9FZjnvn1kXC3qUY'

@@ -1,0 +1,117 @@
+name: Outre-Rêve I) Le Don
+_id: UWiZQyq5p4Rtg9BX
+pages:
+  - sort: 700000
+    name: '- Feuillet : Arpenter le Fleuve'
+    type: pdf
+    _id: NqcZZLVJSYD4DoEE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: >-
+      modules/a-perte-de-reve/assets/Recueil%20de%20Phillibert%20-%20Xtra%20-%20Arpenter%20le%20Fleuve.pdf
+    ownership:
+      default: -1
+      vN9NYKGf7zZY5iGH: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.345'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: 1748872647106
+      modifiedTime: 1748891335113
+      lastModifiedBy: vN9NYKGf7zZY5iGH
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UWiZQyq5p4Rtg9BX.NqcZZLVJSYD4DoEE'
+  - sort: 0
+    name: Don d'Arpenter le Fleuve
+    type: text
+    _id: IHLn7NsKBvLWc0jN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<blockquote><p>Bien qu'apparemment relatif au Haut-Rêve, les compétences et facultés octroyées par ce don ne sont pas des sorts et n’appartiennent pas aux Voies Draconique.</p></blockquote><p></p><h3><span lang=\"FR\" style=\"mso-ansi-language:FR\">Introduction</span></h3><p>Le @UUID[Compendium.a-perte-de-reve.arpenter-le-fleuve.Item.KMC7r4DHKU2StPC6]{Don d'Arpenter le Fleuve} <span lang=\"FR\" style=\"mso-ansi-language:FR\">permet une compréhension profonde et étrange quant à la nature du Rêve. Il permet l’accès à une dimension peu connue des courants du rêve et peut être utilisé pour parcourir ce même Rêve de manière peu orthodoxe…</span></p><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">Pour être plus précis, ce Don permet l’accès au <strong>Fleuve</strong>. Et comme le disent les Sages\_: «\_tout provient du Fleuve, et tout retourne au Fleuve.\_»</span></p><p></p><h3><span lang=\"FR\" style=\"mso-ansi-language:FR\">Bénéfices</span></h3><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">Ainsi, ce Don a la particularité de débloquer deux facultés à son possesseur\_:</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left:30pt;mso-add-space:auto;text-indent:-.25in;mso-list:l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family:'Courier New'\">1.</span></span><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Capacite à </span><strong><span style=\"text-decoration:underline\">Arpenter le Fleuve</span></strong></span>\_: Création et manipulation de Déchirures Bleues, permettant de se déplacer au sein du même rêve, en passant par ce lieu hâtivement nommé «\_le Fleuve\_».</p><p class=\"BulletCxSpMiddle\" style=\"margin-left:30pt;mso-add-space:auto;text-indent:-.25in;mso-list:l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family:'Courier New'\">2.</span></span><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Access à la </span><strong><span style=\"text-decoration:underline\">Carte des Eaux du Fleuves</span></strong><span style=\"text-decoration:underline\"> (CEF)</span></span> : tandis que les TMR permettent au Haut-Rêvants de s’élever vers la conscience des Dragons, la CEF les plonge dans la profondeur du Fleuve, plus proche de leur inconscient et de la source générative du Rêve.</p><p></p><p>==&gt; @UUID[Compendium.a-perte-de-reve.outre-reve-journal.JournalEntry.Xa0hLpn21oWzdlvX]{Outre-Rêve II) Arpenter le Fleuve}, @UUID[Compendium.a-perte-de-reve.outre-reve-journal.JournalEntry.ElkVyIa7SKdLKlSo]{Outre-Rêve III) Les Eaux du Fleuve [CEF]}</p><p></p><h3><span lang=\"FR\" style=\"mso-ansi-language:FR\">Particularité</span></h3><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">Ne dépendant d’aucune Voie Draconique, ce don n’est pas l’éloge des Haut-Rêvant uniquement. De plus, ce don ne semble tisser aucun lien avec l’Archétype, dépendant uniquement des faits et mérites de l’incarnation en cours. (pas de progrès possible durant la conversion du Stress)</span></p><p></p><h3><span lang=\"FR\" style=\"mso-ansi-language:FR\">Acquisition</span></h3><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">Bien que certains Vrai-Rêvants semblent l’avoir découvert à la suite d’un Rêve de Dragon, d’autres Haut-Rêvants l’ont acquis du fait de leur témérité et savoir-faire mis en exergue pour explorer les mystères des TMR.</span></p>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      vN9NYKGf7zZY5iGH: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.345'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: 1748881653470
+      modifiedTime: 1749296270635
+      lastModifiedBy: v2JDi6Azy5mOhVR7
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UWiZQyq5p4Rtg9BX.IHLn7NsKBvLWc0jN'
+  - sort: 900000
+    name: '- Feuillet : La Carte des Eaux du Fleuve'
+    type: pdf
+    _id: NEv6seIqKoPNvz9I
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: >-
+      modules/a-perte-de-reve/assets/Recueil%20de%20Phillibert%20-%20Xtra%20-%20Les%20Eaux%20du%20Fleuve.pdf
+    ownership:
+      default: -1
+      vN9NYKGf7zZY5iGH: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.345'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.50
+      createdTime: 1748888804988
+      modifiedTime: 1748891296504
+      lastModifiedBy: vN9NYKGf7zZY5iGH
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UWiZQyq5p4Rtg9BX.NEv6seIqKoPNvz9I'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746183981441
+  modifiedTime: 1749233500937
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+categories: []
+_key: '!journal!UWiZQyq5p4Rtg9BX'

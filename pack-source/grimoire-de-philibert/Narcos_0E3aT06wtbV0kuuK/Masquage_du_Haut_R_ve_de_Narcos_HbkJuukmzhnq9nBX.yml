@@ -1,0 +1,40 @@
+folder: 0E3aT06wtbV0kuuK
+name: Masquage du Haut-Rêve de Narcos
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Rend plus difficile la Détection, Lecture, Annulation du Haut-Rêve.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Besoin de lancer ce rituel <span style=\"text-decoration: underline;\">avant</span> de lancer le rituel voulu, sans redescendre entre temps\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La difficulté du sort correspond au R du rituel en question,\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La difficulté de détection du Masquage correspond à son degré de réussite\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La difficulté de Lecture du Rituel correspond à l’excèdent de rêve (+)\_</p></div><ul><li><p></p></li></ul></div><blockquote><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Source</span></span> : Le Quart-Livre\_</p></blockquote></div></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Reserve
+  JR: N/A
+  cible: Case TMR
+  difficulte: Selon le R rituel a Masquer
+  portée: ''
+  caseTMR: fleuve
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Avant rituel
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746207963620
+  modifiedTime: 1749288158784
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: HbkJuukmzhnq9nBX
+sort: 0
+_key: '!items!HbkJuukmzhnq9nBX'

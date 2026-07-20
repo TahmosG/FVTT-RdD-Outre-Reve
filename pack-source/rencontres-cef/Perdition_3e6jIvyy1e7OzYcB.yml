@@ -1,0 +1,101 @@
+name: Perdition
+type: rencontre
+img: systems/foundryvtt-reve-de-dragon/icons/queue_dragon.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.eCHLpIZ7OjEjOCqf]{CEF
+    - Climat aléatoire} [[1dt]]</p><p><span style="text-decoration:
+    underline;"><span style="font-family: CaslonAntique"><span
+    style="text-decoration: underline;">Climat Max</span></span></span><span
+    style="font-family: CaslonAntique">: <strong style="box-sizing: border-box;
+    user-select: text; scrollbar-width: thin; scrollbar-color:
+    var(--color-scrollbar) var(--color-scrollbar-track);">6.
+    </strong>Tempete</span></p><p><span style="text-decoration:
+    underline;"><span style="text-decoration: underline;">Equivalent
+    TMR</span></span> : Briseur de Rêve (2d6)</p>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: f
+  formule: 3d4
+  refoulement: 1
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 6
+  force: 0
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets: []
+    message: >-
+      Le {{{rencontre.name}}} tente vainement de vous déconcentrer, avant de
+      fuir sans demander son reste.
+    poesie: >-
+      <p>La l&eacute;gende affirme que ce sont les Gnomes qui furent les
+      premiers haut-r&ecirc;vants. En observant les pierres pr&eacute;cieuses,
+      les gemmes qui sont les larmes de joie des Dragons, ils parvinrent
+      &agrave; en comprendre la langue. Et l'ayant comprise, ils purent s'en
+      servir pour influencer le cours du r&ecirc;ve.</p>
+    reference: Rêve de Dragon, Denis Gerfaud
+  echec:
+    effets:
+      - rompu
+    message: >-
+      Le {{{rencontre.name}}} vous déconcentre au point de briser votre
+      demi-rêve.
+    poesie: >-
+      <p>Quand le r&ecirc;ve se brise,<br>Dans la plainte du jour,<br>Ma
+      m&eacute;moire devient grise<br>Et sombre, tour &agrave; tour,<br>Dans le
+      puits du silence<br>Et de la solitude ;<br>Elle reprend son
+      errance<br>Parmi la multitude.</p>
+    reference: Quand le rêve se brise, Cypora Sebagh
+  frequence:
+    cite: 5
+    sanctuaire: 5
+    plaines: 7
+    pont: 7
+    collines: 13
+    foret: 13
+    monts: 16
+    desert: 16
+    fleuve: 16
+    lac: 16
+    marais: 21
+    gouffre: 21
+    necropole: 20
+    desolation: 20
+    mauvaise: 0
+  immediat:
+    effets:
+      - climat-aleatoire
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667846036340
+  modifiedTime: 1749127213567
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.rencontres.dvEiIk0HFGsvyb5F
+  duplicateSource: null
+  exportSource: null
+_id: 3e6jIvyy1e7OzYcB
+folder: null
+sort: 400000
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+_key: '!items!3e6jIvyy1e7OzYcB'

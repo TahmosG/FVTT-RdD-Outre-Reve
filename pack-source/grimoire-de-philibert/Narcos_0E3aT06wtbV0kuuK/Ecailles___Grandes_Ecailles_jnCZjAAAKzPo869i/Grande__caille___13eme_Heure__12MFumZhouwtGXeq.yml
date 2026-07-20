@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille - 13eme Heure*
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <strong><span style=\"text-decoration: underline;\">Effet</span></strong> : Lorsque l’utilisateur saura que la 13eme heure n’est plus loin il dressera le cadran au-devant de lui et un point de lumière apparaitra de jour comme de nuit à proximité du repaire gravé dans l’anneau qui correspond au symbole de la 13eme heure. Plus l’utilisateur sera proche de la 13eme heure, plus le point lumineux s’approchera du point de repère sur l’anneau.\_</p></div><div><p>– <strong><span style=\"text-decoration: underline;\">Confection</span></strong> : Placé sur un cadran avec le symbole des 12 heures usuelles, plus la 13eme.\_</p></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-13'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: A8
+  ptreve: '13'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749281490262
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: 12MFumZhouwtGXeq
+sort: 325000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!12MFumZhouwtGXeq'

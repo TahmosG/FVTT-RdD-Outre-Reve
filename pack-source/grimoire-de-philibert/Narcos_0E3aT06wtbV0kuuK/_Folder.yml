@@ -1,0 +1,19 @@
+name: Narcos
+sorting: a
+folder: null
+type: Item
+_id: 0E3aT06wtbV0kuuK
+description: ''
+sort: 300000
+color: '#354dbb'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746122430980
+  modifiedTime: 1746205479011
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!folders!0E3aT06wtbV0kuuK'

@@ -1,0 +1,34 @@
+name: Arpenter le Fleuve
+type: competence
+img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_exterieur.webp
+effects: []
+folder: null
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.competences.ue5iDSm2f4efQDWO
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746185171914
+  modifiedTime: 1749298981878
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+system:
+  description: "<p>Compétence Specialisee (-11) obtenue grace au @UUID[Compendium.a-perte-de-reve.arpenter-le-fleuve.Item.KMC7r4DHKU2StPC6]{Don d'Arpenter le Fleuve}</p><h2>Faculté d'<strong>ouvrir des déchirures bleues</strong></h2><p>Ce type de déchirures a pour qualité d’<strong>ouvrir sur le même rêve et d'être à double-sens</strong>. Il est aussi possible qu’une déchirure bleue ouvre directement sur ce «\_lieu\_» que l’on nomme «\_<strong>le Fleuve</strong>\_».</p><p></p><p>Pour plus d'information: @UUID[Compendium.a-perte-de-reve.outre-reve-journal.JournalEntry.Xa0hLpn21oWzdlvX]{Outre-Rêve II) Arpenter le Fleuve}</p><p></p>"
+  descriptionmj: ''
+  niveau: -11
+  default_diffLibre: 0
+  base: -11
+  categorie: draconic
+  xp: 0
+  defaut_carac: reve-actuel
+  niveau_archetype: 0
+  xp_sort: 0
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: hyTTV5sfizVfyn6B
+sort: 0
+_key: '!items!hyTTV5sfizVfyn6B'

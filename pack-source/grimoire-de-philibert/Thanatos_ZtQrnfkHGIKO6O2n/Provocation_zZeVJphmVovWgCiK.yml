@@ -1,0 +1,40 @@
+folder: ZtQrnfkHGIKO6O2n
+name: Provocation
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_thanatos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce sortilège permet de forcer une entité de cauchemar à attaquer le Haut-Rêvant,\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Qu’elle soit actuellement libre, en train de combattre quelqu'un d'autre, possédant quelqu'un d'autre, contrôlée par un Haut-Rêvant ou emprisonnée dans un os.\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le JR est effectué par le Haut-Rêvant contrôlant l'entité de cauchemar si celle-ci est dominée, et par l'entité elle-même dans le cas contraire.\_</p></div></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">En cas de réussite au JR</span></strong></span> : le Haut-Rêvant doit réussir un JR-0 pour chacune des entités de cauchemar qu'il porte sur lui, sous peine de la voir se libérer et se retourner contre lui...\_</p><p></p><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : https://oniropaedia.lm7.fr/index.php/Provocation</em> \_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Instantané
+  JR: '-8'
+  cible: ECNI
+  difficulte: '-8'
+  portée: ''
+  caseTMR: monts
+  caseTMRspeciale: ''
+  ptreve: '5'
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: E1
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191469170
+  modifiedTime: 1749292058519
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: zZeVJphmVovWgCiK
+sort: 0
+_key: '!items!zZeVJphmVovWgCiK'

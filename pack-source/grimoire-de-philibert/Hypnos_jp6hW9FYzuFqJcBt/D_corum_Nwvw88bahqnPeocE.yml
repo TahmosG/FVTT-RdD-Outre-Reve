@@ -1,0 +1,40 @@
+folder: jp6hW9FYzuFqJcBt
+name: Décorum
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_hypnos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Cette illusion permet d’agrémenter le lancer du sort ou rituel qui lui sert de support d’effets visuels, sonore, olfactifs.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les effets peuvent être centrés sur le H-R, la cible du sort support ou aller de l’un vers l’autre.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Cette illusion doit être préalablement accompli dans la case TMR (~en reserve) d’où sera lance un sort ou rituel.</p></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Notes</span></strong></span> : Ces manifestations ne durent qu’un round et n’ont aucune conséquence concrète mais peuvent impressionner les innocents ou les aiguiller sur une mauvaise interprétation des événements.\_</p></div><div><p></p><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Glatissante par Udhessi</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: N/A
+  JR: ''
+  cible: ''
+  difficulte: '-4'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: Avant de lancer un autre Sort/Rituel
+  ptreve: '2'
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: ''
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746207484104
+  modifiedTime: 1749283210346
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: Nwvw88bahqnPeocE
+sort: 0
+_key: '!items!Nwvw88bahqnPeocE'

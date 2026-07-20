@@ -1,0 +1,38 @@
+name: Discour
+type: competence
+img: systems/foundryvtt-reve-de-dragon/icons/objets/parchemin_1_feuille.webp
+effects: []
+folder: MGjrq5XfwSd12gdI
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.competences.ue5iDSm2f4efQDWO
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1728924951756
+  modifiedTime: 1748866924781
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+system:
+  description: >-
+    <p>L’art et la manière de parler pour influencer d’autres personnes.
+    </p><p>Utilisé tant pour expliquer, convaincre, que pour embobiner ses
+    interlocuteurs, il ne s’agit pas ici de Comédie ni de Séduction mais de la
+    faculté à trouver les bons mots et de les exprimer correctement.</p>
+  descriptionmj: ''
+  niveau: -4
+  default_diffLibre: 0
+  base: -4
+  categorie: generale
+  xp: 0
+  defaut_carac: empathie
+  niveau_archetype: 0
+  xp_sort: 0
+_id: EKLiqp5D6Ni8w2I2
+sort: 200000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!EKLiqp5D6Ni8w2I2'

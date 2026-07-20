@@ -1,0 +1,19 @@
+name: Techniques de Combat
+sorting: a
+folder: null
+type: Item
+_id: cauKziavfMyrXbud
+description: ''
+sort: 0
+color: '#ab3030'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746179665390
+  modifiedTime: 1749143289574
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+_key: '!folders!cauKziavfMyrXbud'

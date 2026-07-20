@@ -1,0 +1,55 @@
+name: Peur Thanataire
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_thanatos.webp
+effects: []
+system:
+  description: >-
+    <p>Le sort de Peur Thanataire doit être ciblé sur un objet, lequel, et
+    jusqu'à la fin de l'heure de naissance du haut-rêvant, distillera ensuite
+    une peur intense. Toute personne apercevant l'objet en question et manquant
+    un jet de résistance standard r-8, sera contrainte de s'en détourner, ne
+    pouvant supporter de le regarder ni de s'en approcher ou le regarder le(s)
+    round(s) suivant(s), il faudra réussir unjet de VOLONTÉ ajusté négativement
+    aux points de rêve dépensés. Même chose pour le toucher, le prendre, le
+    frapper. Ce jet de VOLONTÉ doit être renouvelé de round en round jusqu'à ce
+    qui réussisse.</p>
+
+    <p>Le haut-rêvant de Thanatos est lui-même immunisé contre les effets de sa
+    peur thanataire. Par ailleurs, comme c'est la seule vue de l'objet qui
+    déclenche la peur, il n'y a aucun effet tant que l'objet est dissimulé, dans
+    une poche par exemple.</p>
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: HN
+  JR: r-8
+  cible: Un objet
+  difficulte: '-9'
+  portée: ''
+  caseTMR: lac
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: ZtQrnfkHGIKO6O2n
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-thanatos.dK54iZkb7ypIuKwn
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746207971658
+  modifiedTime: 1746207971658
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: cO303LiGfJTV7A1F
+sort: 0
+_key: '!items!cO303LiGfJTV7A1F'

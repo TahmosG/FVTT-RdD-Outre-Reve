@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Écaille de Résistance *
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Cette Écaille <strong>augmente la résistance d'un objet</strong>, lui conférant une protection contre les chocs ainsi qu’une <strong>immunité face aux sorts et effets de zone</strong>.\_</p></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Utilisation</span></strong></span> : Cette écaille ne nécessite pas d'être maîtrisée.\_</p></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Note</span></strong></span> : N’augmente pas la solidité d’une arme ou armure (dans tel cas, poser « Ecaille de Solidité »)\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Alain G. – Ecaille découverte sur des Fioles de conservation d’ingrédients</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/a
+  cible: Objet Enchanté
+  difficulte: '-9'
+  portée: ''
+  caseTMR: monts
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749283848667
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: 8HOXBLcQRMujS12N
+sort: 200000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!8HOXBLcQRMujS12N'

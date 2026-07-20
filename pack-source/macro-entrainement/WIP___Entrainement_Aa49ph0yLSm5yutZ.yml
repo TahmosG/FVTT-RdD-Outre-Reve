@@ -1,0 +1,58 @@
+name: WIP - Entrainement
+type: script
+_id: Aa49ph0yLSm5yutZ
+author: vN9NYKGf7zZY5iGH
+img: icons/skills/movement/arrows-up-trio-red.webp
+scope: global
+command: |-
+  let selected = game.system.rdd.RdDUtility.getSelectedActor();
+
+
+  // WIP: --> hook dans la fenetre de jet de competence???
+
+  const dialogEntrainement = await new Dialog({
+    title: `Entrainement`,
+    content: `${selected.name} entamme un entrainement en...`,
+    buttons: [{ 
+       label: `Commencer l'Entrainement`, 
+       icon: `<img src="icons/skills/movement/arrows-up-trio-red.webp" alt="..."/>`,
+       callback: () => monEntrainement()//selected.rollMeditation(med_dispo[0].id)
+    }]
+  }).render(true)
+
+  let duree = 10; // 1d6 jet par heure d'Entrainement
+  let reussitePart = 9; //en %
+  let echecTot = 95 ; //en %
+
+  async function monEntrainement(){
+    let r = new Roll(`(${duree}d6)d100cf>=${echecTot}cs<=${reussitePart}`, {});
+    await r.evaluate();
+    let details = await r.render();
+
+    ChatMessage.create ({
+      content : `- Duree d'entrainement : ${duree} heures
+             <br>- Chances de réussite : ${reussitePart}%
+             <br>${details}
+             <br>--> ${duree * 2}pts de Fatigue et risque de Maladresse ^^
+             <br>--> Gain de ${r.result}xp en COMPETENCE.`,
+      flavor : "C'est dans la sueur que le voyageur fraie son chemin.", 
+      //roll: `${r.result}`
+    });
+  }
+folder: null
+sort: 100000
+ownership:
+  default: 0
+  vN9NYKGf7zZY5iGH: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1748080295871
+  modifiedTime: 1749126362861
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_key: '!macros!Aa49ph0yLSm5yutZ'

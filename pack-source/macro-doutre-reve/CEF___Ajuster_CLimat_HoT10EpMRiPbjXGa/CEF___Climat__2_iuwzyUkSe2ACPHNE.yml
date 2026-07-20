@@ -1,0 +1,26 @@
+name: CEF - Climat +2
+type: script
+author: vN9NYKGf7zZY5iGH
+img: icons/svg/upgrade.svg
+scope: global
+command: |-
+  let selected = game.system.rdd.RdDUtility.getSelectedActor();
+  await ajusterClimatManuel(selected, 2); return;
+folder: HoT10EpMRiPbjXGa
+ownership:
+  default: 0
+  vN9NYKGf7zZY5iGH: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1748071109766
+  modifiedTime: 1749121523386
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_id: iuwzyUkSe2ACPHNE
+sort: 300000
+_key: '!macros!iuwzyUkSe2ACPHNE'

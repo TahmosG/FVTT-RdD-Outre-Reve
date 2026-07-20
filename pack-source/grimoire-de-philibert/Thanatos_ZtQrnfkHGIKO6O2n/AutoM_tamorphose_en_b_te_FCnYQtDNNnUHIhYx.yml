@@ -1,0 +1,100 @@
+name: AutoMétamorphose en bête
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_thanatos.webp
+effects: []
+system:
+  description: >-
+    <p>Par l'usage de ce sort, le haut-rêvant de Thanatos se transforme lui-même
+    en l'animal de son choix. La métamorphose est instantanée, et correspond
+    dans son résultat à une métamorphose de corps uniquement, et non d'esprit.
+    Le haut-rêvant&nbsp; peut choisir n'importe quelle forme animale d'une
+    TAILLE maximale égale à la sienne, et minimale de 1 (souris). Seul son corps
+    est affecté, pas ses vêtements ni son équipement. Il peut continuer à monter
+    en TMR et lancer des sorts sous cette forme.</p>
+
+    <p>Ses caractéristiques physiques deviennent celles de l'animal choisi,
+    c'est à dire TAILLE, CONSTITUTION, FORCE, PERCEPTION. Les seules qu'il
+    conserve sont INTELLECT, VOLONTÉ, RÊVE. Son Endurance et ses points de vie
+    sont calculés d'après les caractéristiques de l'animal et selon les règles
+    de cacul de ces dernières (Endurance = Vie + CONSTITUTION). Les notions
+    d'Apparence et de Chance disparaissent. Dextérite et Agilité (ou leur
+    équivalent) sont directement inclues dans les compétences de l'animal. Le
+    haut-rêvant n'acquiert que les caractéristiques physiques de l'animal, pas
+    ses caractéristiques spéciales ou magiques. Ainsi un haut-rêvant de Thanatos
+    métamorphosé en sirène, ne pourra pas obtenir les illusions dont ces
+    créatures sont capables, ni d'avoir un chant irrésistible. Transformé en
+    oiseau-oracle, il pourra toujours parler, mais son discours ne reflétera pas
+    automatiquement la vérité. Pour déterminer les caractéristiques physiques
+    des animaux, se fonder sur les modèles présentés dans le Livre III.</p>
+
+    <p>La caractéristique VOLONTÉ reste la sienne. Mais toutes les heures
+    d'autométamorphose et chaque fois que survient un incident pouvant faire
+    réagir l'instinct de l'animal (proie ou prédateur, partenaire de l'autre
+    sexe, etc), tirer un jet de VOLONTÉ à zéro.</p>
+
+    <p><em>Toute réussite. </em>Le haut-rêvant garde ou reprend le contrôle de
+    l'animal et à la prochaine occasion, le jet de VOLONTÉ sera à nouveau à
+    zéro.</p>
+
+    <p>Echec et Ech.P. L'instinct de l'animal l'emporte et la VOLONTÉ du
+    haut-rêvant s'obscurcit. En termes de jeu, l'animal passe sous le contrôle
+    du gardien des rêves pour la durée du round. Au round suivant, rejouer
+    VOLONTÉ à -1, et ainsi de suite de round en round, avec des ajustements
+    cumulatifs de -1 jusqu'à la réussite ou l'échec total.</p>
+
+    <p>Ech.T. La VOLONTÉ du haut-rêvant est définitivement annihilée. A partir
+    de cet instant, l'animal passe entièrement sous le contrôle du gardien des
+    rêves jusqu'à la fin de la durée de l'autométamorphose. Redevenu humain, le
+    haut-rêvant de Thanatos n'a aucun souvenir de ce qu'il a vécu sous forme
+    animale. Qui plus est, son esprit est toujours celui de l'animal, exactement
+    comme s'il était envoûté de métamorphose d'esprit. Il doit alors jouer un
+    jet de VOLONTÉ toutes les heures. Le premier jet à une difficulté de zéro,
+    mais chaque nouvel échec s'incrémente d'un maus de -1. Dès qu'une réussite
+    survient, le haut-rêvant recouvre son mental. Dès qu'un échec total
+    survient, son esprit est définitivement animal, comme s'il avait été envoûté
+    et métamorphosé d'esprit. Seule une Annulation de Magie accomplie par un
+    tiers pourra le délivrer.</p>
+
+    <p>Les points de vie perdus et les blessures sont conservés dans les deux
+    sens, c'est-à-dire au passage de l'humain à l'animal et inversement. Lors du
+    passage à l'état animal, soustraire les points d'endurance dus aux blessures
+    existantes sur l'humain en retirant les jets comme si ces blessures venaient
+    tout juste d'être reçues. Les blessures elles-mêmes figureront sur l'animal.
+    Lors du retour à l'humain, l'endurance est celles qu'il restait à l'animal
+    (jusqu'à concurrence de l'endurance de l'humain), de même que ses
+    éventuelles blessures.</p>
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: HN
+  JR: Aucun
+  cible: Soi-même
+  difficulte: '-7'
+  portée: ''
+  caseTMR: foret
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: ''
+ownership:
+  default: 0
+  6ibmdmaeRSMTjU4c: 3
+  HDSHRizOiLAt3KIz: 3
+folder: ZtQrnfkHGIKO6O2n
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746201356385
+  modifiedTime: 1746204504635
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+flags: {}
+_id: FCnYQtDNNnUHIhYx
+sort: 175000
+_key: '!items!FCnYQtDNNnUHIhYx'

@@ -1,0 +1,74 @@
+name: (Z) Élargissement de zone
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_oniros.webp
+effects: []
+system:
+  description: >-
+    <p>Les rituels d&rsquo;Oniros ob&eacute;issent &agrave; toutes les
+    r&egrave;gles des rituels : leurs chances de r&eacute;ussite sont
+    ajust&eacute;es astrologiquement selon l&rsquo;heure de naissance du
+    haut-r&ecirc;vant, et ils ne peuvent &ecirc;tre mis en r&eacute;serve.
+    Chaque &eacute;toile * dont peut &ecirc;tre suivi le titre d&rsquo;un rituel
+    indique le co&ucirc;t d&rsquo;un point de seuil de r&ecirc;ve. Le seuil est
+    diminu&eacute; aussit&ocirc;t le rituel accompli. Chaque R&ecirc;ve de
+    Dragon vaincu permet d&rsquo;en regagner 1 point.</p>
+
+    <p>Ce rituel permet de doubler le diam&egrave;tre des zones de Transmutation
+    &Eacute;l&eacute;mentale et de quadrupler celui des autres sorts de zone. Le
+    diam&egrave;tre des zones de transmutation peut ainsi faire
+    jusqu&rsquo;&agrave; 6 m&egrave;tres et celui des autres
+    jusqu&rsquo;&agrave; 12 m&egrave;tres.</p>
+
+    <p>Le rituel doit &ecirc;tre pr&eacute;alablement accompli dans la case
+    d&rsquo;o&ugrave; sera ensuite lanc&eacute; le sort de zone. Il n&rsquo;y a
+    aucun temps limite entre le moment o&ugrave; le rituel est accompli et celui
+    o&ugrave; sera lanc&eacute; le sort de zone. Tout se passe comme si
+    l&rsquo;effet &eacute;tait en r&eacute;serve.</p>
+
+    <p>Pareillement, le demi-r&ecirc;ve ne redescend pas obligatoirement
+    apr&egrave;s l&rsquo;accomplissement du rituel, cette option est au choix du
+    haut-r&ecirc;vant, qui peut lancer son sort de zone sans avoir &agrave;
+    remonter en TMR.</p>
+
+    <p>La seule restriction est que le prochain sort &agrave; &ecirc;tre
+    lanc&eacute; depuis la case en question devra obligatoirement &ecirc;tre un
+    sort de zone. Contrevenir &agrave; cette r&egrave;gle cr&eacute;e
+    instantan&eacute;ment une d&eacute;chirure du r&ecirc;ve centr&eacute;e sur
+    le haut-r&ecirc;vant. Bulle Volante, Barque de R&ecirc;ve, Lanterne et Pont
+    Immat&eacute;riel ne sont pas affect&eacute;s par ce rituel.</p>
+  descriptionmj: ''
+  draconic: Oniros
+  duree: Spéciale
+  JR: Aucun
+  cible: ''
+  difficulte: '-4'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: variable
+  ptreve: '4'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+ownership:
+  default: 0
+  jOzRscDxoXZWpGS6: 3
+  HDSHRizOiLAt3KIz: 3
+folder: 4fa8ALVKVsKmQGt8
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-oniros.cHOcwNOGQtiU4g0P
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746201866251
+  modifiedTime: 1749224706431
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_id: DZrKoCW93aLx7cwx
+sort: 100000
+_key: '!items!DZrKoCW93aLx7cwx'

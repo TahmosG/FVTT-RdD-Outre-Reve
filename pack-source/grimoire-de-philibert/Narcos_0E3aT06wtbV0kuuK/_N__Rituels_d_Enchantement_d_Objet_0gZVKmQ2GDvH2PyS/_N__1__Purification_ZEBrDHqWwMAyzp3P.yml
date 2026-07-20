@@ -1,0 +1,47 @@
+_id: ZEBrDHqWwMAyzp3P
+name: '[N] 1. Purification'
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Purification est un rituel secondaire, mais néanmoins obligatoire. A
+    moins de disposer d'une énorme quantité de points de rêve, il est vain
+    d'espérer enchanter l'objet en une seule fois. Purifcation doit toujours
+    s'intercaler entre deux rituels identiques : entre deux Enchantements, mais
+    également entre deux écailles, d'activité ou de protection. Sauter cette
+    étape aboutit à un cas de <em>magie impossible</em>.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-4'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: '4'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: 0gZVKmQ2GDvH2PyS
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.TjhnUMh6UL04k0k8
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198839597
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 200000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!ZEBrDHqWwMAyzp3P'

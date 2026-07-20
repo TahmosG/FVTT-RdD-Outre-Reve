@@ -1,0 +1,41 @@
+name: Allongement de Sort Individuel
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_thanatos.webp
+effects: []
+system:
+  description: "<div><p><strong><span style=\"text-decoration: underline;\">Effet</span></strong> : Ce rituel permet d’allonger la durée d’un sort individuel dont la durée initiale est HN.\_</p><p> — Rallonge la durée d’une Heure Draconique par point de rêve\_</p><p> — Le rituel doit être préalablement accompli dans la case où sera ensuite lancé le sort, sans temps limite entre les deux.\_\_</p><p> — L'effet est comme en réserve et le demi-rêve ne redescend pas automatiquement après ce rituel\_</p></div><div><ul><li><p>Le prochain sort ou rituel sur cette case doit obligatoirement être un sort individuel pouvant être allongé. Si tel n’est pas le cas, il en résulte en cas de Magie impossible\_</p></li></ul></div><div><p><strong><span style=\"text-decoration: underline;\">Avantages</span></strong> : outre le rallongement, c’est une <strong>manière élégante pour un HR de masquer son HN.</strong></p></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: 1H par r depensé
+  JR: N/A
+  cible: N/A
+  difficulte: '-6'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: avant le Sort a allonger
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: N/A
+folder: ZtQrnfkHGIKO6O2n
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-thanatos.8hCVBWM48GNb8e6P
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746191058092
+  modifiedTime: 1746204501403
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: UsJP5gwfIxVQzzUn
+sort: -100000
+_key: '!items!UsJP5gwfIxVQzzUn'

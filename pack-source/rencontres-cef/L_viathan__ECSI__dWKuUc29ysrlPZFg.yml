@@ -1,0 +1,105 @@
+name: Léviathan (ECSI)
+type: rencontre
+img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.tE2WJtOiKtJaUno9]{CEF
+    - Climat +3}</p><p><span style="text-decoration: underline;"><span
+    style="text-decoration: underline;">Equivalent TMR</span></span> : Rêve de
+    Dragon (7+1dr)</p><p></p><blockquote><p>"Une afreuse ECSI prend forme et
+    entamme un <strong>combat physique</strong> avec le malheureux
+    Arpenteur."</p><p><em>Sa </em><span style="text-decoration:
+    underline;"><em><strong><span style="text-decoration:
+    underline;">Force</span></strong></em></span><em> équivaut au Rêve Actuel de
+    l'Arpenteur (min 15), il effectue <strong>2x Attaques</strong> de Griffes
+    par round</em></p></blockquote>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: m
+  formule: 2dr+7
+  refoulement: 2
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 10
+  force: 0
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets:
+      - reve+f
+      - part+tete
+      - part+xp
+      - seuil
+    message: >-
+      A tout seigneur, tout honneur, vous faites face à un {{{rencontre.name}}}.
+      Vous le maîtrisez et gagnez ses {{rencontre.system.force}} points de rêve.
+    poesie: >-
+      <p>Le monde est R&ecirc;ve de Dragons, mais nous ne savons <br>Ni leur
+      apparence ni qui sont les dragons. <br>En d&eacute;pit de l'iconographie
+      qui les clame <br>Immenses cr&eacute;atures ail&eacute;es crachant des
+      flammes</p>
+    reference: Rêve de Dragon, Denis Gerfaud
+  echec:
+    effets:
+      - echec-queue
+    message: >-
+      A tout seigneur, tout honneur, vous faites face à un {{{rencontre.name}}}.
+      La rencontre tourne au cauchemar, dans la lutte épique, vous subissez
+      {{#if rolled.isETotal}}deux queues{{else}}une queue{{/if}} de dragon!
+    poesie: >-
+      <p>Je suis le T&eacute;n&eacute;breux, &ndash; le Veuf, &ndash;
+      l'Inconsol&eacute;, <br>Le Prince d'Aquitaine &agrave; la Tour abolie :
+      <br>Ma seule Etoile est morte, &ndash; et mon luth constell&eacute;
+      <br>Porte le Soleil noir de la M&eacute;lancolie.</p>
+    reference: El Desdichado, Gérard de Nerval
+  frequence:
+    cite: 3
+    sanctuaire: 3
+    plaines: 3
+    pont: 3
+    collines: 3
+    foret: 3
+    monts: 3
+    desert: 3
+    fleuve: 3
+    lac: 3
+    marais: 3
+    gouffre: 3
+    necropole: 3
+    desolation: 3
+    mauvaise: 0
+  immediat:
+    effets:
+      - climat+3
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667846036338
+  modifiedTime: 1749295180229
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.rencontres.Hw40Q8jS9wmukgU4
+  duplicateSource: null
+  exportSource: null
+_id: dWKuUc29ysrlPZFg
+folder: null
+sort: 700000
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+_key: '!items!dWKuUc29ysrlPZFg'

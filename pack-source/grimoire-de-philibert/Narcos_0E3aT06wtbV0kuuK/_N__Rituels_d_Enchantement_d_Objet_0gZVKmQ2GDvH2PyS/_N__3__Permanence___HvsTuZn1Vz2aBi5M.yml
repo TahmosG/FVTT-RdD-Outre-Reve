@@ -1,0 +1,46 @@
+_id: HvsTuZn1Vz2aBi5M
+name: '[N] 3. Permanence *'
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>C'est par ce rituel que le haut-rêvant stabilise les points de rêve d'une
+    potion ou d'un objet, afin d'en prévenir l'évaporation quotidienne.
+    Facultatif pour les potions, le rituel de Permanence est obligatoire pour
+    tous les autres objets magiques.&nbsp; Son accomplissement diminue de 1
+    point le seuil de rêve du haut-rêvant.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: ''
+  cible: ''
+  difficulte: '-5'
+  portée: ''
+  caseTMR: sanctuaire
+  caseTMRspeciale: ''
+  ptreve: '5'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: ''
+folder: 0gZVKmQ2GDvH2PyS
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.FpwaK1qJxKGs9HgS
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198839597
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 400000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!HvsTuZn1Vz2aBi5M'

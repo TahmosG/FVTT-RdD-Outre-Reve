@@ -1,0 +1,113 @@
+name: Feu flottant
+type: rencontre
+img: systems/foundryvtt-reve-de-dragon/icons/tete_dragon.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.gNkd0QpfiiKu63HT]{CEF
+    - Climat -1}</p><p><span style="text-decoration: underline;"><span
+    style="font-family: CaslonAntique"><span style="text-decoration:
+    underline;">Climat Max</span></span></span><span style="font-family:
+    CaslonAntique">: <strong style="box-sizing: border-box; user-select: text;
+    scrollbar-width: thin; scrollbar-color: var(--color-scrollbar)
+    var(--color-scrollbar-track);">3. </strong>Brumes</span></p><p><span
+    style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Equivalent TMR</span></span> : Fleur des rêves (1d6)</p><p></p>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: m
+  formule: 2d4
+  refoulement: 0
+  presentCite: true
+  mauvaiseRencontre: false
+  ordreTri: 3
+  force: '0'
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets:
+      - reve+f
+    message: >-
+      Vous cueillez la {{{rencontre.name}}}, son parfum vous apporte
+      {{rencontre.system.force}} points de Rêve.
+    poesie: >-
+      <p>Et qui sait si les fleurs nouvelles que je r&ecirc;ve<br>Trouveront
+      dans ce sol lav&eacute; comme une gr&egrave;ve<br>Le mystique aliment qui
+      ferait leur vigueur ?</p>
+    reference: L'Ennemi, Charles Baudelaire
+    effet:
+      - reve+f
+  echec:
+    effets: []
+    message: La {{{rencontre.name}}} se fane et disparaît entre vos doigts.
+    poesie: >-
+      <p>Et le ciel regardait la carcasse superbe<br>Comme une fleur
+      s'&eacute;panouir.<br>La puanteur &eacute;tait si forte, que sur
+      l'herbe<br>Vous cr&ucirc;tes vous &eacute;vanouir.</p>
+    reference: Une charogne, Charles Baudelaire
+  frequence:
+    cite: 15
+    sanctuaire: 15
+    plaines: 15
+    pont: 15
+    collines: 12
+    foret: 12
+    monts: 6
+    desert: 6
+    fleuve: 3
+    lac: 3
+    marais: 1
+    gouffre: 1
+    necropole: 0
+    desolation: 0
+    mauvaise: 0
+  immediat:
+    effets:
+      - climat-1
+    message: ''
+    poesie: ''
+    reference: ''
+  onSucces:
+    effets: []
+    message: ''
+    poesie: ''
+    reference: ''
+  onEchec:
+    effets: []
+    message: ''
+    poesie: ''
+    reference: ''
+  code: ''
+  onSuccess:
+    effets: []
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667846036335
+  modifiedTime: 1748118977098
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.rencontres.2ywduc2BHGpVvUbz
+  duplicateSource: null
+  exportSource: null
+_id: jtJk1ptJXsdsGZHA
+folder: null
+sort: 900000
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+_key: '!items!jtJk1ptJXsdsGZHA'

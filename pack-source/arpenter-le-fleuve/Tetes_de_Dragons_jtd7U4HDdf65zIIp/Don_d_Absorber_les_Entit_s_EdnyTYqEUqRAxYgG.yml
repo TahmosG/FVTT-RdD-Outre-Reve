@@ -1,0 +1,29 @@
+_id: EdnyTYqEUqRAxYgG
+name: Don d'Absorber les Entités
+type: tete
+img: systems/foundryvtt-reve-de-dragon/icons/queue_dragon.webp
+effects: []
+folder: jtd7U4HDdf65zIIp
+sort: 200000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1749224647579
+  modifiedTime: 1749224880314
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+  LcmUaimujH76MktN: 3
+  vN9NYKGf7zZY5iGH: 3
+system:
+  description: "<h2>Effets</h2><p><span lang=\"FR\" style=\"mso-ansi-language:FR\">Permet d'<strong>Absorber le RÊVE</strong> <strong>d'une Entité vaincue</strong> (ECNI/ECSI) </span>==&gt; <span lang=\"FR\" style=\"mso-ansi-language:FR\">gagne autant de points de rêve actuel que la Caractéristique RÊVE de l'Entité.</span></p><h2>Processus</h2><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">Lors d'une Empoignade Onirique (lutte de possession/conjuration entre une Entité et un Rêvant), le Haut-Rêvant, ayant cumulé 2 points de conjuration en fin de round (après résolutions de toutes les attaques et parades) contre une ECNI ou ECSI, peut choisir de</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"mso-ansi-language:FR\">soit la <strong>Conjurer</strong> pour une destruction totale</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"mso-ansi-language:FR\">soit la <strong>Contrôler</strong> si conjuration par Thanatos</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"mso-ansi-language:FR\">soit d'<strong>Absorber</strong> l'integralité de son RÊVE</span></p><p></p><h2>Avertissement</h2><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Attention à l'éclatement de Rêve</span></span> : il n'est pas possible d'être sélectif dans la quantité de rêve absorbé. C'est tout ou rien !</p>"
+  descriptionmj: ''
+  frequence: 0
+  hautrevant: true
+_key: '!items!EdnyTYqEUqRAxYgG'

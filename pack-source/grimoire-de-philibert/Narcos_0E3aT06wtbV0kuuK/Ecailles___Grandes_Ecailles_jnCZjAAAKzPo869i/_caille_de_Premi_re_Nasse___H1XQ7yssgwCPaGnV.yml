@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Écaille de Première Nasse**
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Sert d’armature à la réception d’un sort mis en réserve, ultérieurement, dans la gemme.\_</p></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Mise en Reserve</span></strong></span> : Le Haut-Rêvant lance le sort voulu tout en touchant la gemme de Premiere Nasse du bout de son doigt.</p><p>Cout additionnel de 2r (en sus du cout normal du Sort)\_\_</p></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Utilisation</span></strong></span> : aucune dépense de rêve lors du lancement du sort mis en réserve ; l’effet se produit immédiatement (durant le round en cours) et peut nécéssiter un ciblage, selon le sort utilisé.\_</p></div><div><p></p><blockquote><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Source</span></span> : Alain G. </p><p>Trouvé dans le repaire du HR Brandzefrod, posé sur un Médaillon serti de 4 gemmes (1x Première Nasse chacune)\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-11'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: '9'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 2
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749311069721
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: H1XQ7yssgwCPaGnV
+sort: 37500
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!H1XQ7yssgwCPaGnV'

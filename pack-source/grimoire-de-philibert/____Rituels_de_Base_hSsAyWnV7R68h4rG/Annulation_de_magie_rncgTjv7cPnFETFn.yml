@@ -1,0 +1,77 @@
+name: Annulation de magie
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+effects: []
+system:
+  description: >-
+    <p>Ce rituel permet d&rsquo;annuler un effet magique, que celui-ci ait
+    &eacute;t&eacute; accompli par soi-m&ecirc;me ou par un autre
+    haut-r&ecirc;vant. On peut annuler l&rsquo;effet d&rsquo;un sort, de zone ou
+    individuel, d&rsquo;un rituel d&rsquo;enchantement, d&rsquo;une invocation,
+    etc.</p>
+
+    <p>Le haut-r&ecirc;vant doit se trouver dans la case <em>sp&eacute;cifique
+    </em>des TMR d&rsquo;o&ugrave; la magie a &eacute;t&eacute; accomplie. Le
+    jet de R&Ecirc;VE qu&rsquo;il doit r&eacute;ussir a alors la m&ecirc;me
+    difficult&eacute; que celui ayant permis la magie, avec une d&eacute;pense
+    de points de r&ecirc;ve pareillement identique.</p>
+
+    <p>Pour annuler une invocation, le rituel d&rsquo;Annulation doit &ecirc;tre
+    cibl&eacute; sur la cr&eacute;ature invoqu&eacute;e. Quand la magie est le
+    r&eacute;sultat conjoint de plusieurs rituels, ce qui est notamment le cas
+    des objets magiques, chacun doit &ecirc;tre annul&eacute; tour &agrave;
+    tour, en commen&ccedil;ant toujours par le dernier &agrave; avoir
+    &eacute;t&eacute; accompli chronologiquement. D&rsquo;une mani&egrave;re
+    g&eacute;n&eacute;rale, ce sont les m&ecirc;mes op&eacute;rations qui
+    doivent &ecirc;tre r&eacute;p&eacute;t&eacute;es &agrave; l&rsquo;envers.
+    Quand un rituel co&ucirc;te des points de seuil, son annulation en
+    co&ucirc;te &eacute;galement (le m&ecirc;me nombre). Annulation de Magie
+    sert &eacute;galement &agrave; exorciser les entit&eacute;s de cauchemar non
+    incarn&eacute;es. La difficult&eacute; d&rsquo;un exorcisme est toujours
+    R-7, et le co&ucirc;t en points de r&ecirc;ve &eacute;gal au R&Ecirc;VE de
+    l&rsquo;entit&eacute;. Le ciblage doit &ecirc;tre fait sur la
+    cr&eacute;ature poss&eacute;d&eacute;e.</p>
+
+    <p>Avant d&rsquo;accomplir une Annulation de Magie, les param&egrave;tres de
+    la magie &agrave; annuler (case des TMR, R-, r) peuvent &ecirc;tre
+    d&eacute;couverts au moyen du rituel Lecture d&rsquo;Aura.</p>
+
+    <p>Pour la synth&egrave;se d&rsquo;Annulation de Magie, consid&eacute;rer
+    que ce rituel est de difficult&eacute; R-7. Il peut &ecirc;tre
+    utilis&eacute; indiff&eacute;remment par Oniros, Hypnos ou Narcos (mais
+    jamais Thanatos), quelle que soit la voie ayant servi &agrave; accomplir la
+    magie &agrave; annuler.</p>
+  descriptionmj: ''
+  draconic: O/H/N
+  duree: Instantanée
+  JR: Aucun
+  cible: Effet magique
+  difficulte: variable
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: variable
+  ptreve: variable
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: hSsAyWnV7R68h4rG
+ownership:
+  default: 0
+  Zh06AIH309BjUY1Z: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746123566072
+  modifiedTime: 1746203992386
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+flags: {}
+_id: rncgTjv7cPnFETFn
+sort: 100000
+_key: '!items!rncgTjv7cPnFETFn'

@@ -1,0 +1,80 @@
+_id: lUJRGDJ5LEmmnSrS
+name: Grande Écaille de Puits de rêve*
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Le Puits de rêve permet de stocker des points de rêve et de les y puiser
+    à volonté, c'est en quelque sorte une tirelire de points de rêve. Le Puits
+    de rêve peut avoir la forme de n'importe quel objet et même se contenter
+    d'être une gemme seule. Pour y stocker des points de rêve, l'utilisateur
+    doit le tenir dans sa main nue et se concentrer pendant un round. Il perd
+    autant de points de rêve que souhaité, points qui sont instantanément
+    transvasés dans le Puits de rêve. Aucune montée en TMR ni jets de dés ne
+    sont nécessaires. Pareillement, pour puiser des points de rêve dans le
+    Puits, il suffit de le tenir dans sa main nue au moment de lancer un sort.
+    Au lieu de dépenser ses propres points, l'utilisateur les puise dans le
+    Puits de rêve. Les points puisés ne peuvent avoir qu'un seul usage :
+    alimenter un sort, lancé naturellement ou via une écaille d'activité, ou
+    alimenter un rituel. Rien d'autre. Il ne peuvent pas servir à payer un coût
+    de maîtrise ni un coût d'objet efficace, ni un coût d'amulette de
+    protection. La dépense de points de rêve doit provenir intégralement de
+    l'une ou l'autre source, utilisateur ou Puits de rêve, on ne peut pas
+    partager. On ne peut pas non plus les récupérer pour les "remettre dans sa
+    tête".</p>
+
+    <p>La gemme destinée à recevoir un Puits de rêve n'a pas besoin de points
+    actifs ; si elle en a lors de l'accomplissement de Permanence, ils sont
+    purement et simplement ignorés (annulés). La gemme peut recevoir autant de
+    Grandes Écailles de Puits de rêve que son enchantibilité jusqu'à un maximum
+    de 7. Chaque Grande Écaille permet de stocker jusqu'à 7 points de rêve.
+    <em>Soit une gemme d'enchantabilité 6 possédant 6 Grandes Écailles de Puits
+    de rêve, on peut y stocker jusqu'à 42 points de rêve.</em> Un Puits de rêve
+    n'a jamais besoin d'être entièrement plein et peut pareillement rester vide
+    sans en souffrir. Face à une grosse dépense, on peut le vider entièrement
+    d'un seul coup.</p>
+
+    <p>Un Puits de rêve peut être posé (avec Individualité) sur une seconde
+    gemme d'un objet possédant une écaille d'activité. Lors de l'utilisation de
+    l'objet, les points de rêve de coût de sort pourront être dépensés par le
+    Puits de rêve ou par l'utilisateur au choix de ce dernier. Un Puits de rêve
+    changeant de main doit être maîtrisé selon la règle normale. La maîtrise a
+    lieu soit au moment où l'on stocke, soit où l'on puise, le premier des deux,
+    et coûte 1 point de rêve par Grande Écaille. <em>Note&nbsp;</em> : les
+    points dépensés pour la maîtrise ne <em>vont pas</em> dans le Puis de rêve,
+    sils ont perdus.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-8'
+  portée: ''
+  caseTMR: lac
+  caseTMRspeciale: ''
+  ptreve: '8'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: ''
+folder: jnCZjAAAKzPo869i
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.TSDY6o00ri2ktlVM
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746201087574
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!lUJRGDJ5LEmmnSrS'

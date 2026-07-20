@@ -1,0 +1,19 @@
+name: Ecailles & Grandes Ecailles
+sorting: a
+folder: 0E3aT06wtbV0kuuK
+type: Item
+_id: jnCZjAAAKzPo869i
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959334
+  modifiedTime: 1746201082741
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!folders!jnCZjAAAKzPo869i'

@@ -1,0 +1,19 @@
+name: '[T] Griffes & Rituels de Perversion'
+sorting: a
+folder: ZtQrnfkHGIKO6O2n
+type: Item
+_id: hpH2JibSYoO8zJO6
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: null
+  modifiedTime: 1746202879176
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!folders!hpH2JibSYoO8zJO6'

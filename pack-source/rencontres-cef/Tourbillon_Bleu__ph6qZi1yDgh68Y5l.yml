@@ -1,0 +1,95 @@
+name: Tourbillon Bleu*
+type: rencontre
+img: systems/foundryvtt-reve-de-dragon/icons/queue_dragon.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> :
+    @UUID[Compendium.a-perte-de-reve.macro-doutre-reve.Macro.ifE9QTZxultcLUGM]{CEF
+    - Climat +1}</p><p><span style="text-decoration: underline;"><span
+    style="text-decoration: underline;">Equivalent TMR</span></span> :
+    Tourbillon blanc (2d6)</p>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: m
+  formule: 2d8
+  refoulement: 1
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 8
+  force: '0'
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets: []
+    message: >-
+      Le {{{rencontre.name}}} souleve une poussière bleue, vous tenez bon, et il
+      tourbillonne en s'éloignant.
+    poesie: >-
+      <p>Le Premier &Acirc;ge fut appel&eacute; l'&Acirc;ge des Dragons. Ce fut
+      le commencement<br>des temps, le commencement des r&ecirc;ves. Durant
+      cette p&eacute;riode plus mythique<br>que r&eacute;ellement historique,
+      les Dragons aimaient &agrave; se r&ecirc;ver eux-m&ecirc;mes.</p>
+    reference: Rêve de Dragon, Denis Gerfaud
+  echec:
+    effets:
+      - reve-1
+      - aleatoire
+      - persistant
+    message: >-
+      Le souffle du {{{rencontre.name}}} vous déstabilise et vous emmène dans un
+      nuage de poussière.
+    poesie: >-
+      <p>C'est l'essaim des Djinns qui passe,<br>Et tourbillonne en sifflant
+      !<br>Les ifs, que leur vol fracasse,<br>Craquent comme un pin
+      br&ucirc;lant.</p>
+    reference: Les Djinns, Victor Hugo
+  frequence:
+    cite: 4
+    sanctuaire: 4
+    plaines: 5
+    pont: 5
+    collines: 5
+    foret: 5
+    monts: 7
+    desert: 7
+    fleuve: 10
+    lac: 10
+    marais: 11
+    gouffre: 11
+    necropole: 15
+    desolation: 15
+    mauvaise: 0
+  immediat:
+    effets:
+      - climat+1
+    message: ''
+    poesie: ''
+    reference: ''
+effects: []
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667773090153
+  modifiedTime: 1749223084380
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  compendiumSource: Item.GIG8SbYrl60p50u3
+  duplicateSource: null
+  exportSource: null
+folder: null
+sort: 1000000
+_id: ph6qZi1yDgh68Y5l
+_key: '!items!ph6qZi1yDgh68Y5l'

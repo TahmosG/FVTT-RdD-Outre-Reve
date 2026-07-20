@@ -1,0 +1,19 @@
+name: Les Formes de Phil
+sorting: a
+folder: null
+type: Actor
+_id: CJVRaJxUHSnpByHu
+description: ''
+sort: 100000
+color: '#12634b'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746128973847
+  modifiedTime: 1746128973847
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!folders!CJVRaJxUHSnpByHu'

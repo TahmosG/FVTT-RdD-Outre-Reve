@@ -1,0 +1,40 @@
+folder: 4fa8ALVKVsKmQGt8
+name: Détection du Fleuve (ZMP)
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/tmr/debordement.svg
+_id: KGK9LMlM8caIqWcy
+system:
+  description: "<p><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">– <strong><span style=\"text-decoration: underline;\">Effet</span></strong>\_: Créer une Zone Mobile permettant de détecter la présence (ou non) des courant du Fleuve.</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\">La Zone Mobile fait 10m de diamètre et peut être centrée sur une cible à E1 m de distance</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\">Cette zone se déplacer avec sa cible et dure 1 minute (+1min par point de rêve supplémentaire)</span></p><p><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">– </span><strong><span style=\"text-decoration: underline;\">Note</span></strong>\_: Ce rituel ne peut être appris par soi-même et doit donc être transmit (Maitre/Transcription)</p><p></p><blockquote><p><span style=\"text-decoration: underline;\">Source</span> : Alain G. – transcription sur parchemin par la HR Marlane Talac, remis aux bons soins de Philibert et Vladimir</p></blockquote>"
+  descriptionmj: ''
+  draconic: Oniros
+  duree: 1 Minute (+1m /r+)
+  JR: N/A
+  cible: Objet / Creature
+  difficulte: '-8'
+  portée: ''
+  caseTMR: fleuve
+  caseTMRspeciale: ''
+  ptreve: 3+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  v2JDi6Azy5mOhVR7: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1749288551507
+  modifiedTime: 1749288702245
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_key: '!items!KGK9LMlM8caIqWcy'

@@ -1,0 +1,56 @@
+name: Meditation
+type: script
+command: |-
+  let selected = game.system.rdd.RdDUtility.getSelectedActor();
+  if (!selected) {
+    ui.notifications.info(`Pas de personnage sélectionné`);
+    return;
+  } else if (!selected.isHautRevant()) {
+    ui.notifications.info(`${selected.name} n'a pas le don de haut-rêve`);
+    return;
+  }
+  let med_dispo = selected.itemTypes['meditation'];
+  if (med_dispo.length == 0) {
+    ui.notifications.info(`${selected.name} ne connais pas de méthode de méditation.`);
+    return;
+  }
+  console.log(med_dispo[0].img);
+  //selected.rollMeditation(med_dispo[0].id);
+
+  let mesMeditations = [];
+  for (let i = 0; i < med_dispo.length; i++){ mesMeditations.push({ 
+     label: `[${med_dispo[i].system.competence}] ${med_dispo[i].name}`, 
+     icon: `<img src=${med_dispo[i].img}  alt="..."/>`, 
+     callback: () => selected.rollMeditation(med_dispo[i].id) 
+   })
+  };
+  //console.log(mesMeditations);
+
+  const dialogMeditation = new Dialog({
+    title: `Meditation`,
+    content: `Méthodes de Meditation connues:`,
+    buttons: mesMeditations,
+  }).render(true)
+img: >-
+  systems/foundryvtt-reve-de-dragon/icons/meditations_ecrits/meditation_ecriture.webp
+author: vN9NYKGf7zZY5iGH
+scope: global
+folder: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+  vN9NYKGf7zZY5iGH: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746880614798
+  modifiedTime: 1749126368255
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_id: O5eKuTSKQ3yCFhAz
+sort: 200000
+_key: '!macros!O5eKuTSKQ3yCFhAz'

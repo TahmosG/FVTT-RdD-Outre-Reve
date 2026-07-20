@@ -1,0 +1,20 @@
+_id: vreVS8zyLuiV3qom
+name: Le Coffre
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 400000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Richesse, Abondance, Gain, Trésor
+  aspect: Positif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!vreVS8zyLuiV3qom'

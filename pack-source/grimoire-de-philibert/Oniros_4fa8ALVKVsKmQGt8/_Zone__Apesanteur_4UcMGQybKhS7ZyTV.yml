@@ -1,0 +1,42 @@
+folder: 4fa8ALVKVsKmQGt8
+name: (Zone) Apesanteur
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/compcreature-contre.webp
+system:
+  description: >-
+    <p>Effet : Chaque <strong>2r retire 5 points d’Encombrement</strong> puis de
+    Taille </p><p>--&gt; En apesanteur quand TAI =0</p>
+  descriptionmj: ''
+  draconic: Oniros
+  duree: HN
+  JR: N/A
+  cible: Zone
+  difficulte: '-5'
+  portée: ''
+  caseTMR: plaines
+  caseTMRspeciale: ''
+  ptreve: 2+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: E1
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746190848690
+  modifiedTime: 1749224706431
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: 4UcMGQybKhS7ZyTV
+sort: 600000
+_key: '!items!4UcMGQybKhS7ZyTV'

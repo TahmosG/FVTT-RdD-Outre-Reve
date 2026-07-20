@@ -1,0 +1,19 @@
+name: Zzz  Bestiaire  zzZ
+type: Actor
+sorting: a
+sort: 100000
+color: null
+flags: {}
+_id: s3cPqPb8ksq1lpJB
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746129003478
+  modifiedTime: 1746129003677
+  lastModifiedBy: HDSHRizOiLAt3KIz
+folder: null
+description: ''
+_key: '!folders!s3cPqPb8ksq1lpJB'

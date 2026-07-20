@@ -1,0 +1,40 @@
+folder: hpH2JibSYoO8zJO6
+name: '[T] 2. Enchaînement (~Alliance)'
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sante/mort.webp
+_id: P5sWoGfYft8u9FcN
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel est le pendant Thanataire d’Alliance et permet d’unir un os à un objet.\_</p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Utilité</span></strong></span> : L’objet ainsi enchainé pourra ensuite recevoir\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Un Rituel <strong>d’Emprisonnement</strong> pour contenir une ECNI, ou\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La pose d’une <strong>Griffes de Thanatos</strong> (~Ecailles de Narcos)\_</p></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Limitation</span></strong></span> : L’os se doit d’être entier. Contrairement aux gemmes, l’os ne peut être inclus pilé dans un objet, il doit en faire entièrement partie.</p></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Instantane
+  JR: N/A
+  cible: Os perverti
+  difficulte: '-7'
+  portée: ''
+  caseTMR: pont
+  caseTMRspeciale: ''
+  ptreve: '8'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749289023938
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 200000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!P5sWoGfYft8u9FcN'

@@ -1,0 +1,40 @@
+folder: 5OFb8X875y3fxVGt
+name: Animation - Âme de Mort-Vivant
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/entites/darquoine.webp
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Permet d’attacher à un zombi ou un squelette une compétence qu’il avait de son vivant. Celui-ci retrouve alors son niveau antérieur (qui, pour une arme, peut être inférieur au niveau de l’entité de cauchemar).\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Ce rituel coûte autant en point de rêve que le score positif de la compétence,\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>l’ECI peut donc hériter d’un niveau de compétence tronqué.\_\_</p></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Limitations</span></strong></span> : ne fonctionne que sur une ECI qui possède au moins son crâne originel\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Ne permet pas de ramener un niveau de Draconique\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Un squelette est virtuellement incapable de nager ou de séduire.\_</p></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Compétences</span></strong></span> : Ramener un niveau en comédie leur permet d’essayer d’avoir un comportement à peu près normal si on leur en donne l’ordre. Sinon, on peut toujours leur donner une compétence de <strong>comportement naturel</strong> qui est toujours à <strong>+1</strong> par défaut.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Une ECI peut être plusieurs fois la cible de ce rituel et obtenir plusieurs compétences,\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Chaque fois que ce rituel est lancé, l’entité à x% de chance de devenir définitivement incontrôlée (x= nombre total de niveaux de compétence cumulés+ nombre de point de rêve en trop).\_</p></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Caractéristique</span></strong></span> : pour tout jet de compétence, utiliser la moyenne de Taille + Rêve comme caractéristique pour les actions physiques, utiliser Rêve autrement.\_</p><blockquote><div><p>Exemple : Zébraïus désire rendre à Rumglïn, son zombi gnome, le niveau d’orfèvrerie qu’il avait de son vivant. Rumglin possède déjà « comportement naturel » à +1 (car Zebraïus ne supportait plus les grognements sourds du zombi lorsque celui-ci passait le balai) et « maçonnerie » à +4 (car la margelle de la cheminée était cassée). Or Zebraïus appris par la suite que Rumglïn était un maître tailleur de pierre, et que s’il avait été moins avare lors du précédent rituel (il avait dépensé le minimum de quatre points de rêve), son zombi aurait pu avoir au moins +8 en maçonnerie.\_\_</p></div><div><p>Pour ne pas prendre le risque de perdre un précieux savoir, il décide de mettre beaucoup de puissance onirique (12 points de rêve) dans ce nouveau rituel. Après avoir établi son horoscope, il effectue avec succès le sortilège à l’heure de la lyre. Rumglïn possède maintenant orfèvrerie à +3 (score de son vivant). Mais il y a aussi 17 % de chance (= score de comportement naturel+1· + maçonnerie+4 + orfévrerie+3 + point de sort surnuméraire du dernier rituel = 9) que le zombi devienne incontrôlé et attaque Zébraïus à coup de balai.</p></div></blockquote></div><div><p></p><blockquote><p><em><span style=\"text-decoration: underline;\">Source</span> : Le Quart-Livre</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Permanent
+  JR: Speciale
+  cible: Zombie / Squelette
+  difficulte: '-9'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: 4+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E1
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191062552
+  modifiedTime: 1749291661235
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: jMe3Glumjm33yJA7
+sort: 100000
+_key: '!items!jMe3Glumjm33yJA7'

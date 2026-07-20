@@ -1,0 +1,68 @@
+name: Invoquer sa Présence
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_hypnos.webp
+effects: []
+folder: jp6hW9FYzuFqJcBt
+system:
+  description: >-
+    <p>Les rituels de lecture d’Hypnos sont d’étonnantes démonstrations
+    d’auto-suggestion. Aidé par un support, le haut-rêvant se persuade qu’il
+    peut voir ou entendre à distance, et il le fait. Couplé à l’ultime forme
+    d’illusion que sont les invocations, il peut pareillement projeter son image
+    ou sa voix à distance. Tous obéissent aux règles usuelles d’application des
+    rituels. Si un rituel de lecture est paramétré sur une personne et que
+    celle-ci est morte ou a changé de rêve, aucun effet ne se produit, mais les
+    points de rêve sont tout de même dépensés.</p><p>La perfection de ce rituel
+    opère la synthèse de
+    @UUID[Compendium.foundryvtt-reve-de-dragon.sorts-hypnos.Item.8qdOVBr3S7AhRsJw]{Miroir
+    d'Hypnos},
+    @UUID[Compendium.foundryvtt-reve-de-dragon.sorts-hypnos.Item.DvP1kqAtGpr5Kux2]{Harpe
+    d'Hypnos},
+    @UUID[Compendium.foundryvtt-reve-de-dragon.sorts-hypnos.Item.1PskCeKgFa9XiKoS]{Invoquer
+    sa voix} et
+    @UUID[Compendium.foundryvtt-reve-de-dragon.sorts-hypnos.Item.cghxHRstw7cXLEm4]{Invoquer
+    son image}. Paramétrage et ciblage obéissent aux mêmes conditions et
+    restrictions que Miroir d’Hypnos, avec magie impossible en cas de ciblage
+    ailleurs que sur un miroir. Dès que les formes y bougent et que l’état
+    hypnotique commence, le haut-rêvant voit la personne ou le lieu choisi comme
+    avec Miroir d’Hypnos, entend les sons audibles comme avec Harpe d’Hypnos,
+    tandis que son hologramme se forme au même endroit comme avec Invoquer son
+    Image et qu’il peut se faire entendre comme avec Invoquer sa Voix. Tout se
+    passe alors comme s’il se trouvait réellement sur place, sauf qu’il n’est
+    qu’une image sans substance. Il peut parler, entendre, dialoguer, tourner
+    sur place à 360°, mais ne peut se déplacer ni entreprendre aucune action
+    physique. La durée de la communication est de 1 round par point de rêve
+    dépensé.</p>
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: Selon r dépensé
+  JR: Aucun
+  cible: Un miroir
+  difficulte: '-9'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746203057303
+  modifiedTime: 1749143513719
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+flags: {}
+_id: YHW4MjCFk3wbD0RQ
+sort: 0
+_key: '!items!YHW4MjCFk3wbD0RQ'

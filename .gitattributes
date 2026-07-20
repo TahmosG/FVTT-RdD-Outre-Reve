@@ -1,1 +1,1 @@
-packs/** binary
+pack-source/**/*.yml text eol=lf

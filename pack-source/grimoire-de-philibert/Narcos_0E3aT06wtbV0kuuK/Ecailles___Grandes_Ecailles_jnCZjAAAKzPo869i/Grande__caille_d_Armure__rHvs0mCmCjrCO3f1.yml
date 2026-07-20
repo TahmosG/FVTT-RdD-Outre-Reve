@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille d'Armure*
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Chaque écaille rajoute un point de protection et enlève un point de malus d’armure (s’applique également à la discrétion ; ou perception en cas de Heaume)\_</p><ul><li><p>On ne peut pas dépasser le double du bonus d’armure avec cette écaille.</p><p>==&gt; Forme particulière d’@UUID[Compendium.a-perte-de-reve.grimoire-de-philibert.Item.HARQBKY7qwhj9pRY]{Écaille d'Efficacité *} s’appliquant sur une armure ou un fragment d'armuire.\_</p></li><li><p></p><blockquote><p><span style=\"text-decoration: underline;\">Source</span> : Le Quart-Livre</p></blockquote></li><li><p></p></li></ul></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-10'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: I3
+  ptreve: '9'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749283661454
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: rHvs0mCmCjrCO3f1
+sort: 93750
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!rHvs0mCmCjrCO3f1'

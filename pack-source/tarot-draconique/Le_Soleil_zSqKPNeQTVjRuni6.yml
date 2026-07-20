@@ -1,0 +1,20 @@
+_id: zSqKPNeQTVjRuni6
+name: Le Soleil
+type: tarot
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+folder: LmM8c5pdDkCsDXka
+sort: 900000
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Clarté, Evidence, Vérité, Franchise
+  aspect: Positif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!zSqKPNeQTVjRuni6'

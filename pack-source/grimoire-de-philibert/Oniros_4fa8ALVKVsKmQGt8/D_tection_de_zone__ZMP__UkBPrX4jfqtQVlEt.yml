@@ -1,0 +1,42 @@
+name: Détection de zone (ZMP)
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_oniros.webp
+effects: []
+system:
+  description: "<p><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span>\_: Créer une Zone Mobile permettant de détecter la présence (ou non) d’autres zones.</p><p class=\"BulletCxSpFirst\" style=\"margin-left: 39.15pt; mso-add-space: auto; text-indent: -13.5pt; mso-list: l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o</span><span style=\"font-family: Symbol\"> </span></span><span lang=\"FR\">Révèle les zones dans un diamètre de 10m, en les faisant luire d’une douce lueur bleutée</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 39.15pt; mso-add-space: auto; text-indent: -13.5pt; mso-list: l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o</span><span style=\"font-family: Symbol\"> </span></span><span lang=\"FR\">Peut-être centrée sur une cible à E1 m de distance et se déplace avec celle-ci</span></p><p class=\"BulletCxSpLast\" style=\"margin-left: 39.15pt; mso-add-space: auto; text-indent: -13.5pt; mso-list: l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o</span><span style=\"font-family: Symbol\"> </span></span><span lang=\"FR\">Dure 1 minute (+1min /r supplémentaire) et mesure 3m de diamètre (attention conflit de zone)</span></p><p></p><blockquote><p><span style=\"text-decoration: underline;\">Source</span> : Philibert l’Accidenteur – afin de naviguer en sureté dans ces lieux anciens que l’on sait empli de zones hostiles</p></blockquote>"
+  descriptionmj: ''
+  draconic: Oniros
+  duree: Spéciale
+  JR: Aucun
+  cible: Zone Mobile (peut etre ciblee sur une cible mobile)
+  difficulte: '-5'
+  portée: ''
+  caseTMR: fleuve
+  caseTMRspeciale: ''
+  ptreve: 3+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E1
+ownership:
+  default: 0
+  jOzRscDxoXZWpGS6: 3
+  HDSHRizOiLAt3KIz: 3
+folder: 4fa8ALVKVsKmQGt8
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-oniros.cHOcwNOGQtiU4g0P
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746210285800
+  modifiedTime: 1749288412700
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: UkBPrX4jfqtQVlEt
+sort: 300000
+_key: '!items!UkBPrX4jfqtQVlEt'

@@ -1,0 +1,359 @@
+_id: qVBXZANe0GlcpLMq
+name: Félorn
+type: creature
+img: systems/foundryvtt-reve-de-dragon/icons/creatures/felorn.svg
+items:
+  - _id: CYpxxf1uTa78NWR9
+    name: Esquive
+    type: competencecreature
+    sort: 100000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_esquive.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 11
+      niveau: 3
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!qVBXZANe0GlcpLMq.CYpxxf1uTa78NWR9'
+  - _id: lzEdMrKXbOYrWG5S
+    name: Vigilance
+    type: competencecreature
+    sort: 200000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 13
+      niveau: 0
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!qVBXZANe0GlcpLMq.lzEdMrKXbOYrWG5S'
+  - _id: Kt7WlB5Ui97X211z
+    name: Vol
+    type: competencecreature
+    sort: 300000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/compcreature-vol.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 11
+      niveau: 3
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!qVBXZANe0GlcpLMq.Kt7WlB5Ui97X211z'
+effects: []
+folder: CJVRaJxUHSnpByHu
+sort: 100000
+flags:
+  core:
+    sourceId: Compendium.foundryvtt-reve-de-dragon.animaux.tbBCUzaYThtcq3Ch
+system:
+  carac:
+    taille:
+      type: number
+      value: '2'
+      label: Taille
+      xp: 0
+      derivee: false
+    constitution:
+      type: number
+      value: '8'
+      label: Constitution
+      xp: 0
+      derivee: false
+    force:
+      type: number
+      value: '3'
+      label: Force
+      xp: 0
+      derivee: false
+    perception:
+      type: number
+      value: '13'
+      label: Perception
+      xp: 0
+      derivee: false
+    volonte:
+      type: number
+      value: '10'
+      label: Volonté
+      xp: 0
+      derivee: false
+    reve:
+      type: number
+      value: '11'
+      label: Rêve
+      xp: 0
+      derivee: false
+  sante:
+    vie:
+      type: number
+      max: 5
+      value: 5
+      label: Vie
+      derivee: false
+    endurance:
+      type: number
+      max: 13
+      value: 13
+      label: Endurance
+      derivee: false
+    bonusPotion: 0
+    sonne:
+      value: false
+      round: -1
+      label: Sonné
+  attributs:
+    plusdom:
+      type: number
+      value: '-4'
+      label: +dom
+      derivee: true
+    encombrement:
+      type: number
+      value: '0'
+      label: Encombrement
+      derivee: false
+    vitesse:
+      type: string
+      value: 10/30 vol
+      label: Vitesse
+      derivee: true
+    protection:
+      type: number
+      value: '-6'
+      label: Protection
+      derivee: false
+  compteurs:
+    etat:
+      value: 0
+      label: Etat général
+    surenc:
+      value: 0
+      label: Sur-encombrement
+  description: >-
+    <h1>Description</h1>
+
+    <p>Le f&eacute;lorn est un petit chat de l&rsquo;apparence d&rsquo;un
+    siamois, au pelage gris mauve, dot&eacute; d&rsquo;une grande paire
+    d&rsquo;ailes duveteuses. Ces ailes sont sur le m&ecirc;me principe que
+    celles des chauves-souris, sauf qu&rsquo;au lieu d&rsquo;&ecirc;tre nues,
+    elles sont couvertes de duvet. Elles ne remplacent pas les membres
+    sup&eacute;rieurs, mais sont en plus des deux paires de pattes. Le
+    f&eacute;lorn est capable de voler gr&acirc;ce &agrave; elles sur
+    d&rsquo;assez longues distances. Mais chose encore plus &eacute;tonnante, le
+    f&eacute;lorn parle, et s&rsquo;exprime assez bien dans la langue du
+    voyage.</p>
+
+    <h1>M&oelig;urs</h1>
+
+    <p>Tr&egrave;s sociable, le f&eacute;lorn adore la compagnie des Humains et
+    ne demande g&eacute;n&eacute;ralement qu&rsquo;&agrave; se faire adopter.
+    Son grand dilemme est d&rsquo;adorer le poisson et de d&eacute;tester
+    l&rsquo;eau, et les Humains p&ecirc;cheurs le fascinent. S&rsquo;il parle,
+    son discours est en revanche plut&ocirc;t insignifiant, et il n&rsquo;a
+    pratiquement pas de m&eacute;moire. Au demeurant adorable, un f&eacute;lorn
+    de compagnie peut vite devenir assez crispant.</p>
+  race: ''
+  notesmj: Notes du MJ
+  blessures:
+    legeres:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    graves:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    critiques:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+ownership:
+  default: 0
+  jOzRscDxoXZWpGS6: 3
+  HDSHRizOiLAt3KIz: 3
+prototypeToken:
+  flags: {}
+  name: Félorn
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: sante.vie
+  bar2:
+    attribute: sante.endurance
+  randomImg: false
+  alpha: 1
+  light:
+    dim: 0
+    bright: 0
+    angle: 360
+    color: null
+    alpha: 1
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    coloration: 1
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  texture:
+    src: systems/foundryvtt-reve-de-dragon/icons/creatures/felorn_t.webp
+    tint: '#ffffff'
+    scaleX: 0.6
+    scaleY: 0.6
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.animaux.tbBCUzaYThtcq3Ch
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746128974222
+  modifiedTime: 1746128974222
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!actors!qVBXZANe0GlcpLMq'

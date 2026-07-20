@@ -1,0 +1,28 @@
+folder: jtd7U4HDdf65zIIp
+name: Don de Polymorphie
+type: tete
+img: systems/foundryvtt-reve-de-dragon/icons/competence_travestissement.webp
+_id: BX9atwq2J2fyOT7k
+system:
+  description: "<blockquote><p><span lang=\"FR\" style=\"mso-ansi-language:FR\">NOTE : ce Don ne semble pas être \"titrable\" tel une Tète de Dragon classique. Cependant, son effet/impact Gameplay tend a le ranger dans la Catégorie des Tète de Dragon… Bref : au GdR de trier les choses :)</span> </p></blockquote><h2>Effets</h2><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">Permet de changer tant son corps que son visage, ou autre caracteristique </span><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">physique</span></span>, en un autre humain.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"mso-ansi-language:FR\">Changement de <strong>forme</strong>, <strong>visage</strong>, <strong>voix</strong>, <strong>pilosité</strong>, <strong>pigmentation</strong>… et même de <strong>sexe</strong> !</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"mso-ansi-language:FR\">Permet la création/suppression de signes distinctifs (<strong>Tatouages</strong>, grains de beauté…)</span></p><p><span lang=\"FR\" style=\"mso-ansi-language:FR\">La modification et <strong>réelle et naturelle</strong> : il ne s'agit ni d'une illusion ni d'un effet magique !</span></p><h2>Processus</h2><p class=\"MsoNormal\">Nécessite une surface réfléchissante.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"mso-ansi-language:FR\"><strong>JR/0</strong> puis dépense de <strong>5r</strong> (si succès)</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"mso-ansi-language:FR\">La métamorphose prend 1 round pour prendre effet.</span></p><p></p><h2>Limitations</h2><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">Ces changements \"remodèlent\" le corps en question : tout changement de TAI provoque un phénomène de déformation (élongation/entassement)</span></p><p class=\"MsoNormal\"><span lang=\"FR\" style=\"mso-ansi-language:FR\">==&gt; Principe de \"conservation de la masse du personnage\"</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La TAI désirée ne peut excéder +/-4 de sa TAI originelle.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Il n'est pas possible de créer/supprimer des membres.</p><p></p><h2>Détection</h2><p class=\"MsoNormal\">L'apparence et la voie ont changé… mais pas l'attitude ni l'élocution.</p><p class=\"MsoNormal\">De plus, chaque point de différence en TAI octroie un +1 pour détecter la supercherie.</p>"
+  descriptionmj: ''
+  frequence: 0
+  hautrevant: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+  vN9NYKGf7zZY5iGH: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1749224647579
+  modifiedTime: 1749224647579
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_key: '!items!BX9atwq2J2fyOT7k'

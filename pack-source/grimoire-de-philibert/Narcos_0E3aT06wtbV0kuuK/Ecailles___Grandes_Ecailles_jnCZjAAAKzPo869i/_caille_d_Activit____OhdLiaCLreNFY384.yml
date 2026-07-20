@@ -1,0 +1,89 @@
+_id: OhdLiaCLreNFY384
+name: Écaille d'Activité *
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Le rituel d'Écaille d'Activité confère à l'objet magique le pouvoir de
+    lancer un sort. Ce peut être un sort de zone d'Oniros, un sort
+    d'illusion-suggestion ou d'illusion sensorielle d'Hypnos, ou un sort de
+    Thanatos, mais ne peut en aucun cas être un rituel d'aucune des quatre
+    voies. Ayant <em>posé</em> l'écaille d'activité sur l'objet ("poser" est le
+    terme consacré à l'accomplissement des rituels d'Écaille), le Haut-Rêvant y
+    lance le sort de son choix et l'objet devient capable de le lancer à son
+    tour. Pratiquement, le haut-rêvant effectue toutes les opérations
+    nécessaires au lancer d'un sort, y compris son paramétrage précis, puis le
+    lance normalement en dépensant les points de rêve du coût. Toutefois, au
+    lieu de cibler comme l'exige le ciblage normal du sort, il touche l'objet
+    possédant l'écaille d'activité. En résultat, aucun effet ne se produit, mais
+    le sort est maintenant <em>enregistré </em>dans la "mémoire" de la gemme. Il
+    suffit ensuite à l'utilisateur de se concentrer mentalement sur l'effet
+    voulu (dont il doit avoir une idée) pour que l'objet lance le sort. Il
+    pourra le lancer indéfiniment.</p>
+
+    <p>A la fin du round de concentration, l'utilisateur doit être capable de
+    dépenser les points de rêve exigés par le coût du sort tel qu'il est
+    paramétéré. S'il n'en a pas assez, il ne dépense rien, mais l'objet ne
+    fonctionne pas. Puis cela étant fait, le sort opère au tout début du round
+    suivant, selon le ciblage voulu par l'utilisateur, fonction de la forme de
+    l'objet et de la façon dont il est utilisé. Pour que le sort puisse être
+    ciblé ailleurs que sur l'utilisateur lui-même, l'objet doit avoir une forme
+    oblongue, analogue au doigt pointé d'un haut-rêvant. Le sort enregistré dans
+    la gemme est paramétré une fois pour toutes. Un objet lançant un sort de
+    Sommeil de 5 rounds lancera toujours un sort de Sommeil de 5 rounds, ni plus
+    ni moins. Un objet lançant une illusion visuelle ne lancera toujours que la
+    même illusion au moindre détail près. La portée est celle de l'EMPATHIE du
+    créateur de l'objet et non de l'utilisateur, et quand le sort a une durée
+    HN, c'est également l'heure de naissance du créateur. Le seul paramétrage
+    inutile est l'heure de naissance de la cible en prévision du jet de
+    résistance. Quand un JR est possible, il est toujours r-8, quelle que soit
+    la cible. S'il réussit, le sort se dissipe aussitôt sans revenir vers
+    l'utilisateur.</p>
+
+    <p>L'objet réussit son lancer, sans jet de dés. Lancer un sort via un objet
+    magique n'est pas plus économique en points de rêve que de la lancer
+    soi-même, mais évite la montée en TMR, les rencontres, et confère la
+    certitude que le sort partira à coup sûr. L'effet d'un sort lancé par un
+    objet peut être annulé par Annulatrion de Magie, mais pas par Annulation de
+    ses Propres Zones ni Annulation de ses Propres Illusions.</p>
+
+    <p>Chaque gemme d'un objet ne peut recevoir qu'une seule écaille d'activité,
+    et la pose de cette dernière coûte un point de seuil. Une écaille d'activité
+    ne peut enregistrer et lancer q'un seul sort. Mais un même objet peut avoir
+    plusieurs gemmes, grâce à Individualité, chacune possédant une écaille
+    d'activité pour lancer un sort différent.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-9'
+  portée: ''
+  caseTMR: desolation
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: ''
+folder: jnCZjAAAKzPo869i
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.sEBhR48HagKNbkob
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198326306
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 100000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!OhdLiaCLreNFY384'

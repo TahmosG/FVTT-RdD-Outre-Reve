@@ -1,0 +1,97 @@
+name: Lame de fond
+type: rencontre
+img: systems/foundryvtt-reve-de-dragon/icons/tete_dragon.webp
+system:
+  description: >-
+    <p><span style="text-decoration: underline;"><span style="text-decoration:
+    underline;">Effet</span></span> : <span style="font-family:
+    CaslonAntique"><strong style="box-sizing: border-box; user-select: text;
+    scrollbar-width: thin; scrollbar-color: var(--color-scrollbar)
+    var(--color-scrollbar-track);">Climat
+    </strong></span><strong>inchangé</strong></p><p><span
+    style="text-decoration: underline;"><span style="font-family:
+    CaslonAntique"><span style="text-decoration: underline;">Climat
+    Max</span></span></span><span style="font-family: CaslonAntique">: <strong
+    style="box-sizing: border-box; user-select: text; scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);">5.
+    </strong>Houle Croisée</span></p><p><span style="text-decoration:
+    underline;"><span style="text-decoration: underline;">Equivalent
+    TMR</span></span> : Changeur de Rêve (2d6)</p><p></p>
+  descriptionmj: ''
+  temporel:
+    debut:
+      indexDate: -1
+      indexMinute: 0
+    fin:
+      indexDate: -1
+      indexMinute: 0
+  genre: f
+  formule: 2d4
+  refoulement: 1
+  presentCite: false
+  mauvaiseRencontre: false
+  ordreTri: 5
+  force: 0
+  coord: ''
+  date: ''
+  heure: ''
+  succes:
+    effets:
+      - teleport
+    message: >-
+      Le {{{rencontre.name}}} vaincu accepte de vous déplacer sur une autre case
+      {{{caseTmr-type tmr.coord}}} de votre choix en échange de sa liberté.
+    poesie: >-
+      <p>Allez, que le caprice emporte<br>Chaque &acirc;me selon son
+      d&eacute;sir,<br>Et que, close apr&egrave;s vous, la porte<br>Ne se rouvre
+      plus qu'au plaisir.</p>
+    reference: Caligula - IIIème chant, Gérard de Nerval
+  echec:
+    effets:
+      - teleport-aleatoire
+    message: >-
+      Le {{{rencontre.name}}} vous embobine avec des promesses, et vous
+      transporte sur une autre case {{{caseTmr-type tmr.coord}}} sans attendre
+      votre avis.
+    poesie: >-
+      <p>Les sages ont encore coutume de dire : <br>&laquo; Mais comment les
+      Dragons peuvent-ils &ecirc;tre influenc&eacute;s par une cr&eacute;ature
+      qui, tout bien consid&eacute;r&eacute;, n'existe pas vraiment pour eux,
+      qui n'est que le fantasme de leur activit&eacute; nocturne ? &raquo;</p>
+    reference: Rêve de Dragon, Denis Gerfaud
+  frequence:
+    cite: 10
+    sanctuaire: 10
+    plaines: 15
+    pont: 15
+    collines: 15
+    foret: 15
+    monts: 15
+    desert: 15
+    fleuve: 12
+    lac: 12
+    marais: 10
+    gouffre: 10
+    necropole: 10
+    desolation: 10
+    mauvaise: 0
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  coreVersion: '13.345'
+  createdTime: 1667846036340
+  modifiedTime: 1749127310128
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.rencontres.q4uyAZoFPyc4x8XI
+  duplicateSource: null
+  exportSource: null
+_id: WeCnQirDR1r3TUFw
+folder: null
+sort: 600000
+ownership:
+  default: 0
+  Hp9ImM4o9YRTSdfu: 3
+_key: '!items!WeCnQirDR1r3TUFw'

@@ -1,0 +1,54 @@
+_id: j7sMDksav2uwcjEr
+name: '[N] Individualité'
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Rituel secondaire, Individualit&eacute; est n&eacute;anmoins obligatoire
+    pour les objets poss&eacute;dant plusieurs pouvoirs distincts. Il doit
+    &ecirc;tre accompli sur toute nouvelle gemme, enchant&eacute;e d&rsquo;au
+    moins un point de r&ecirc;ve actif, avant le rituel d&rsquo;Alliance. Lors,
+    c&rsquo;est uniquement &agrave; cette nouvelle gemme que s&rsquo;adresseront
+    les points de r&ecirc;ve et les &eacute;cailles. Vis &agrave; vis
+    d&rsquo;une nouvelle gemme, le mat&eacute;riau re-poss&egrave;de toute son
+    inertie et doit &agrave; nouveau &ecirc;tre satur&eacute;. Quand un objet a
+    plusieurs gemmes, toutes ont d&ucirc; recevoir Individualit&eacute; sauf la
+    premi&egrave;re. Les pouvoirs d&rsquo;un objet doivent &ecirc;tre
+    &eacute;labor&eacute;s l&rsquo;un apr&egrave;s l&rsquo;autre. D&egrave;s que
+    l&rsquo;on a commenc&eacute; une nouvelle gemme, on ne peut plus revenir sur
+    les pr&eacute;c&eacute;dentes.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-4'
+  portée: ''
+  caseTMR: desert
+  caseTMRspeciale: ''
+  ptreve: '4'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: 0gZVKmQ2GDvH2PyS
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.asVUMvyZ0OocReY6
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198839597
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 700000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!j7sMDksav2uwcjEr'

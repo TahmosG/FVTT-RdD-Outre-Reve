@@ -1,0 +1,92 @@
+_id: 0FdZ6iij3qN8ju8H
+name: Écailles de Protection contre la magie *
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Chaque &eacute;caille de protection rajoute un +1 &agrave; tous les jets
+    de r&eacute;sistance contre les sorts d'illusion-suggestion d'Hypnos ainsi
+    que les rituels de Possession et les sorts et griffes de Thanatos.
+    L'amulette n'est pas sp&eacute;cifique &agrave; un sort, elle prot&egrave;ge
+    de tous. Soit un personnage poss&eacute;dant une amulette de 4
+    &eacute;cailles et devant jouer une JR r-8, il ne joue en
+    r&eacute;alit&eacute; qu'un JR r-4, augmentant consid&eacute;rablement ses
+    chances de r&eacute;sister &agrave; la magie. La protection ne s'applique
+    qu'&agrave; la magie autorisant un JR.</p>
+
+    <p>Une amulette peut avoir n'importe quelle forme, mais ne fonctionne que si
+    elle est en contact avec la peau nue de son possesseur. Si c'est le cas,
+    elle fonctionne spontan&eacute;ment en face du danger pour lequel elle est
+    con&ccedil;ue, m&ecirc;me si le possesseur n'a aucune id&eacute;e de son
+    pouvoir. Pour fonctionner, l'amulette a besoin de points de r&ecirc;ve
+    actifs. Ces points doivent &ecirc;tre des points de r&ecirc;ve
+    conf&eacute;r&eacute;s par le rituel d'Enchantement en plus des points
+    inertes. Autrement dit, voulant fabriquer une amulette, le haut-r&ecirc;vant
+    ne s'arr&ecirc;te pas d'enchanter quand il atteint un nombre de points de
+    r&ecirc;ve &eacute;gal &agrave; l'inertie totale de l'objet, mais continue
+    &agrave; en rajouter. Le nombre maximum de points actifs qu'une amulette
+    puisse poss&eacute;der est &eacute;gal &agrave; 7 fois
+    l'enchantabilit&eacute; de sa gemme ; et, comme pour les &eacute;cailles
+    d'efficacit&eacute;, le nombre d'&eacute;cailles de protection qu'elle
+    puisse poss&eacute;der est &eacute;gal &agrave; l'enchantabilit&eacute; de
+    celle-ci avec un maximum de 7. Des amulettes plus puissantes ne pourraient
+    &ecirc;tre obtenues que par de sp&eacute;cifiques Grandes &Eacute;cailles de
+    Narcos.</p>
+
+    <p><em>Soit une gemme de taille 6 et de puret&eacute; 5, ayant donc une
+    inertie de 2 et une enchantabilit&eacute; de 4. Elle peut poss&eacute;der
+    jusqu'&agrave; 4 &eacute;cailles de protection (=enchantabilit&eacute;) et
+    un maximum de 28 points de r&ecirc;ve actifs (7&nbsp; &nbsp;x 4 =
+    28).</em></p>
+
+    <p>Chaque fois qu'une amulette de protection fonctionne, elle d&eacute;pense
+    un de ses points de r&ecirc;ve actifs quel que soit le nombre
+    d'&eacute;cailles. Le possesseur, lui, n'en d&eacute;pense qu'un par heure,
+    quel que soit le nombre de fonctionnements de l'amulette au cours de cette
+    heure. Quand une amulette n'a plus de points actifs, elle cesse de
+    fonctionner. On ne peut lui en redonner que par le rituel de Restauration.
+    Les &eacute;cailles de protection peuvent &ecirc;tre pos&eacute;es
+    progressivement, comme celles d'efficacit&eacute;, m&ecirc;me si l'amulette
+    fonctionne entre temps. M&ecirc;mes r&egrave;gles d'application. Une gemme
+    donn&eacute;e ne peut recevoir que des &eacute;cailles de protection d'un
+    m&ecirc;me type, mais gr&acirc;ce &agrave; Individualit&eacute;, plusieurs
+    gemmes d'une m&ecirc;me amulette peuvent offrir des protections
+    diff&eacute;rentes. La pose de chaque &eacute;caille de protection
+    co&ucirc;te un point de seuil.</p>
+
+    <p>&nbsp;</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-8'
+  portée: ''
+  caseTMR: sanctuaire
+  caseTMRspeciale: ''
+  ptreve: '6'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: ''
+folder: jnCZjAAAKzPo869i
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.ckH9xONcfsffpRVr
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198326306
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 500000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!0FdZ6iij3qN8ju8H'

@@ -1,0 +1,63 @@
+name: Miroir d'Hypnos
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_hypnos.webp
+effects: []
+folder: jp6hW9FYzuFqJcBt
+system:
+  description: >-
+    <p>Les rituels de lecture d’Hypnos sont d’étonnantes démonstrations
+    d’auto-suggestion. Aidé par un support, le haut-rêvant se persuade qu’il
+    peut voir ou entendre à distance, et il le fait. Couplé à l’ultime forme
+    d’illusion que sont les invocations, il peut pareillement projeter son image
+    ou sa voix à distance. Tous obéissent aux règles usuelles d’application des
+    rituels. Si un rituel de lecture est paramétré sur une personne et que
+    celle-ci est morte ou a changé de rêve, aucun effet ne se produit, mais les
+    points de rêve sont tout de même dépensés.</p>
+
+    <p>Ce rituel permet de voir à distance. Il doit être ciblé sur un miroir ou
+    une surface réfléchissante, comme de l’eau parfaitement calme, faute de quoi
+    l’on aboutit à un cas de
+    @UUID[Compendium.foundryvtt-reve-de-dragon.rappel-des-regles.JournalEntry.erO7AICiN1LtRyFg]{Magie
+    impossible}. Lors du lancer, le rituel doit être paramétré sur une personne
+    ou un lieu architectural précis, mêmes restrictions que pour Harpe d’Hypnos.
+    Puis le sort étant ciblé sur le miroir, le haut-rêvant croit voir y évoluer
+    des formes, qui le plongent aussitôt dans un état hypnotique particulier, où
+    il voit réellement la personne ou le lieu choisi. S’il s’agit d’une
+    personne, son point de vue est comme s’il se tenait debout à un mètre devant
+    elle ; s’il s’agit d’un lieu, il s’en trouve au centre. Dans les deux cas,
+    le haut-rêvant peut mentalement tourner sur lui-même à 360° pour mieux voir
+    ce qui l’entoure, mais ne peut se déplacer. Noter qu’il a l’image, mais pas
+    le son. La communication est de 1 round par point de rêve dépensé.</p>
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: Selon r dépensé
+  JR: Aucun
+  cible: Un miroir
+  difficulte: '-5'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746203079617
+  modifiedTime: 1746203079617
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+flags: {}
+_id: Wip7jez22GGViIn5
+sort: 0
+_key: '!items!Wip7jez22GGViIn5'

@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille de Piege*
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Complique les tentatives de Lecture d’Aura sur cet objet en cachant des Tourbillons Blancs (de Force 10) sur les cases adjacentes à ses Grandes Ecailles/Griffes. </p><p>Détectable uniquement sur une Significative lors de la Lecture d'Aura.\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Alain G.- Trouvé sur un socle permettant l’invocation d’une Entité de Cauchemar ayant fait ravage au 2nd Age</em>.</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-15'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: E10
+  ptreve: '10'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749282318427
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: G9fYol6Hfejg2v5u
+sort: 87500
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!G9fYol6Hfejg2v5u'

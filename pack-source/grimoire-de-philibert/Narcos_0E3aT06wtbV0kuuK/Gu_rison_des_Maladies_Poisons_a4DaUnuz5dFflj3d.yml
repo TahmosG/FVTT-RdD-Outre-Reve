@@ -1,0 +1,41 @@
+name: Guérison des Maladies/Poisons
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+effects: []
+folder: 0E3aT06wtbV0kuuK
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.TjhnUMh6UL04k0k8
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746207402099
+  modifiedTime: 1749288241306
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+system:
+  description: "<h2>Effet</h2><p>Permet au patient d’effectuer un jet de guérison avec bonus (pour <span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">une</span></span> pathologie par rituel).</p><p><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\">Le malade jette <strong>CONSTITUTION / r+ – Malignité</strong> (maladie/poison)</span></p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Réussite</span></span>\_: le patient est guéri (mais pas de récupération de pts de Vie ou Endurance)</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o </span></span><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Echec Total</span></span>\_: coûte 7r, le patient est guéri mais le HR contracte la maladie/poison</p><p>Le patient doit toucher la peau du patient avec ses mains nues.</p><p></p><blockquote><p><span style=\"text-decoration: underline;\">Source</span> : Rêve de Dragon (1ere Edition)</p></blockquote>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: Rêvant (sa peau nue)
+  difficulte: '-6'
+  portée: ''
+  caseTMR: sanctuaire
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: a4DaUnuz5dFflj3d
+sort: 0
+_key: '!items!a4DaUnuz5dFflj3d'

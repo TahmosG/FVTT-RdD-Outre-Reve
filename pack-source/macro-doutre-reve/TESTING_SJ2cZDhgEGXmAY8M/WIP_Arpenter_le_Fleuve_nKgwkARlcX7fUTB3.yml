@@ -1,0 +1,32 @@
+name: WIP Arpenter le Fleuve
+type: script
+img: systems/foundryvtt-reve-de-dragon/icons/competence_survie_exterieur.webp
+command: >-
+  game.system.rdd.RdDHotbar.rollMacro("Arpenter le Fleuve", "competence",
+  "competence");
+
+
+  // Jet de Competence:
+
+  // //async doRollCaracCompetence(caracName, compName, diff, options = { title:
+  "" }) {
+author: HDSHRizOiLAt3KIz
+scope: global
+folder: SJ2cZDhgEGXmAY8M
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746904679338
+  modifiedTime: 1749126348845
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+_id: nKgwkARlcX7fUTB3
+sort: 450000
+_key: '!macros!nKgwkARlcX7fUTB3'

@@ -1,0 +1,40 @@
+folder: jp6hW9FYzuFqJcBt
+name: Grand Encens d’Hypnos
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_hypnos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel permet de percevoir un autre plan de rêve à travers une déchirure.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le Haut-Rêvant faire brûler de l'encens entre la déchirure et lui (distance maximum E2)\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Alors, au lieu de ne voir qu'une réverbération jaune ou violette, il voit réellement dans l'autre rêve, en surimpression dans la fumée de l'encens, comme s'il regardait par une fenêtre.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Son angle de vue est donc limité et ses perceptions se limitent à la vue.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La durée de la perception est de un round pour le cout de base (4r) + 1 round par 1r dépensé.\_</p><p></p><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Rêve de Dragon (1ere Edition)</em>\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: Speciale
+  JR: N/A
+  cible: de l'Encens
+  difficulte: '-13'
+  portée: ''
+  caseTMR: fleuve
+  caseTMRspeciale: ''
+  ptreve: 4+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E2
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191388970
+  modifiedTime: 1749283069989
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: HpeWg9OK18s0vagX
+sort: 300000
+_key: '!items!HpeWg9OK18s0vagX'

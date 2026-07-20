@@ -1,10 +1,9 @@
 # Foundry lock file (created when Foundry is running)
 *.lock
 
-# LevelDB runtime files in packs (operational, not data)
-packs/**/LOCK
-packs/**/LOG
-packs/**/LOG.old
+# Compiled compendium packs are build output - pack-source/ (YAML) is the source of truth.
+# Run scripts/pack-all.sh to regenerate before testing in Foundry.
+packs/**
 
 # VS Code workspace
 *.code-workspace

@@ -1,0 +1,40 @@
+folder: ZtQrnfkHGIKO6O2n
+name: Déphasage (Phil)
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/entites/darquoine-token.webp
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Sous l’effet de ce rituel, la cible devient un conduit instable pour les courants du Rêve et s’approprie, temporairement, certaines particularités des Entités Semi-Incarnée.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Une légère aura lugubre enveloppe la cible, comme si possédé par une ECNI (distinguable à vue -8)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les actions physiques contre la cible nécessitent un jet d’alignement avant de toucher (~ECNI)\_==&gt; <strong>JR / – coût du sort</strong>, tant pour les attaques, soins ou autre effets (produit/potion)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les Entités (tant de Cauchemar que de Rêve) n’ont pas besoin de s’aligner pour interagir.\_… mais, sauf cas particuliers, elles ne percevront pas la cible comme un ennemi.\_</p></div></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Durée</span></strong></span> : 1 minute (+1min par 1r supplémentaire), étendu en cas de concentration (-1 fatigue/minute.)\_Une fois la concentration rompue, la durée paramétrée commence son décompte\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Source</span></span> : Philibert l’Accidenteur – cherchant à répliquer la\_ défense onirique des Entités de Cauchemar/Rêve\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: 1 min+
+  JR: N/A
+  cible: Creature
+  difficulte: '-10'
+  portée: ''
+  caseTMR: gouffre
+  caseTMRspeciale: ''
+  ptreve: r+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749293047178
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: Xp6FjqG8DVwL5DT2
+sort: 150000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!Xp6FjqG8DVwL5DT2'

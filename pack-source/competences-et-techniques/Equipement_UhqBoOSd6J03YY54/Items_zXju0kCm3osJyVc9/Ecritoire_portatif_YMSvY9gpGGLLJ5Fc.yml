@@ -1,0 +1,44 @@
+name: Ecritoire portatif
+type: objet
+img: icons/containers/bags/satchel-leather-white-tan.webp
+effects: []
+folder: zXju0kCm3osJyVc9
+system:
+  description: >-
+    <p>Petit écritoire en bois, concu specifiquement pour le
+    voyage:</p><p><strong>- </strong>Dépliable et agrémenté d'une couverture de
+    cuir pour confort d'écriture,</p><p>- Muni de 2 guides permettant d'y
+    sécuriser un parchemin,</p><p>- Doté de 2 compartiment pour contenir plumes
+    et autres accessoires</p>
+  descriptionmj: ''
+  equipe: false
+  encombrement: 0.5
+  quantite: 1
+  qualite: 1
+  cout: 1.5
+  milieu: ''
+  environnement:
+    - milieu: Villages
+      rarete: Rare
+      frequence: 6
+    - milieu: Villes
+      rarete: Frequente
+      frequence: 18
+  resistance: 1
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746387855870
+  modifiedTime: 1746891124243
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+flags: {}
+_id: YMSvY9gpGGLLJ5Fc
+sort: 100000
+_key: '!items!YMSvY9gpGGLLJ5Fc'

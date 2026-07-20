@@ -1,0 +1,88 @@
+_id: HARQBKY7qwhj9pRY
+name: Écaille d'Efficacité *
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Les écailles d'efficacité servent à rendre un objet plus efficace, mais
+    uniquement dans sa fonction normale. Une arme magiquement efficace permettra
+    de toucher plus facilement un adversaire ; un bouclier de mieux parer ; un
+    instrument de musique de jouer mieux à moindre effort ; mais un balai
+    magique permettre de mieux balayer et non de voler. Les écailles
+    d'efficacité n'ont de pertinence que sur les objets pouvant être utilisés
+    activement, armes, instruments, outils. Les objets passifs, meubles,
+    contenants, vêtements, armures, ne peuvent pas être rendus plus
+    efficaces.</p>
+
+    <p>En terme de jeu, chaque écaille d'efficacité possédée par l'objet confère
+    un bonus de +1 sur la table de Résolution lors de son utilisation. S'il
+    s'agit d'une arme, chaque écaille d'efficacité augmente également de 1 le
+    facteur d'initiative, ainsi que le +dom de l'arme, mais jusqu'au maximum du
+    double normal de ce dernier. Soit une épée dragonne (+dom +3) possédant 5
+    écailles d'efficacité. Son utilisateur bénéficie d'un bonus de +5 à
+    l'initiative, de +5 à l'attaque et à la parade, mais d'un +dom de +6
+    seulement (le double du +dom normal) et non pas de +8. Ne pas oublier
+    néanmoins de rajouter le +dom personnel dû à la taille et à la force. Cette
+    règle s'applique également aux armes de jet (dague, javelot, fouet). En ce
+    qui concerne les armes de tir (arbalète, arc et fronde), l'efficacité ne
+    s'applique qu'aux dommages&nbsp; (toujours pour un maximum du double du +dom
+    normal) et non au toucher. Pour qu'un archer bénéficie d'un bonus
+    d'efficacité au toucher <em>et</em> aux dommages, il doit avoir à la fois un
+    arc magique et une flèche magique.</p>
+
+    <p>Le nombre maximum d'écailles d'efficacité pouvant être posées sur un
+    objet est égal à l'enchantabilité de sa gemme, mais avec un maximum de 7
+    quelle que soit cette dernière. Pour obtenir des armes magiques d'un bonus
+    supérieur à +7, il faut avoir recours à une éventuelle Grande Écaille de
+    Narcos spécifique.</p>
+
+    <p>La pose de chaque écaille d'efficacité coûte un point de seuil. Mais il
+    n'y a aucune limite de temps entre la pose de chacune, l'objet pouvant être
+    utilisé dans l'intervalle. Par exemple, on peut se contenter provisoirement
+    d'une épée +1 (une écaille), s'en servir plusieurs fois en combat, et plus
+    tard, rajouter une se conde écaille pour obtenir une épée +2. Toutefois, si
+    entretemps l'objet a été maîtrisé par quelqu'un d'autre, il faut effectuer
+    une Lecture d'Aura complète avant de pouvoir reposer une écaille. Si cette
+    précaution est négligée, on aboutit à un cas de <em>magie impossible</em>.
+    L'utilisation d'un objet magiquement efficace coûte un point de rêve par
+    heure quel que soit le nombre d'écailles.</p>
+
+    <p>Si plusieurs gemmes sont alliées à un même objet grâce à Individualité et
+    reçoivent toutes des écailles d'efficacité, leurs bonus <em>ne s'ajoutent
+    pas</em>, on ne considère que le meilleur. Des gemmes différentes sont
+    faites pour des pouvoirs entièrement différents.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-8'
+  portée: ''
+  caseTMR: monts
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: ''
+folder: jnCZjAAAKzPo869i
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.AIBLH8EduhfUQscn
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198326306
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 300000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!HARQBKY7qwhj9pRY'

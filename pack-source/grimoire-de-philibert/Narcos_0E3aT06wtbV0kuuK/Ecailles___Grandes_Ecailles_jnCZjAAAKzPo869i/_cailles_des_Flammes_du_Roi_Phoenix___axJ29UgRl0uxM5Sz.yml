@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Écailles des Flammes du Roi Phoenix *
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+_id: axJ29UgRl0uxM5Sz
+system:
+  description: "<div><p><span style=\"font-family: 'Arial',sans-serif\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : cette Écailles permet à une surface de brûler, même s’il n’y a aucun combustible (1 H par 3r+)\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les flammes sont de la force d’un feu de camps (dommage +4) et de 30cm de longueur.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>L’objet lui-même, en revanche, reste froid et est insensible à la chaleur.</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Il faut définir précisément la surface qui brûlera à la création, une plaque chauffante, par exemple, ne produira des flammes probablement que sur sa face supérieure.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le feu brûle sous l’eau et peut donner d’intéressant phénomène de vapeur.\_</p><p></p></div></div></div></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Le Quart Livre.</em>\_\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: 'Permanent (Effet: 1H par 3r+)'
+  JR: N/A
+  cible: Objet Enchante
+  difficulte: '-10'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: M7
+  ptreve: 3+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749283814909
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 125000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!axJ29UgRl0uxM5Sz'

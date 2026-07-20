@@ -1,0 +1,47 @@
+_id: sYAqIeWuZOXfbTjV
+name: '[N] 1-3. Enchantement'
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>C'est le rituel de base de tout enchantement, c'est par lui que le
+    haut-r&ecirc;vant conf&egrave;re des points de r&ecirc;ve &agrave; la gemme
+    ou &agrave; la potion. Le nombre de points conf&eacute;r&eacute;s,
+    param&eacute;tr&eacute; au lancer du sort, est &agrave; son enti&egrave;re
+    discr&eacute;tion. Entre deux Enchantements de la m&ecirc;me potion ou de la
+    m&ecirc;me gemme doit &ecirc;tre accompli un rituel de Purificiation.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-4'
+  portée: ''
+  caseTMR: cite
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: 0gZVKmQ2GDvH2PyS
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.WUYaL4yvr0wFRLjk
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198839597
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 100000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!sYAqIeWuZOXfbTjV'

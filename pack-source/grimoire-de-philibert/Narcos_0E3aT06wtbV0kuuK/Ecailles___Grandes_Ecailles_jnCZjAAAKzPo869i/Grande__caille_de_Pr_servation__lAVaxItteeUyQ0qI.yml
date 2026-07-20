@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille de Préservation*
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Posé sur une fiole ou récipient, préserve indéfiniment son contenu. (Sauf êtres vivants)\_</p></div><div><p></p><blockquote><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Source</span></span> : Alain G.\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-15'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: H6
+  ptreve: '10'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749283438286
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: lAVaxItteeUyQ0qI
+sort: 50000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!lAVaxItteeUyQ0qI'

@@ -1,0 +1,67 @@
+name: Harpe d'Hypnos
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_hypnos.webp
+effects: []
+folder: jp6hW9FYzuFqJcBt
+system:
+  description: >-
+    <p>Les rituels de lecture d’Hypnos sont d’étonnantes démonstrations
+    d’auto-suggestion. Aidé par un support, le haut-rêvant se persuade qu’il
+    peut voir ou entendre à distance, et il le fait. Couplé à l’ultime forme
+    d’illusion que sont les invocations, il peut pareillement projeter son image
+    ou sa voix à distance. Tous obéissent aux règles usuelles d’application des
+    rituels. Si un rituel de lecture est paramétré sur une personne et que
+    celle-ci est morte ou a changé de rêve, aucun effet ne se produit, mais les
+    points de rêve sont tout de même dépensés.</p>
+
+    <p>Ce rituel permet d’entendre à distance. Il doit être ciblé sur un
+    instrument sonore (harpe, luth, gong, cloche, etc.) faute de quoi l’on
+    aboutit à un cas de
+    @UUID[Compendium.foundryvtt-reve-de-dragon.rappel-des-regles.JournalEntry.erO7AICiN1LtRyFg]{Magie
+    impossible}. Lors du lancer, le rituel doit être paramétré sur une personne
+    précise (humanoïde) ou un lieu architectural précis (salle, couloir, perron,
+    escalier, balcon, etc.). Les éléments naturels du paysage (rochers, arbres,
+    sources, etc.) ne sont pas des lieux architecturaux. La distance séparant le
+    haut-rêvant du lieu ou de la personne n’est sujette à aucune limitation. Il
+    doit avoir déjà vu réellement la personne ou visité le lieu en question.
+    Puis le sort étant ciblé sur l’instrument sonore, le haut-rêvant croit
+    entendre un murmure en émaner. Ce murmure le plonge alors dans un état
+    hypnotique particulier, où il entend réellement tous les sons audibles
+    produits à proximité de la personne ou du lieu paramétré. S’il s’agit d’une
+    personne, il entend tous les sons comme s’il se trouvait tout près de cette
+    personne; s’il s’agit d’un lieu, il entend comme s’il se trouvait en son
+    centre précis. L’état hypnotique (la communication) dure un round par point
+    de rêve dépensé.</p>
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: Selon r dépensé
+  JR: Aucun
+  cible: Un instrument sonore
+  difficulte: '-4'
+  portée: ''
+  caseTMR: monts
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746203072714
+  modifiedTime: 1746203072714
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+flags: {}
+_id: tRJN0ONBx6IRFDfP
+sort: 0
+_key: '!items!tRJN0ONBx6IRFDfP'

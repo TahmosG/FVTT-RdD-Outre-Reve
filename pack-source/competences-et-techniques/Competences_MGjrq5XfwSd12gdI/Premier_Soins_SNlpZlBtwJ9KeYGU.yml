@@ -1,0 +1,35 @@
+name: Premier Soins
+type: competence
+img: systems/foundryvtt-reve-de-dragon/icons/competence_seduction.webp
+effects: []
+folder: MGjrq5XfwSd12gdI
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1728924958112
+  modifiedTime: 1748867042700
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+system:
+  description: >-
+    <p>Version simplifiée de Chirurgie, permettant de stabiliser les blessures
+    mais pas d’effectuer des soins complets.</p>
+  descriptionmj: ''
+  niveau: -4
+  default_diffLibre: 0
+  base: -4
+  categorie: generale
+  xp: 0
+  defaut_carac: dexterite
+  niveau_archetype: 0
+  xp_sort: 0
+_id: SNlpZlBtwJ9KeYGU
+sort: 500000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!SNlpZlBtwJ9KeYGU'

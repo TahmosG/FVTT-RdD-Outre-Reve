@@ -1,0 +1,40 @@
+folder: hpH2JibSYoO8zJO6
+name: '[T] Griffe de Douleur* (Phil)'
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sante/mort.webp
+_id: DBcz7hGHlxJQrvv5
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : tout dégât causé par un objet portant cette griffe s’accompagne d’une vive pointe de douleur. La victime effectue un JR à -2 par Griffe (+ Thanatos si applicable). En cas de d’échec :\_</p><p>— La douleur occasionne la perte de 2 points d’Endurance par Griffe\_</p><p>— La victime est sonnée* jusqu’à la fin du round suivant (état de demi-surprise)\_</p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet-secondaire</span></strong></span> : insidieusement, en plus du coût habituel (1r par Ecaille à Maitriser / 1r par Heure d’utilisation), l’effet de cette Griffe frappe le porteur lors de la Maitrise et à chaque Activation (selon JR).\_\_</p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Limitation</span></strong></span> : la difficulte du JR ne peut exceder JR/-8\_</p><hr><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Philibert l’Accidenteur ; Inspiré du sort [T] Douleur (R-3;r2)</em>\_</p></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchante/Perverti
+  difficulte: '-7'
+  portée: ''
+  caseTMR: gouffre
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1749305918551
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 250000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!DBcz7hGHlxJQrvv5'

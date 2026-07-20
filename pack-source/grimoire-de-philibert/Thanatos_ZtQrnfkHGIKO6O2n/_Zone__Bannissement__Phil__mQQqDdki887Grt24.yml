@@ -1,0 +1,40 @@
+folder: ZtQrnfkHGIKO6O2n
+name: (Zone) Bannissement (Phil)
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/entites/darquoine-token.webp
+_id: mQQqDdki887Grt24
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel manipule les courants Oniriques et crée une zone hostile aux Entités de cauchemar. Toute Entité nécessite de s’accorder à ces courants afin de pouvoir y agir sans entrave.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Pour y pénétrer</strong> : JR/-5 (ECI) ou JR/-8 (ECNI & ECSI) ; ou reste bloquée sur le seuil de la zone\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Pour y demeurer</strong> : JR/-5 (chaque round présent dans la zone) pour ne pas être submergé par ces courants.\_En cas d’échec, l’Entité devient <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">instable</span></strong></span> (état similaire à Sonné) pour ce round.\_</p><div><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Ces JR sont renouvelable <strong>chaque round</strong> (tant pour y rentrer que pour éviter d’être sonné)\_</p></div></div></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">ECNI Incarnée</span></strong></span> : pareils courants ont tendance à ébranler le lien entre une ECNI et son Hôte, résultant généralement par des Empoignade Oniriques (similaire aux combats de possession)\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Un <strong>être possédé</strong> cherchera, sous l’influence de son ECNI, à fuir cette zone de tourment ; mais pourra tenter de se libérer de son ECNI quand celle-ci est <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">instable</span></strong></span>\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Une <strong>ECNI sous contrôle</strong> peut tenter de se libérer mais, en cas d’échec, n’aura d’autre recours que de se réfugier, en état de torpeur, dans le Rêve de son hôte\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les courants étant en la défaveur de l’ECNI, tout échec lui fait perdre 1 pt d’Empoignade\_</p></div></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Renforcement</span></strong></span> : au-delà du cout de base, il est possible de renforcer cette zone :\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Difficulté</strong> : +1r pour augmenter la difficulté de -1 (max JR/-8)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Taille</strong> : +1r pour augmenter le diamètre de 3m (base = 3m)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Durée</strong> : +1r pour rallonger la durée de 5 rounds (base = 1min = 10round)\_</p></div></div></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Concentration</span></strong></span> : le HR peut étendre la durée de cette zone en restant concentrer (-1 fatigue/minute).\_Une fois la concentration rompue, la durée paramétrée commence son décompte\_</p></div><div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Oniros :</span></strong></span> ce rituel existe aussi pour Oniros et s’applique à tous type d’Entités (Rêve + Cauchemar)\_</p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Source</span></strong></span> : Philibert l’Accidenteur (retranscription sur parchemin, accordant un Bonus de synthèse +2)\_</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: 1+ min
+  JR: N/A
+  cible: Zone
+  difficulte: '-8'
+  portée: ''
+  caseTMR: marais
+  caseTMRspeciale: ''
+  ptreve: 5+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E1
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749292989449
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 100000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!mQQqDdki887Grt24'

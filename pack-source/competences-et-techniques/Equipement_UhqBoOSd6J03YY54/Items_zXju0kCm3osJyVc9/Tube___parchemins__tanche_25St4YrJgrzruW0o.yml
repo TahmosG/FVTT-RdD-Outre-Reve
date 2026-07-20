@@ -1,0 +1,47 @@
+name: Tube à parchemins étanche
+type: conteneur
+img: icons/containers/bags/case-scroll-leather-tan.webp
+effects: []
+folder: zXju0kCm3osJyVc9
+system:
+  description: >-
+    <p>Tube a parchemin en cuir de bonne facture dont le systeme de fermeture
+    est si serré qu'il scelle hermetiquement son
+    contenu.</p><p></p><p>S'accompagne generalement de
+    20x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.n2HMv0xv0MFpuiKp]{Parchemin
+    1 feuille} (+4 Sols)</p><p>—&gt; soit un total de <strong>5 Sols pour le
+    Tube et 20x feuillets</strong>.</p><p></p>
+  descriptionmj: ''
+  encombrement: 0.1
+  quantite: 1
+  qualite: 0
+  cout: 1
+  milieu: ''
+  environnement:
+    - milieu: Villages
+      rarete: Rarissime
+      frequence: 2
+    - milieu: Villes
+      rarete: Rare
+      frequence: 6
+  contenu:
+    - iibmiY35L1XQ93bf
+  capacite: 1.3
+  equipe: false
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746384921899
+  modifiedTime: 1746891174861
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+flags: {}
+_id: 25St4YrJgrzruW0o
+sort: 300000
+_key: '!items!25St4YrJgrzruW0o'

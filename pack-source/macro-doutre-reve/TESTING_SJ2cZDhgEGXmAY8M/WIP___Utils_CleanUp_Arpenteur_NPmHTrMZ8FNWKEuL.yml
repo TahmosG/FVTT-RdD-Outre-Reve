@@ -1,0 +1,36 @@
+name: WIP - Utils CleanUp Arpenteur
+type: script
+command: |-
+  let selected = game.system.rdd.RdDUtility.getSelectedActor();
+
+  /* Nettoyage des FLAGs d'Arpentage */
+  //await selected.CEF.clearFlags(true);return;
+  //await game.outreReve.Arpenteur.initFlags(selected, 3); return;
+  //game.outreReve.Arpenteur.init(selected);
+  //game.outreReve.Arpenteur.LogArpenteur(selected); return;
+
+
+  /* Retirer une carac de trop ATTENTION ! */
+  /* ------------------------------------- */
+  delete game.actors.getName("Philibert").system.carac['reve-actuel']
+img: icons/svg/waterfall.svg
+author: HDSHRizOiLAt3KIz
+scope: global
+folder: SJ2cZDhgEGXmAY8M
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746904731514
+  modifiedTime: 1749227645483
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: NPmHTrMZ8FNWKEuL
+sort: 200000
+_key: '!macros!NPmHTrMZ8FNWKEuL'

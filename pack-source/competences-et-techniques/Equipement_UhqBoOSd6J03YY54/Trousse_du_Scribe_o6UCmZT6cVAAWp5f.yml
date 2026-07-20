@@ -1,0 +1,80 @@
+name: Trousse du Scribe
+type: conteneur
+img: icons/containers/bags/pouch-leather-silver-grey.webp
+effects: []
+folder: UhqBoOSd6J03YY54
+system:
+  description: >-
+    <h3>Kit pour Scribe</h3><p>Petite trousse en cuir d'excellente facture
+    contentant tout le materiel nécessaire a l'écriture et permettant une
+    aisance d'utilisation même au coins du
+    feu.</p><h3>Contenu</h3><p>2x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.ckKnviu9SHvWgya0]{Bougie
+    de cire (2 heures)} pour les séances nocturnes
+    ;</p><p>4x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.hEPimS3H8jihDuUS]{Crayon
+    à mine de plomb} et
+    2x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.VsjRwh9Z9PMpFKdI]{Craie
+    1 bâton} pour les ébauches rapides
+    ;</p><p>1x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.XwuLVGasPJXzvC09]{Encre
+    20 cl},
+    2x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.sSgPT3aKDOZ25svO]{Porte
+    plume en bois} et
+    3x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.FaNRC7YQzibSdqZU]{Plume
+    de fer} pour le vrai travail de caligraphie
+    ;</p><p>1x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.ueJnUMLK1vpL8xOB]{Stylet
+    de bronze} pour complementer le travail sur
+    @UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.KlydiUbayqBgJB6J]{Tablette
+    de cire}.</p><h3>En
+    Bonus</h3><p>1x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.skTWp8PUgIG2U2ne]{Cire
+    à cacheter} pour sceler une lettre ou contrefaire un
+    document</p><p>1x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.39iYJ6mJuy3Kno1C]{Poinçon},
+    2x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.TY6Ft8a6WfxD6pD9]{Bobineau
+    de fil} et
+    2x@UUID[Compendium.foundryvtt-reve-de-dragon.equipement.Item.zQWlnUsd8bPySujd]{Aiguille
+    à coudre} pour aider au travail de reliure.</p><h3>Notes</h3><p>Son prix de
+    base est de 5 Sous, mais pour la maigre somme de <strong>3 Sols</strong>,
+    vous y trouverez tout le materiel nécéssaire à un scribe (dont la valeur du
+    contenu s'éleve à 2.7 sols, et dont l'Encombrement a été optimisé à 0.5)</p>
+  descriptionmj: ''
+  encombrement: 0.5
+  quantite: 1
+  qualite: 2
+  cout: 3
+  milieu: ''
+  environnement:
+    - milieu: Villages
+      rarete: Rare
+      frequence: 6
+    - milieu: Villes
+      rarete: Frequente
+      frequence: 18
+  contenu:
+    - 2mGdFIg7vgO6gALn
+    - ySj1fKRGbnRZNbF4
+    - ntjIb7nirrO6fZIL
+    - 9yoQfHDisd9LMOr7
+    - yCCraWGUVMd0lGut
+    - HoV6rwje6kksCLgx
+    - Lg07Z7so8pc3Co8i
+    - V4PP7R2tK3ss4k4d
+    - 2WJFyaucphctNMxl
+    - GCgoUjt1DL1NyIpI
+    - JSEHDaBSvzXmL8bQ
+  capacite: 1
+  equipe: false
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746384166929
+  modifiedTime: 1746890992453
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+flags: {}
+_id: o6UCmZT6cVAAWp5f
+sort: 100000
+_key: '!items!o6UCmZT6cVAAWp5f'

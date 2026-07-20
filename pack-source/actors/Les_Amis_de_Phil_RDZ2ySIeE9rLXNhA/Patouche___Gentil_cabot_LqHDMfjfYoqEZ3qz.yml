@@ -1,0 +1,411 @@
+_id: LqHDMfjfYoqEZ3qz
+name: Patouche - Gentil cabot
+type: creature
+sort: 175000
+flags:
+  core:
+    sourceId: Compendium.foundryvtt-reve-de-dragon.animaux.XuDpG772k6PAQ5LJ
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+items:
+  - _id: shsUV8UpU18c0RJK
+    name: Course
+    type: competencecreature
+    sort: 100000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_course.webp
+    effects: []
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 12
+      niveau: 3
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!LqHDMfjfYoqEZ3qz.shsUV8UpU18c0RJK'
+  - _id: CYpxxf1uTa78NWR9
+    name: Esquive
+    type: competencecreature
+    sort: 300000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_esquive.webp
+    effects: []
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 10
+      niveau: 3
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!LqHDMfjfYoqEZ3qz.CYpxxf1uTa78NWR9'
+  - _id: 6DK46pyO0hzEuuUg
+    name: Morsure
+    type: competencecreature
+    sort: 400000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/compcreature-morsure.webp
+    effects: []
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 12
+      niveau: 2
+      default_diffLibre: 0
+      categorie: naturelle
+      categorie_parade: ''
+      iscombat: true
+      isnaturelle: true
+      ispossession: false
+      dommages: 1
+      mortalite: mortel
+      isparade: false
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!LqHDMfjfYoqEZ3qz.6DK46pyO0hzEuuUg'
+  - _id: lzEdMrKXbOYrWG5S
+    name: Vigilance
+    type: competencecreature
+    sort: 500000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+    effects: []
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 13
+      niveau: 3
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: 1746175541055
+      lastModifiedBy: HDSHRizOiLAt3KIz
+    _key: '!actors.items!LqHDMfjfYoqEZ3qz.lzEdMrKXbOYrWG5S'
+  - _id: Rtt7bny59v2jBhuO
+    name: Saut
+    type: competencecreature
+    sort: 200000
+    flags:
+      core:
+        sourceId: Item.JZDgJ7ySiV84llkK
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_saut.webp
+    effects: []
+    system:
+      description: null
+      descriptionmj: ''
+      carac_value: 12
+      niveau: 3
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.JZDgJ7ySiV84llkK
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!LqHDMfjfYoqEZ3qz.Rtt7bny59v2jBhuO'
+effects: []
+system:
+  carac:
+    taille:
+      type: number
+      value: '6'
+      label: Taille
+      xp: 0
+      derivee: false
+    constitution:
+      type: number
+      value: '10'
+      label: Constitution
+      xp: '0'
+      derivee: false
+    force:
+      type: number
+      value: '10'
+      label: Force
+      xp: '0'
+      derivee: false
+    perception:
+      type: number
+      value: '13'
+      label: Perception
+      xp: '0'
+      derivee: false
+    volonte:
+      type: number
+      value: '8'
+      label: Volonté
+      xp: '0'
+      derivee: false
+    reve:
+      type: number
+      value: '8'
+      label: Rêve
+      xp: '0'
+      derivee: false
+  sante:
+    vie:
+      type: number
+      max: 8
+      value: 8
+      label: Vie
+      derivee: false
+    endurance:
+      type: number
+      max: 18
+      value: 18
+      label: Endurance
+      derivee: false
+    bonusPotion: 0
+    sonne:
+      value: false
+      label: Sonné
+      round: -1
+  attributs:
+    plusdom:
+      type: number
+      value: '+0'
+      label: +dom
+      derivee: true
+    encombrement:
+      type: number
+      value: '0'
+      label: Encombrement
+      derivee: false
+    vitesse:
+      type: string
+      value: 12/36
+      label: Vitesse
+      derivee: true
+    protection:
+      type: number
+      value: '-1'
+      label: Protection
+      derivee: false
+  compteurs:
+    etat:
+      value: 0
+      label: Etat général
+    surenc:
+      value: 0
+      label: Sur-encombrement
+  description: >-
+    <h1>Description et mœurs</h1><p>Le chiard est un canidé charognard des
+    plaines et des désolations, vivant en meute, voisin du chacal et du coyote.
+    Usuellement lâche, il peut devenir d’une audace extrême s’il est affamé. Un
+    individu adulte pèse en moyenne 40 kg.</p>
+  race: ''
+  notesmj: <p>Notes du MJ</p>
+  blessures:
+    legeres:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    graves:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    critiques:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+ownership:
+  default: 0
+  jOzRscDxoXZWpGS6: 3
+  HDSHRizOiLAt3KIz: 3
+prototypeToken:
+  flags: {}
+  name: Chiard
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: sante.vie
+  bar2:
+    attribute: sante.endurance
+  randomImg: false
+  light:
+    dim: 0
+    bright: 0
+    angle: 360
+    color: null
+    alpha: 1
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    coloration: 1
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  texture:
+    src: systems/foundryvtt-reve-de-dragon/icons/creatures/chiard_t.webp
+    tint: '#ffffff'
+    scaleX: 0.7
+    scaleY: 0.7
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  alpha: 1
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+folder: RDZ2ySIeE9rLXNhA
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.animaux.XuDpG772k6PAQ5LJ
+  duplicateSource: null
+  coreVersion: '12.343'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746128971553
+  modifiedTime: 1746881189616
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+_key: '!actors!LqHDMfjfYoqEZ3qz'

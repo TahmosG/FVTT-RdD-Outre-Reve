@@ -1,0 +1,20 @@
+_id: rlmOj3pu4EDd2jZi
+name: La Sebile
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 1600000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Pauvreté, Perte, Dépouillement, Ruine
+  aspect: Négatif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!rlmOj3pu4EDd2jZi'

@@ -1,0 +1,40 @@
+folder: jp6hW9FYzuFqJcBt
+name: Double Rêve des Cyans
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_hypnos.webp
+system:
+  description: "<p><span style=\"font-family: CaslonAntique\">– </span><strong>JR :</strong> Dès que le rituel est accompli, le Cyan doit manquer un jet de résistance.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>JR à rêve Actuel du Cyan / - nombre de points de rêve actifs</strong> de la gemme.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Si le JR réussit, la gemme se consume en cendres et tout est à refaire.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Si le jet manque, le Cyan peut maintenant commencer à rechercher sa « victime »\_\_</p><div><p><span style=\"font-family: CaslonAntique\">– </span><strong>La Victime :</strong> Celle-ci doit obligatoirement être humanoïde (cyan, humain, ogre, gnome, groin, ...)\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Elle ne peut appartenir à aucun clan de sa tribu. Pour une gemme donnée, un Cyan ne se voit « alloué » qu’une seule « victime » et ne peut en changer en cours de route.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Dès qu’il l’a reconnue, sa quête devient univoque : c’est un duel à mort entre lui et elle. La quête du Cyan prime sur toutes les autres considérations. Dès que le Cyan rencontre quelqu’un possédant la caractéristique désirée à un plus haut degré que lui, sa gemme émet un bref éclair et se met à chauffer (sauf membre de son clan ou tribu). Le Cyan sait alors qu’il a trouvé sa cible.\_\_</p></div><p><span style=\"font-family: CaslonAntique\">– </span><strong>La Quête :</strong> N’ayant plus actuellement sa mémoire bleue, peu importe le temps écoulé entre ce moment et celui où il l’a tué.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Dans un rayon d’un kilomètre, le Cyan est toujours averti de la présence de sa cible grâce à l’échauffement de la gemme. Plus il s’en approche et plus il « brûle ».\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Il doit la tuer lui-même et uniquement avec une arme de mêlée (ni magie, ni projectile, ni poison). Dès qu’elle expire, la gemme émet un nouvel éclair violent : elle est activée et le Cyan acquiert la caractéristique convoitée.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Par la suite la gemme conservera un éclat particulier, automatiquement discernable pour un Cyan. Pour un non-Cyan, il faut réussir un jet de Vue / Orfèvrerie à -3 pour distinguer une gemme activée et non activée.\_\_</p></div></div><p><span style=\"font-family: CaslonAntique\">– </span><strong>Notes :</strong> Dès l’activation de la gemme, le Cyan redevient normal, c’est-à-dire qu’il recouvre toutes les particularités de la mémoire bleue. Chaque Cyan peut être touché par le rêve lumineux un nombre illimité de fois consécutives. (si Echec T du rituel : tel que JR réussi !)\_</p></div>"
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: Permanent
+  JR: Special
+  cible: Special
+  difficulte: '-7'
+  portée: ''
+  caseTMR: sanctuaire
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191326893
+  modifiedTime: 1749283191481
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: bUJkVxSaJmnRRDqI
+sort: 100000
+_key: '!items!bUJkVxSaJmnRRDqI'

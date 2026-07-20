@@ -1,0 +1,40 @@
+folder: ZtQrnfkHGIKO6O2n
+name: AutoChangement de sexe
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_thanatos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Effet</span></span> : Ce sort permet au HR de se changer en une version de lui-même de sexe opposé.</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Il n’a pas le choix sur son apparence qui sera décidée par le Gardien des Rêves.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><strong>Les caractéristiques ne sont pas affectées, mais la démarche ou la voix le sont</strong>.<em> Une petite Haute-Rêvant donnera donc un petit homme et un grand Haut-Rêvant baraqué risque de devenir une femme assez forte et aussi musclée que ce qu’il était précédemment.</em>\_</p><p></p></div></div><div><blockquote><p><span style=\"text-decoration: underline;\"><em><span style=\"text-decoration: underline;\">Source</span></em></span><em> : Groupe du Conteur.</em></p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Thanatos
+  duree: HN
+  JR: N/A
+  cible: ''
+  difficulte: '-7'
+  portée: ''
+  caseTMR: necropole
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: ''
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191078970
+  modifiedTime: 1749292169271
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: 2qniYUB7ddewcth9
+sort: -50000
+_key: '!items!2qniYUB7ddewcth9'

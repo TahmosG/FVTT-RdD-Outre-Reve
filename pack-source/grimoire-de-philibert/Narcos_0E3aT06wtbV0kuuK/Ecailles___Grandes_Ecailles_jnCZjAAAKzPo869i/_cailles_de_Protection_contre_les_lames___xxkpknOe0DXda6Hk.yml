@@ -1,0 +1,82 @@
+_id: xxkpknOe0DXda6Hk
+name: Écailles de Protection contre les lames *
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Chaque écaille de protection diminue de 1 point le jet d'encaissement de
+    tout dommage dû à une arme de mêlée (dague, épée, hache, lance, masse,
+    fléeau, arme d'hast), mais ni les projectiles ni les dommages au corps à
+    corps. La protection est en plus de l'armure véritable du
+    personnage.&nbsp;</p>
+
+    <p>Une amulette peut avoir n'importe quelle forme, mais ne fonctionne que si
+    elle est en contact avec la peau nue de son possesseur. Si c'est le cas,
+    elle fonctionne spontanément en face du danger pour lequel elle est conçue,
+    même si le possesseur n'a aucune idée de son pouvoir. Pour fonctionner,
+    l'amulette a besoin de points de rêve actifs. Ces points doivent être des
+    points de rêve conférés par le rituel d'Enchantement en plus des points
+    inertes. Autrement dit, voulant fabriquer une amulette, le haut-rêvant ne
+    s'arrête pas d'enchanter quand il atteint un nombre de points de rêve égal à
+    l'inertie totale de l'objet, mais continue à en rajouter. Le nombre maximum
+    de points actifs qu'une amulette puisse posséder est égal à 7 fois
+    l'enchantabilité de sa gemme ; et, comme pour les écailles d'efficacité, le
+    nombre d'écailles de protection qu'elle puisse posséder est égal à
+    l'enchantabilité de celle-ci avec un maximum de 7. Des amulettes plus
+    puissantes ne pourraient être obtenues que par de spécifiques Grandes
+    Écailles de Narcos.</p>
+
+    <p><em>Soit une gemme de taille 6 et de pureté 5, ayant donc une inertie de
+    2 et une enchantabilité de 4. Elle peut posséder jusqu'à 4 écailles de
+    protection (=enchantabilité) et un maximum de 28 points de rêve actifs
+    (7&nbsp; &nbsp;x 4 = 28).</em></p>
+
+    <p>Chaque fois qu'une amulette de protection fonctionne, elle dépense un de
+    ses points de rêve actifs quel que soit le nombre d'écailles. Le possesseur,
+    lui, n'en dépense qu'un par heure, quel que soit le nombre de
+    fonctionnements de l'amulette au cours de cette heure. Quand une amulette
+    n'a plus de points actifs, elle cesse de fonctionner. On ne peut lui en
+    redonner que par le rituel de Restauration. Les écailles de protection
+    peuvent être posées progressivement, comme celles d'efficacité, même si
+    l'amulette fonctionne entre temps. Mêmes règles d'application. Une gemme
+    donnée ne peut recevoir que des écailles de protection d'un même type, mais
+    grâce à Individualité, plusieurs gemmes d'une même amulette peuvent offrir
+    des protections différentes. La pose de chaque écaille de protection coûte
+    un point de seuil.</p>
+
+    <p>&nbsp;</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-10'
+  portée: ''
+  caseTMR: lac
+  caseTMRspeciale: ''
+  ptreve: '8'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: ''
+folder: jnCZjAAAKzPo869i
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.mzAV6EdQlGkVkWEN
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198326306
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 900000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!xxkpknOe0DXda6Hk'

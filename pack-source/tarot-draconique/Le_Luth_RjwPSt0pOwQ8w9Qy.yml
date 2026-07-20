@@ -1,0 +1,20 @@
+_id: RjwPSt0pOwQ8w9Qy
+name: Le Luth
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 500000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Fête, Plaisir, Joie, Insouciance
+  aspect: Positif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!RjwPSt0pOwQ8w9Qy'

@@ -1,0 +1,49 @@
+name: (Zone) Embuche
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/compcreature-contre.webp
+effects: []
+folder: 4fa8ALVKVsKmQGt8
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-hypnos.mFRytxLSwDrACr5f
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746190846282
+  modifiedTime: 1749224706431
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+system:
+  description: >-
+    <p>L’effet de Fauchage ne s’applique qu’aux humanoïdes. Il provoque chez la
+    cible l’illusion qu’on vient de lui faucher les jambes, illusion si
+    saisissante que le personnage chute, sans pouvoir se rattraper. L’effet de
+    Fauchage n’a pas d’autre conséquence, mais la chute peut, elle, en avoir. En
+    fonction du type d’activité, marche, course, escalade, et du sol de
+    réception, c’est au gardien des rêves d’en déterminer le jet d’encaissement.
+    La victime peut normalement se relever le round suivant. Noter qu’un
+    Fauchage sur un humanoïde couché ou assis n’a virtuellement aucun effet.</p>
+  descriptionmj: ''
+  draconic: Oniros
+  duree: HN
+  JR: N/A
+  cible: Zone
+  difficulte: '-5'
+  portée: ''
+  caseTMR: foret
+  caseTMRspeciale: ''
+  ptreve: 2+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: E1
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: qBh63plJ8vCGc5YA
+sort: 400000
+_key: '!items!qBh63plJ8vCGc5YA'

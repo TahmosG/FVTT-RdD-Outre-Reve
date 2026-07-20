@@ -1,0 +1,59 @@
+_id: G60TMrk5ckrMbFRr
+name: '[N] 2. Alliance'
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Ce rituel unit magiquement la gemme, seul v&eacute;ritable
+    r&eacute;ceptacle du r&ecirc;ve,au reste de l&rsquo;objet, en sorte que son
+    pouvoir puisse s&rsquo;&eacute;tendre &agrave; lui. Ce qui s&rsquo;applique
+    &agrave; la gemme s&rsquo;applique d&eacute;sormais &agrave; l&rsquo;objet,
+    et inversement. La forme de l&rsquo;objet participe maintenant &agrave; la
+    magie. C&rsquo;est pourquoi il doit &ecirc;tre utilis&eacute; comme
+    l&rsquo;exige sa fonction normale (bague au doigt, etc.) et pourquoi sa
+    forme doit &ecirc;tre en analogie avec le ciblage. Pratiquement, une gemme
+    seule ne peut &ecirc;tre utilis&eacute;e que pour une &eacute;caille
+    d&rsquo;activit&eacute; lan&ccedil;ant un sort sur l&rsquo;utilisateur
+    lui-m&ecirc;me (la gemme ne lui permettant pas d&rsquo;autre ciblage). Une
+    gemme&nbsp;seule pourrait &ecirc;tre une amulette de protection, mais il
+    faudrait la tenir sans cesse&nbsp;dans le creux de la main (seule
+    fa&ccedil;on d&rsquo;utiliser une gemme seule). En revanche, on&nbsp;peut
+    s&rsquo;en contenter pour la Grande &Eacute;caille&nbsp;de Narcos Puits de
+    r&ecirc;ve.</p>
+
+    <p>&nbsp;</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-4'
+  portée: ''
+  caseTMR: pont
+  caseTMRspeciale: ''
+  ptreve: '4'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: 0gZVKmQ2GDvH2PyS
+_stats:
+  compendiumSource: Item.5UQMurs8lNa8eBr0
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198839597
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 300000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!G60TMrk5ckrMbFRr'

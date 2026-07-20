@@ -1,0 +1,463 @@
+_id: Sep6BJX3cly2vTmw
+name: Sanguinox
+type: creature
+img: systems/foundryvtt-reve-de-dragon/icons/creatures/sanguinox.svg
+items:
+  - _id: shsUV8UpU18c0RJK
+    name: Course
+    type: competencecreature
+    sort: 400000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_course.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 16
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Sep6BJX3cly2vTmw.shsUV8UpU18c0RJK'
+  - _id: yDHZfK4RmwQW4YaW
+    name: Discrétion
+    type: competencecreature
+    sort: 700000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_discretion.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 16
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Sep6BJX3cly2vTmw.yDHZfK4RmwQW4YaW'
+  - _id: CYpxxf1uTa78NWR9
+    name: Esquive
+    type: competencecreature
+    sort: 850000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_esquive.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 14
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Sep6BJX3cly2vTmw.CYpxxf1uTa78NWR9'
+  - _id: BjqRrGtHtTzuNpZB
+    name: Griffes et Crocs
+    type: competencecreature
+    sort: 900000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/compcreature-griffes.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 12
+      niveau: 5
+      default_diffLibre: 0
+      categorie: naturelle
+      categorie_parade: ''
+      iscombat: true
+      isnaturelle: true
+      ispossession: false
+      dommages: 1
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Sep6BJX3cly2vTmw.BjqRrGtHtTzuNpZB'
+  - _id: lzEdMrKXbOYrWG5S
+    name: Vigilance
+    type: competencecreature
+    sort: 1800000
+    flags: {}
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_vigilance.webp
+    effects: []
+    folder: null
+    system:
+      description: ''
+      descriptionmj: ''
+      carac_value: 17
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Sep6BJX3cly2vTmw.lzEdMrKXbOYrWG5S'
+  - _id: WML1KyyQrFRbmsLn
+    name: Saut
+    type: competencecreature
+    sort: 1900000
+    flags:
+      core:
+        sourceId: Item.JZDgJ7ySiV84llkK
+    img: systems/foundryvtt-reve-de-dragon/icons/competence_saut.webp
+    effects: []
+    folder: null
+    system:
+      description: null
+      descriptionmj: ''
+      carac_value: 16
+      niveau: 5
+      default_diffLibre: 0
+      categorie: ''
+      categorie_parade: ''
+      iscombat: false
+      isnaturelle: true
+      ispossession: false
+      dommages: 0
+      mortalite: mortel
+      isparade: false
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.JZDgJ7ySiV84llkK
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundryvtt-reve-de-dragon
+      systemVersion: 12.0.49
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Sep6BJX3cly2vTmw.WML1KyyQrFRbmsLn'
+effects: []
+folder: CJVRaJxUHSnpByHu
+sort: -100000
+flags:
+  core:
+    sourceId: Compendium.foundryvtt-reve-de-dragon.animaux.sAcoQO3vvDDEJFva
+system:
+  carac:
+    taille:
+      type: number
+      value: '7'
+      label: Taille
+      xp: 0
+      derivee: false
+    constitution:
+      type: number
+      value: '13'
+      label: Constitution
+      xp: 0
+      derivee: false
+    force:
+      type: number
+      value: '11'
+      label: Force
+      xp: 0
+      derivee: false
+    perception:
+      type: number
+      value: '17'
+      label: Perception
+      xp: 0
+      derivee: false
+    volonte:
+      type: number
+      value: '14'
+      label: Volonté
+      xp: 0
+      derivee: false
+    reve:
+      type: number
+      value: '13'
+      label: Rêve
+      xp: 0
+      derivee: false
+  sante:
+    vie:
+      type: number
+      max: 10
+      value: 10
+      label: Vie
+      derivee: false
+    endurance:
+      type: number
+      max: 23
+      value: 23
+      label: Endurance
+      derivee: false
+    bonusPotion: 0
+    sonne:
+      value: false
+      round: -1
+      label: Sonné
+  attributs:
+    plusdom:
+      type: number
+      value: '+0'
+      label: +dom
+      derivee: true
+    encombrement:
+      type: number
+      value: '0'
+      label: Encombrement
+      derivee: false
+    vitesse:
+      type: string
+      value: 12/32
+      label: Vitesse
+      derivee: true
+    protection:
+      type: number
+      value: '0'
+      label: Protection
+      derivee: false
+  compteurs:
+    etat:
+      value: 0
+      label: Etat général
+    surenc:
+      value: 0
+      label: Sur-encombrement
+  description: >-
+    <h1>Description</h1>
+
+    <p>Le sanguinox est un gros chat sauvage au pelage enti&egrave;rement noir,
+    pouvant faire jusqu&rsquo;&agrave; 45 kg.</p>
+
+    <h1>M&oelig;urs</h1>
+
+    <p>Le sanguinox vit dans les for&ecirc;ts, de pr&eacute;f&eacute;rence
+    rocailleuses, telles que les contreforts de montagne, o&ugrave; il peut
+    trouver une caverne pour lui servir de tani&egrave;re pendant le jour. De
+    moeurs essentiellement nocturnes, c&rsquo;est un pr&eacute;dateur
+    redout&eacute;. Il aime le go&ucirc;t du sang pour lui-m&ecirc;me, et,
+    gav&eacute; de nourriture, ne se contente parfois que de saigner ses proies.
+    Audacieux jusqu&rsquo;&agrave; la t&eacute;m&eacute;rit&eacute;, le
+    sanguinox n&rsquo;h&eacute;site pas &agrave; s&rsquo;attaquer &agrave; des
+    cr&eacute;atures nettement plus grosses que lui, et en particulier &agrave;
+    l&rsquo;homme. Sa technique favorite est l&rsquo;embuscade. La nuit,
+    dissimul&eacute; sur une branche d&rsquo;arbre, il est virtuellement
+    invisible. Quand il attaque en se laissant tomber d&rsquo;une branche,
+    consid&eacute;rer en termes de r&egrave;gles que c&rsquo;est une attaque de
+    <em>charge</em>. Au sol, ses r&eacute;ussites particuli&egrave;res sont
+    usuellement pass&eacute;es en <em>rapidit&eacute;</em>.</p>
+  race: ''
+  notesmj: Notes du MJ
+  blessures:
+    legeres:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    graves:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+    critiques:
+      liste:
+        - active: false
+          premiers_soins: 0
+          soins_complets: 0
+          jours: 0
+          localisation: ''
+ownership:
+  default: 0
+  jOzRscDxoXZWpGS6: 3
+  HDSHRizOiLAt3KIz: 3
+prototypeToken:
+  flags: {}
+  name: Sanguinox
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: 0
+  displayBars: 0
+  bar1:
+    attribute: sante.vie
+  bar2:
+    attribute: sante.endurance
+  randomImg: false
+  alpha: 1
+  light:
+    dim: 0
+    bright: 0
+    angle: 360
+    color: null
+    alpha: 1
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    coloration: 1
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  texture:
+    src: systems/foundryvtt-reve-de-dragon/icons/creatures/sanguinox.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.animaux.sAcoQO3vvDDEJFva
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746128974222
+  modifiedTime: 1746128974222
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!actors!Sep6BJX3cly2vTmw'

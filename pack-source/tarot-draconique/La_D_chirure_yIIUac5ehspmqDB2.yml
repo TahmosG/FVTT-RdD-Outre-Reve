@@ -1,0 +1,20 @@
+_id: yIIUac5ehspmqDB2
+name: La Déchirure
+type: tarot
+folder: LmM8c5pdDkCsDXka
+sort: 1250000
+img: systems/foundryvtt-reve-de-dragon/icons/tarots/dos-tarot.webp
+effects: []
+system:
+  description: ''
+  descriptionmj: ''
+  concept: Errance, Déroute, Désordre, Séparation
+  aspect: Négatif
+  frequence: 1
+ownership:
+  default: 2
+_stats:
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.22
+  coreVersion: '12.331'
+_key: '!items!yIIUac5ehspmqDB2'

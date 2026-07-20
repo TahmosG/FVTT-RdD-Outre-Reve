@@ -1,0 +1,40 @@
+folder: 4fa8ALVKVsKmQGt8
+name: (Zone) Aimantation
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/compcreature-contre.webp
+system:
+  description: "<div><p><strong>Tout ce qui est ferreux est attiré vers le sol avec une <span style=\"text-decoration: underline;\">force de 1 par 3r</span> dépensés.</strong></p><p>Résister ou manipuler tel objet requiert à <strong>jet de Force à – (Aimantation x <span style=\"text-decoration: underline;\">Encombrement</span>)</strong>\_</p></div><div><hr><p><span style=\"text-decoration: underline;\">Encombrement</span> : Dague ½, esparlongue 1.5, épée/hache 2, épée batarde 3 // Armure de maille 6, de plaque 8 (cuir métal 4)\_</p></div>"
+  descriptionmj: ''
+  draconic: Oniros
+  duree: HN
+  JR: N/A
+  cible: Zone
+  difficulte: '-8'
+  portée: ''
+  caseTMR: monts
+  caseTMRspeciale: ''
+  ptreve: 3+
+  xp: 0
+  bonuscase: ''
+  isrituel: false
+  coutseuil: 0
+  lancements: []
+  portee: E1
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746190850697
+  modifiedTime: 1749224706431
+  lastModifiedBy: vN9NYKGf7zZY5iGH
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: wmlxltNPSy1jUhrT
+sort: 700000
+_key: '!items!wmlxltNPSy1jUhrT'

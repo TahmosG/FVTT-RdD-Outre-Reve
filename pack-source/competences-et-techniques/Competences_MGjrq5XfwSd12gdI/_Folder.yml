@@ -1,0 +1,19 @@
+name: Competences
+sorting: a
+folder: null
+type: Item
+_id: MGjrq5XfwSd12gdI
+description: ''
+sort: 0
+color: '#e59c1f'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746179658332
+  modifiedTime: 1746180394943
+  lastModifiedBy: HDSHRizOiLAt3KIz
+_key: '!folders!MGjrq5XfwSd12gdI'

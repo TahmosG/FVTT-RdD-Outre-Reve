@@ -1,0 +1,30 @@
+name: Don d'Arpenter le Fleuve
+type: tete
+img: systems/foundryvtt-reve-de-dragon/icons/entites/possession.webp
+effects: []
+folder: null
+flags:
+  core: {}
+_stats:
+  compendiumSource: >-
+    Compendium.foundryvtt-reve-de-dragon.tetes-de-dragon-pour-haut-revants.YDo0a0ApM8iW9g82
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746185208070
+  modifiedTime: 1749296241553
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+system:
+  description: "<p><span lang=\"FR\" style=\"mso-ansi-language:FR\">Le </span>@UUID[Compendium.a-perte-de-reve.outre-reve-journal.JournalEntry.UWiZQyq5p4Rtg9BX.JournalEntryPage.IHLn7NsKBvLWc0jN]{Don d'Arpenter le Fleuve}<span lang=\"FR\" style=\"mso-ansi-language:FR\"> a la particularité de débloquer deux facultés à son possesseur\_:</span></p><p></p><p>==&gt; 1. @UUID[Compendium.a-perte-de-reve.outre-reve-journal.JournalEntry.Xa0hLpn21oWzdlvX]{Compétence d'Arpenter le Fleuve},</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\">.   Création et manipulation de Déchirures Bleues, permettant de se déplacer au sein du même rêve, en passant par ce lieu hâtivement nommé «\_le Fleuve\_».</p><p></p><p>==&gt; 2. @UUID[Compendium.a-perte-de-reve.outre-reve-journal.JournalEntry.ElkVyIa7SKdLKlSo]{Acces à la Carte des Eaux du Fleuve [CEF]}</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\">.   Tandis que les TMR permettent au Haut-Rêvants de s’élever vers la conscience des Dragons, la CEF les plonge dans la profondeur du Fleuve, plus proche de leur inconscient et de la source générative du Rêve.</p>"
+  descriptionmj: ''
+  frequence: 0
+  hautrevant: false
+  refoulement: null
+_id: KMC7r4DHKU2StPC6
+sort: 100000
+_key: '!items!KMC7r4DHKU2StPC6'

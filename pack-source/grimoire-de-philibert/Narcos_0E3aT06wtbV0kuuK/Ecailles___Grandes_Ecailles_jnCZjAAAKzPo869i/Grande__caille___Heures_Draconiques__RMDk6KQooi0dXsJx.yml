@@ -1,0 +1,40 @@
+folder: jnCZjAAAKzPo869i
+name: Grande Écaille - Heures Draconiques*
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+system:
+  description: "<div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : De jour comme de nuit, avec ciel couvert ou non, un point lumineux apparaitra dans l’anneau sur le symbole de l’heure en cours lorsque l’utilisateur dressera l’anneau au-devant de lui.\_</p></div><div><p>– <span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Confection</span></strong></span> : Placé sur un cadran avec le symbole des 12 heures usuelles, plus la 13eme.\_</p></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Permanent
+  JR: N/A
+  cible: Objet Enchanté
+  difficulte: '-7'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: C9
+  ptreve: '12'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Touché
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749283796026
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: RMDk6KQooi0dXsJx
+sort: 350000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!RMDk6KQooi0dXsJx'

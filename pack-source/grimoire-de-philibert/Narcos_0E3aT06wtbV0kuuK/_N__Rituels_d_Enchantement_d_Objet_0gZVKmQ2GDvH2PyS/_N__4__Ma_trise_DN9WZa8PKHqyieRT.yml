@@ -1,0 +1,46 @@
+_id: DN9WZa8PKHqyieRT
+name: '[N] 4. Maîtrise'
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/competence_narcos.webp
+effects: []
+system:
+  description: >-
+    <p>Ce rituel établit le lien qui unira l'objet à son utilisateur, permettant
+    à ce dernier d'en établir la maîtrise. Antinomique du rituel d'Autonomie,
+    réservé à de très spécifiques Grandes Écailles de Narcos, le rituel de
+    Maîtrise est obligatoire pour toutes les écailles courantes : efficacité,
+    activité, protection.</p>
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: ''
+  difficulte: '-7'
+  portée: ''
+  caseTMR: fleuve
+  caseTMRspeciale: ''
+  ptreve: '7'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: ''
+folder: 0gZVKmQ2GDvH2PyS
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.4ShhmXKmsIbwoZcG
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.49
+  createdTime: 1746187959413
+  modifiedTime: 1746198839597
+  lastModifiedBy: HDSHRizOiLAt3KIz
+  exportSource: null
+sort: 600000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!DN9WZa8PKHqyieRT'

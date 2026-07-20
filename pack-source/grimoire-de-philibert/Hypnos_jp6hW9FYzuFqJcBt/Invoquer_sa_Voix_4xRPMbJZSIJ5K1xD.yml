@@ -1,0 +1,40 @@
+folder: jp6hW9FYzuFqJcBt
+name: Invoquer sa Voix
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/competence_hypnos.webp
+system:
+  description: "<div><p><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel permet de projeter sa voix à distance (parler et non entendre)\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Les conditions de ciblage et de paramétrage sont exactement les mêmes que Harpe d’Hypnos\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Lorsque le murmure émane de l’instrument sonore, provoquant l’état hypnotique, le Haut-Rêvant peut commencer à parler mentalement, dans sa tête. Dans l’instant même, sa voix et ses paroles\_ se\_ font\_ entendre\_ près\_ de\_ la\_ personne ou au centre du lieu choisi.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Pour le destinataire, la voix, claire et reconnaissable, semble émaner de nulle part.\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La communication est de <strong>1 round</strong> <span style=\"text-decoration: underline;\">par point de rêve dépensé</span>.</p></div></div></div></div>"
+  descriptionmj: ''
+  draconic: Hypnos
+  duree: r+ rounds
+  JR: N/A
+  cible: Instrument sonore
+  difficulte: '-6'
+  portée: ''
+  caseTMR: cite
+  caseTMRspeciale: ''
+  ptreve: 1+
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: E1
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746191452802
+  modifiedTime: 1749282915147
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_id: 4xRPMbJZSIJ5K1xD
+sort: 500000
+_key: '!items!4xRPMbJZSIJ5K1xD'

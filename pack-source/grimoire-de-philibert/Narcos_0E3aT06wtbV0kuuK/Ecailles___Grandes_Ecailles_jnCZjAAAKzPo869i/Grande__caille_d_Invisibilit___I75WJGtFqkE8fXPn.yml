@@ -1,0 +1,41 @@
+name: Grande Écaille d'Invisibilité*
+type: sort
+flags:
+  core: {}
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+effects: []
+system:
+  description: "<div><p><span style=\"font-family: 'Arial',sans-serif\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Il y a trois degrés dans la puissance des Grandes Écailles d’Invisibilité. Chaque fois que la gemme reçoit une Grande Écaille d’Invisibilité, le pouvoir potentiel que peut délivrer la gemme en est accru et le résultat bien meilleur.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>1</strong></span><sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>ere</strong> </span></sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>écaille </strong>: Rend invisible à volonté le porteur et l’objet. </span><span lang=\"FR\" style=\"font-size:10.0pt;line-height:\n115%\">(</span><span style=\"color:#0070C0\">Gouffre de Gromph J13</span>)</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>2</strong></span><sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>eme</strong></span></sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong> écaille</strong> : Rend invisible tout ce qui touche directement à la peau du porteur de l’objet et qui est porté ! <em>(N’affecte pas un mur ou le sol\_!) </em></span><span lang=\"FR\" style=\"font-size:10.0pt;\nline-height:115%\">(</span><span style=\"color:#0070C0\">Gouffre des Litiges B13</span>)</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>3</strong></span><sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>eme</strong></span></sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong> écaille</strong> : Rend invisible les objets qui ne touchent pas directement la peau du porteur, mais ces objets doivent toujours être portés ! </span><span lang=\"FR\" style=\"font-size:10.0pt;line-height:\n115%\">(</span><span style=\"color:#0070C0\">Gouffre Abîmeux I12</span>)</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>4</strong></span><sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong>eme</strong></span></sup><span lang=\"FR\" style=\"font-size:12.0pt;line-height:115%\"><strong> écaille</strong> <strong>– Permanence</strong> : Lorsqu'il est touché ou qu'il touche quelqu'un, le porteur redevient invisible <em>(Activation : <span style=\"text-decoration: underline;\">5r</span><strong> </strong>et <span style=\"text-decoration: underline;\">1 round</span> de Concentration, permet de rétablir son Invisibilité a posteriori)</em> </span><span lang=\"FR\" style=\"font-size:10.0pt;\nline-height:115%\">(</span><span style=\"color:#0070C0\">Gouffre de Junk E10</span>)</p><p></p></div></div></div><p><span style=\"font-family: 'Arial',sans-serif\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Utilisation</span></strong></span> : le porteur de l’objet dépense 1r pour chaque écaille qu’il désire activer (5r pour la Permanence), l'effet perdure tant que l'utilisateur tient l'objet en main (max 1H).</p><p><em>Les caractéristiques de l’invisibilité sont identiques au sort d’Hypnos (Livre du Haut-Rêve, p47)</em>\_</p><p></p></div><div><blockquote><p><em><span style=\"text-decoration: underline;\">Source</span> : Sébastien Auboussu, modifications d’Olivier Dupuis + Stéphane AUBOUSSU (écaille de Permanence) </em></p><p>+Philibert l'Accidenteur : précision d'utilisation et ajustement du cout (5r/Ec ==&gt; 1r par ecaille +5r permanence)</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: Instantanée
+  JR: Aucun
+  cible: Objet Enchanté
+  difficulte: '-10'
+  portée: ''
+  caseTMR: special
+  caseTMRspeciale: 'Selon #Ecaille'
+  ptreve: '9'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 1
+  lancements: []
+  portee: Toucher
+folder: jnCZjAAAKzPo869i
+_stats:
+  compendiumSource: Compendium.foundryvtt-reve-de-dragon.sorts-narcos.TSDY6o00ri2ktlVM
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749281183921
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+_id: I75WJGtFqkE8fXPn
+sort: 275000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!I75WJGtFqkE8fXPn'

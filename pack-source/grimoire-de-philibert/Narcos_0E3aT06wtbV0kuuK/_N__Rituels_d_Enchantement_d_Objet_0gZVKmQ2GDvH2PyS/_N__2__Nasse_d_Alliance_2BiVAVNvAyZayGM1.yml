@@ -1,0 +1,40 @@
+folder: 0gZVKmQ2GDvH2PyS
+name: '[N] 2. Nasse d’Alliance'
+type: sort
+img: systems/foundryvtt-reve-de-dragon/icons/sorts/sort_narcos.webp
+_id: 2BiVAVNvAyZayGM1
+system:
+  description: "<div><p><span style=\"font-family: CaslonAntique\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Effet</span></strong></span> : Ce rituel d’enchantement permet d’Allier une gemme pulvérisée alchimiquement à un liquide, résultant ainsi en un embryon d’Objet Enchantable, une « Gemme liquide » !\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La gemme se répand dans le liquide en formant une Nasse onirique permettant ulterieur la pose d’Ecailles\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le liquide allié garde ses propriétés (couleur,\_ texture, viscosité…) et devient une « Gemme Liquide »\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Une fois allié, cette « gemme liquide » possède une résistance de 18 aux zones de transmutations\_</p></div></div><p><span style=\"font-family: CaslonAntique\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Procédé</span></strong></span> : Ce rituel remplace le Rituel d’Alliance. Les autres étapes restent inchangées.\_\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>La gemme doit contenir 1pt de rêve actif avant pulvérisation.\_\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Ce rituel est à poser sur le liquide avant d’y ajouter la gemme pulvérisée.</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Le volume varie entre\_la Taille de la gemme (en pépin) et son Enchantabilité x 1/7 de Mesure\_(au max)</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Apres le rituel de Nasse d’Alliance, nul besoin de ré-enchanter le liquide (car inertie de l’eau =0)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Une fois la pose d’Ecailles ou Griffes, le liquide peut être utilisé comme bon voulu (écriture, tatouage…)\_</p></div></div></div></div></div><div><p><span style=\"font-family: CaslonAntique\">– </span><span style=\"text-decoration: underline;\"><strong><span style=\"text-decoration: underline;\">Cohésion</span></strong></span> : Cette Nasse fonctionne tant que l’application du liquide est complète (intégralité du liquide Allie) et garde un minimum d’intégrité (distance/continuité entre ses éléments). Ex.\_</p><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Des motifs appliqués sur un même sujet (objet ou sur le même membre d’une personne)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Des écrits faisant partie d’un même ouvrage (recueil, feuillets, jeu de Tarot Draconique…)\_</p><div><p class=\"BulletCxSpMiddle\" style=\"margin-left: 30pt; mso-add-space: auto; text-indent: -.25in; mso-list: l0 level2 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family: 'Courier New'\">o\_</span></span>Une masse faisant partie d’un même contenant (fiole de transformation alchimique, citerne de …)\_</p></div></div></div><div><p>En cas de problème de cohesion, l’effet serait nul ou amoindri (cfr. GdR)\_\_</p><p></p></div><div><blockquote><p><span style=\"text-decoration: underline;\"><span style=\"text-decoration: underline;\">Source</span></span> : Philibert l’Accidenteur – pour confection d’encre enchantée en vue de tatouages de Protection et autre dessins/écrits Oniriques tel un Tarot Draconique</p></blockquote></div>"
+  descriptionmj: ''
+  draconic: Narcos
+  duree: ''
+  JR: N/A
+  cible: Liquide
+  difficulte: '-8'
+  portée: ''
+  caseTMR: pont
+  caseTMRspeciale: ''
+  ptreve: '4'
+  xp: 0
+  bonuscase: ''
+  isrituel: true
+  coutseuil: 0
+  lancements: []
+  portee: Toucher
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.345'
+  systemId: foundryvtt-reve-de-dragon
+  systemVersion: 12.0.50
+  createdTime: 1746187959413
+  modifiedTime: 1749310977010
+  lastModifiedBy: v2JDi6Azy5mOhVR7
+  exportSource: null
+sort: 1100000
+ownership:
+  default: 0
+  HDSHRizOiLAt3KIz: 3
+_key: '!items!2BiVAVNvAyZayGM1'
