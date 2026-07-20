@@ -1,8 +1,0 @@
-2026/07/20-19:41:47.813 a3cc Recovering log #700
-2026/07/20-19:41:47.817 a3cc Delete type=0 #700
-2026/07/20-19:41:47.817 a3cc Delete type=3 #698
-2026/07/20-19:58:01.906 a6b4 Level-0 table #705: started
-2026/07/20-19:58:01.906 a6b4 Level-0 table #705: 0 bytes OK
-2026/07/20-19:58:01.907 a6b4 Delete type=0 #703
-2026/07/20-19:58:01.908 a6b4 Manual compaction at level-0 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at (end)
-2026/07/20-19:58:01.908 a6b4 Manual compaction at level-1 from '!folders!HoT10EpMRiPbjXGa' @ 72057594037927935 : 1 .. '!macros!tE2WJtOiKtJaUno9' @ 0 : 0; will stop at (end)
