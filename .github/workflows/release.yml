@@ -19,6 +19,21 @@ jobs:
         id: get_version
         run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
 
+      # Compiles compendium packs from pack-source/ (YAML, source of truth) into
+      # packs/ (binary, build output - gitignored, never committed). Only packs
+      # declared in module.json's "packs" array are built, so WIP pack-source/
+      # folders not yet listed there (e.g. work-in-progress content) are never
+      # shipped - no separate exclude-list to maintain.
+      - name: Install Foundry CLI
+        run: npm install -g @foundryvtt/foundryvtt-cli@3.0.4
+
+      - name: Build compendium packs from source
+        run: |
+          for name in $(jq -r '.packs[].name' module.json); do
+            echo "==> Packing $name"
+            fvtt package pack -n "$name" --in "pack-source/$name" --out packs --yaml --recursive
+          done
+
       # Overwrites version & download keys in module.json to match this release
       - name: Update Manifest
         run: |
@@ -34,9 +49,10 @@ jobs:
           git commit -m "release ${{ steps.get_version.outputs.VERSION }}"
           git push origin HEAD:main
 
-      # Zips up the clean repository files (excluding internal git configuration)
+      # Zips up the clean repository files (excluding internal git configuration
+      # and the YAML dev source, which isn't needed at runtime)
       - name: Package Module
-        run: zip -r module.zip . -x ".git/*" -x ".github/*"
+        run: zip -r module.zip . -x ".git/*" -x ".github/*" -x "pack-source/*"
 
       # Creates the GitHub Release and uploads the manifest + zip archive
       - name: Create Release
