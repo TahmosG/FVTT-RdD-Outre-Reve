@@ -11,7 +11,10 @@
       {
         "id": "foundryvtt-reve-de-dragon",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "14.0.0",
+          "verified": "14.0.0"
+        }
       }
     ],
     "requires": [
@@ -48,11 +51,6 @@
     {
       "lang": "fr",
       "name": "Français",
-      "path": "languages/fr.json"
-    },
-    {
-      "lang": "en",
-      "name": "English",
       "path": "languages/fr.json"
     }
   ],

@@ -10,3 +10,15 @@
 .cef-tmr-pos-label {
   font-style: italic;
 }
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  margin-left: 12px;
+}

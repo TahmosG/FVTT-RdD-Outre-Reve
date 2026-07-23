@@ -1,7 +1,6 @@
 import { RdDTMRDialog } from "/systems/foundryvtt-reve-de-dragon/module/rdd-tmr-dialog.js";
 import { PixiTMR } from "/systems/foundryvtt-reve-de-dragon/module/tmr/pixi-tmr.js";
 import { SHOW_DICE, SYSTEM_RDD } from "/systems/foundryvtt-reve-de-dragon/module/constants.js";
-// import { RollDataAjustements } from "/systems/foundryvtt-reve-de-dragon/module/rolldata-ajustements.js";
 import { RdDUtility } from "/systems/foundryvtt-reve-de-dragon/module/rdd-utility.js";
 import { RdDResolutionTable } from "/systems/foundryvtt-reve-de-dragon/module/rdd-resolution-table.js";
 import { RdDTMRRencontreDialog } from "/systems/foundryvtt-reve-de-dragon/module/rdd-tmr-rencontre-dialog.js";
@@ -14,7 +13,6 @@ import { HtmlUtility } from "/systems/foundryvtt-reve-de-dragon/module/html-util
 import { ReglesOptionnelles } from "/systems/foundryvtt-reve-de-dragon/module/settings/regles-optionnelles.js";
 import { RdDDice } from "/systems/foundryvtt-reve-de-dragon/module/rdd-dice.js";
 import { STATUSES } from "/systems/foundryvtt-reve-de-dragon/module/settings/status-effects.js";
-import { RdDRencontre } from "/systems/foundryvtt-reve-de-dragon/module/item/rencontre.js";
 import { ITEM_TYPES } from "/systems/foundryvtt-reve-de-dragon/module/constants.js";
 
 import { OutreReve } from "/modules/a-perte-de-reve/modules/outrereve.js";
@@ -79,7 +77,10 @@ export class RdDCEFDialog extends RdDTMRDialog {
         let clim = CarteCEF.rencontreSelonClimat(this.actor);
         if (myRoll >= clim.jetRencontre) {
             ChatUtility.tellToUser("<b>" + myRoll + ": Rencontre </b> en " + coordTMR + " !!!<br>   <i> " + clim.label + " = rencontre sur " + clim.jetRencontre + "</i>");
-            rencontre = await tableRencontre.getRencontreAleatoire(tmr, this.actor.isMauvaiseRencontre());
+            rencontre = await tableRencontre.getRencontreAleatoire(tmr, await this.actor.isMauvaiseRencontre());
+            if (!rencontre) {
+              return undefined;
+            }
             if (carteActuelle == "CEF"){
               // OUTRE-REVE: Effet de la rencontre sur le climat
               await CEFRencontres.EffetsImmediatRencontre(this.actor, rencontre);

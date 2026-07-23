@@ -1,7 +1,5 @@
-const debugCEF = true;      // active/desactive la plupart des logs du Modules
-
 function logCEF(...args){
-  if(debugCEF){
+  if(game.settings.get('a-perte-de-reve', 'debugCEF')){
     console.log("OUTRE-REVE || LOG -", ...args)
   }
 }

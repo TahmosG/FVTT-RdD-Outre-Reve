@@ -7,16 +7,6 @@ import { Draconique } from "/systems/foundryvtt-reve-de-dragon/module/tmr/dracon
 import { RdDActor } from "/systems/foundryvtt-reve-de-dragon/module/actor.js";
 import { RdDTMRRencontreDialog } from "/systems/foundryvtt-reve-de-dragon/module/rdd-tmr-rencontre-dialog.js";
 
-     /* gestion climat via rencontreItem (trop ambitieux du au data struct...) */
-     // import { RdDRencontreItemSheet } from "/systems/foundryvtt-reve-de-dragon/module/item/sheet-rencontre.js";
-     // import { EffetsRencontre } from "/systems/foundryvtt-reve-de-dragon/module/tmr/effets-rencontres.js";
-     // import { RdDRencontre } from "/systems/foundryvtt-reve-de-dragon/module/item/rencontre.js";
-     //   dans "init();"
-     //        RdDRencontreCEF.init();
-     //        await RdDItemSheet.register(CEFRencontreItemSheet)
-     // import { RdDRencontreCEF } from "/modules/a-perte-de-reve/modules/rencontre-cef.js";
-     // import { CEFRencontreItemSheet } from "/modules/a-perte-de-reve/modules/rencontre-cef.js";
-
 // Import from OutreReve Module --> new classes
 // import "/modules/a-perte-de-reve/config/const-cef.js";
 import { CarteCEF, cartesHR } from "/modules/a-perte-de-reve/modules/Carte-CEF.js";
@@ -59,9 +49,6 @@ export class OutreReve {
      static RdDTMRRencontreDialog = RdDTMRRencontreDialog;
      static RdDActor = RdDActor;
      static ArpenteurUtility = ArpenteurUtility;
-     // static RdDRencontreCEF = RdDRencontreCEF;
-     // static RdDRencontreItemSheet = RdDRencontreItemSheet;
-     // static CEFRencontreItemSheet = CEFRencontreItemSheet
 
      static async init(){
           console.log("OUTRE-REVE || Initialization - Ajout du module OutreReve");
@@ -204,7 +191,19 @@ export class OutreReve {
                onChange: value => { 
                     console.log(`OUTRE-REVE CONFIG ||`, value ? "Log des probabilité de Recontre (case et climat)" : "Pas de Log des probabilité de Recontre")
                },
-               requiresReload: false, 
+               requiresReload: false,
+          });
+          game.settings.register('a-perte-de-reve', 'debugCEF', {
+               name: 'Log de Debug (CEF)',
+               hint: 'Affiche les logs de debug internes du module dans la console.',
+               scope: 'world',
+               config: true,
+               type: Boolean,
+               default: false,
+               onChange: value => {
+                    console.log(`OUTRE-REVE CONFIG ||`, value ? "Log de Debug active" : "Log de Debug desactive")
+               },
+               requiresReload: false,
           });
           // choices: { 1: "Option Label 1", 2: "Option Label 2" },
           // range: { min: 0, step: 2, max: 10 },     /** Number settings can have a range slider, with an optional step property */
